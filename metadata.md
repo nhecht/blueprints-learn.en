@@ -3,6 +3,7 @@ cloud: Experience Platform
 solution: Experience Platform
 product: experience platform
 type: Tutorial
+sub-type: Blueprints
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/blueprints-learn.en
 index: yes
