@@ -1,22 +1,30 @@
 ---
-title: Digital Experience Blueprints
-description: Digital Experience Blueprints are repeatable implementations to address strategy and solve established business problems. They accelerate time-to-value and provide a fast path to success.
+title: Digital experience blueprints
+description: Digital experience blueprints are repeatable implementations to address strategy and solve established business problems. They accelerate time-to-value and provide a fast path to success.
+doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 ---
-# Digital Experience Blueprints
+# Digital experience blueprints
 
-Digital Experience Blueprints are repeatable implementations that let you address strategy and quickly solve established business problems. Each Blueprint provides a series of artifacts that explain the high-value business problem, architectures, implementation steps, technical considerations, and links to the relevant documentation.
+Digital experience blueprints are repeatable implementations that let you address strategy and quickly solve established business problems. Each Blueprint provides a series of artifacts that explain the high-value business problem, architectures, implementation steps, technical considerations, and links to the relevant documentation.
 
-## What's New
+<div id="recs-overview-body-1"></div>
+<div id="recs-overview-body-2"></div>
+<div id="recs-overview-body-3"></div>
+<div id="recs-overview-body-4"></div>
+<div id="recs-overview-body-5"></div>
+<div id="recs-overview-body-6"></div>
 
-* **[Audience and Profile Activation to Enterprise Destinations Blueprint](/help/blueprints/audience-activation/enterprise-destinations.md)**
+## What's new
+
+* **[Audience and Profile Activation to Enterprise Destinations blueprint](/help/blueprints/audience-activation/enterprise-destinations.md)**
     *Keep customer profiles up-to-date across all systems to empower your sales and support teams.​*
-* **[Customer Activity Hub Blueprint](/help/blueprints/audience-activation/customer-activity.md)**
+* **[Customer Activity Hub blueprint](/help/blueprints/audience-activation/customer-activity.md)**
     *Provide context for agent-assisted support and sales.*
-* **[Data Analysis and Intelligence Blueprint](/help/blueprints/data-insights/analysis.md)**
+* **[Data Analysis and Intelligence blueprint](/help/blueprints/data-insights/analysis.md)**
     *Perform exploratory query and analysis of the data in the data lake.*
 
-## Featured Blueprints
+## Featured blueprints
 
 <table style="table-layout:fixed">
 <tr>
@@ -38,9 +46,9 @@ Digital Experience Blueprints are repeatable implementations that let you addres
 </tr>
 </table>
 
-## Blog Posts
+## Blog posts
 
-* [[!DNL Introducing Adobe Experience Platform’s New Digital Experience Blueprints]](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
+* [[!DNL Introducing Adobe Experience Platform's New Digital Experience Blueprints]](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
 * [[!DNL Blueprint for Audience Activation in Adobe Experience Platform]](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)
 * [[!DNL Blueprint for Web/Mobile Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
 * [[!DNL Blueprint for Cross-Channel Orchestration in Adobe Experience Platform]](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
