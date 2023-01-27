@@ -1,9 +1,9 @@
 ---
-description: Customer Success Stories - Optimize Campaign Supply Chain with Marketo and Workfront
 title: Customer Success Stories
+description: Customer Success Stories - Optimize Campaign Supply Chain with Marketo and Workfront
 exl-id: fabe67b4-8ad6-49fc-a38f-cd4b5319d09a
 ---
-# Customer Success Stories {#customer-success-stories}
+# Customer success stories {#customer-success-stories}
 
 Adobe customers across multiple industries are seeing the value from aligning marketing planning with execution to drive efficiencies and visibility across the organization. Check out the links below to learn more.  
 

@@ -1,9 +1,9 @@
 ---
+title: Intake and Create blueprint
 description: Intake and Create - Optimize Campaign Supply Chain with Marketo and Workfront
-title: Intake and Create
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
 ---
-# Intake and Create {#intake-and-create}
+# Intake and Create blueprint {#intake-and-create}
 
 The number of marketing requests coming into a marketing operations team to launch new campaigns can turn a high functioning team into a revolving door of repetitive tasks, causing burnout and stagnating innovation.
 
@@ -21,13 +21,13 @@ The workflow below shows a request for a webinar being made by a campaign manage
 >
 >To learn more about the different types of objects in Workfront used for organizing marketing campaign work and how it's mapped to a Marketo Engage program, check out the [Marketo and Workfront Overview](/help/blueprints/b2b/campaign-supply-chain/overview.md){target="_blank"}.
 
-## Prepare Your Campaign Development Process for Automation {#prepare-your-campaign-development-process-for-automation}
+## Prepare your campaign development process for automation {#prepare-your-campaign-development-process-for-automation}
 
 Behind every great workflow automation is a defined process that ensures teams and stakeholders are getting the most value from the automation.
 
 **What types of marketing requests will you receive?**
 
-Think about what types of marketing tactics you'll run such as emails, nurture, first party webinars, and events. Do you also run 3rd Party Webinars or Display Ads? Each of these requests should be considered as they may need specific input fields in the request form and will map to different program templates in Marketo Engage that will be cloned.
+Think about what types of marketing tactics you'll run such as emails, nurture, first party webinars, and events. Do you also run 3rd-party Webinars or Display Ads? Each of these requests should be considered as they may need specific input fields in the request form and will map to different program templates in Marketo Engage that will be cloned.
 
 You'll also want to understand if you're running campaigns in multiple regions. If this is the case, you'll want to account for one Project in Workfront creating multiple programs in Marketo Engage, with each program representing different language support.
 
@@ -81,7 +81,7 @@ Think about the key pieces of information that will need to be captured in your 
 >
 >Today, programmatically building audiences through automation is limited in Marketo Engage because tokens are not supported in smart lists. This means audiences will need to either be created in Marketo Engage by a user, or if you have a predetermined audience you continuously communicate to, you can include a configured smart list as part of your program template that's cloned during the automation process.
 
-### Establish your Center of Excellence {#establish-your-center-of-excellence}
+### Establish your center of excellence {#establish-your-center-of-excellence}
 
 If you want to automate the creation of programs, you'll need a center of excellence in Marketo Engage. A center of excellence includes templatized programs and assets to help expedite and standardize the campaign development process. For example, you might have a program template for your different campaign needs: email, nurture, in-person event, and webinar. Additionally, you may have multiple email program templates that you use for different regions or different types of email announcements.
 
@@ -91,13 +91,13 @@ Once you have a set of reusable program templates, you can further scale your ef
 
 To learn more on creating your own center of excellence, check out the [Marketo Community](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target="_blank"} for best practices.
 
-### Use Tokens to Populate Content {#use-tokens-to-populate-content}
+### Use tokens to populate content {#use-tokens-to-populate-content}
 
 With Marketo Engage, tokens can be used to populate content into your campaign assets. For example, after cloning an email template from your center of excellence, Workfront Fusion can take details from the campaign request in Workfront and pass them to the My Tokens in the Marketo Engage program. The token values can then be inherited directly into the email to build the email out.
 
 ![](assets/intake-and-create-2.png)
 
-### Populate Images from AEM Assets {#populate-images-from-aem-assets}
+### Populate images from AEM Assets {#populate-images-from-aem-assets}
 
 You can further automate your email and landing page development by utilizing Marketo Engage tokens in combination with links to assets in AEM Assets. Campaign requesters can submit published image links from AEM Assets as part of the request process. Workfront Fusion can then take those links and embed them into the HTML of an email using Marketo Engage tokens.
 
@@ -107,7 +107,7 @@ Remember, you will need to build out your Programs and Program Templates in Mark
 >
 >AEM Assets is not required to support this workflow but can allow a more streamlined process for managing campaign assets across the campaign development supply chain.
 
-### Assemble a Lookup Library for all Program Request Types {#assemble-a-lookup-library-for-all-program-request-types}
+### Assemble a lookup library for all program request types {#assemble-a-lookup-library-for-all-program-request-types}
 
 When automating the creation of new Marketo Engage programs from Workfront requests, it's important to include a step in your Workfront Fusion automation that can take information from the Workfront request and lookup the correct program templates that should be cloned in Marketo Engage.
 
@@ -139,7 +139,7 @@ Some basic information to include in your Program Template Lookup Library are:
   </tbody>
 </table>
 
-## Intake and Create Automation Flow {#intake-and-create-automation-flow}
+## Intake and Create automation flow {#intake-and-create-automation-flow}
 
 Here's an example of how the workflow logic can be assembled in Fusion using prebuilt [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html){target="_blank"} modules that enable you to deliver automation faster.
 

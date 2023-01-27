@@ -1,10 +1,10 @@
 ---
-title: Journey Optimizer - 3rd Party Messaging Blueprint
+title: Journey Optimizer - 3rd-party Messaging blueprint
 description: Demonstrates how Adobe Journey Optimizer can be utilized with 3rd party messaging systems to orchestrate and send personalized communications.
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
 ---
-# 3rd Party Messaging
+# 3rd-party Messaging blueprint
 
 Demonstrates how Adobe Journey Optimizer can be utilized with 3rd party messaging systems to orchestrate and send personalized communications.
 
@@ -24,7 +24,7 @@ Adobe Experience Platform
 * For Experience Event class-based schemas add 'Orchestration eventID field group when you want to have an event triggered that is not a rule-based event
 * For Individual Profile class-based schemas add the 'Profile test details' field group to be able to load test profiles for use with Journey Optimizer
 
-3rd Party Messaging Application
+3rd-party Messaging Application
 
 * Must support REST API calls for sending transactional payloads
 
@@ -46,7 +46,7 @@ Additional Journey Optimizer Guardrails:
 * Batch segments – need to ensure you understand the daily volume of qualified users and ensure the destination system can handle the burst throughput per journey and across all journeys
 * Streaming segments – need to ensure the initial burst of profile qualifications can be handled along with the daily streaming qualifying volume per journey and across all journeys
 * Decision Management in not supported
-* Outbound integrations to 3rd Party systems
+* Outbound integrations to 3rd-party systems
   * No support for a single Static IPs as our infrastructure is multi-tenant (must allow list all datacenter IPs)
   * Only POST and PUT methods are supported for custom actions
   * Authentication support: token | password | OAuth2
@@ -54,7 +54,7 @@ Additional Journey Optimizer Guardrails:
 
 <br>
 
-3rd Party Messaging System
+3rd-party messaging system
 
 * Need to understand what load the system can support for transactional API calls
   * Number of calls allowed per second
@@ -63,23 +63,23 @@ Additional Journey Optimizer Guardrails:
   * Auth type:  token | password | OAuth2 are supported via Journey Optimizer
   * Auth cache duration:  how long is the token valid? 
 * If batch ingestion is only supported then needs to be streamed to a cloud storage engine like Amazon Kinesis or Azure Event Grid 1st
-  * Data can be batched of these cloud storage engines and funneled into the 3rd Party
-  * Any middleware required would be the responsibility of the customer or 3rd Party to provide
+  * Data can be batched of these cloud storage engines and funneled into the 3rd-party
+  * Any middleware required would be the responsibility of the customer or 3rd-party to provide
 
 <br>
 
-## Implementation Steps
+## Implementation steps
 
 ### Adobe Experience Platform
 
-#### Schema/Datasets
+#### Schema/datasets
 
 1. [Configure individual profile, experience event, and multi-entity schemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) in Experience Platform, based on customer-supplied data.
 1. [Create datasets](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) in Experience Platform for data to be ingested.
 1. [Add data usage labels](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html) in Experience Platform to the dataset for governance.
 1. [Create policies](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html) that enforce governance on destinations.
 
-#### Profile/Identity
+#### Profile/identity
 
 1. [Create any customer-specific namespaces](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
 1. [Add identities to schemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
@@ -87,7 +87,7 @@ Additional Journey Optimizer Guardrails:
 1. [Set up merge policies](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) for differing views of [!UICONTROL Real-time Customer Profile] (optional).
 1. Create segments for Journey usage.
 
-#### Sources/Destinations
+#### Sources/destinations
 
 1. [Ingest data into Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) using streaming APIs & source connectors.
 
@@ -97,7 +97,7 @@ Additional Journey Optimizer Guardrails:
 1. Configure external data sources
 1. Configure custom actions for 3rd party application
 
-### Mobile Push Configuration (optional as 3rd Party may collect tokens)
+### Mobile push configuration (optional as 3rd party may collect tokens)
 
 1. Implement Experience Platform Mobile SDK to collect push tokens and login information to tie back to known customer profiles
 1. Leverage Adobe Tags and create a mobile property with the following extension:
@@ -110,7 +110,7 @@ Additional Journey Optimizer Guardrails:
 
 <br>
 
-## Related Documentation
+## Related documentation
 
 * [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
 * [Experience Platform Tags documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)

@@ -1,10 +1,10 @@
 ---
-title: Real-Time CDP with Adobe Campaign v8 Integration Pattern
+title: Real-Time CDP with Adobe Campaign v8 integration pattern
 description: Showcases how the Adobe Experience Platform and its Real-Time Customer Profile and centralized segmentation tool can be utilized with Adobe Campaign v8 to deliver personalized conversations.
 solution: Real-time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
 ---
-# Real-Time CDP with Adobe Campaign v8 Integration Pattern
+# Real-Time CDP with Adobe Campaign v8 integration pattern
 
 Showcases how the Adobe Experience Platform and its Real-Time Customer Profile and centralized segmentation tool can be utilized with Adobe Campaign to deliver personalized conversations.
 
@@ -19,7 +19,7 @@ Showcases how the Adobe Experience Platform and its Real-Time Customer Profile a
 
 ## Architecture
 
-<img src="assets/rtcdp-campaignv8-architecture.svg" alt="Reference architecture for the Batch Messaging and Adobe Experience Platform Integration Pattern" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/rtcdp-campaignv8-architecture.svg" alt="Reference architecture for the Batch Messaging and Adobe Experience Platform integration pattern" style="width:100%; border:1px solid #4a4a4a" />
 
 <br> 
 
@@ -32,7 +32,7 @@ Showcases how the Adobe Experience Platform and its Real-Time Customer Profile a
 * Adobe Campaign product context must exist
 <br>
 
-## Implementation Steps
+## Implementation steps
 
 Refer to the following documentation on configuring the Campaign v8 source connector to Adobe Experience Platform and the Real-time Customer Data Platform destination connector to Campaign v8.
 [Campaign and AEP Connectors](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=en)
@@ -54,7 +54,7 @@ Refer to the following documentation on configuring the Campaign v8 source conne
 * The activation latency is 3 hours minimum
 * Only union schema attributes available for activation (no support for array/maps/experience events)
 * Recommendation on no more than 20 attributes per segment
-* One file per segment of all profiles with “realized” segment membership OR if segment membership is added as an attribute in the file both “realized” and “exited” profiles
+* One file per segment of all profiles with "realized" segment membership OR if segment membership is added as an attribute in the file both "realized" and "exited" profiles
 * Incremental and full segment exports are supported
 * File encryption is not supported
 * See profile and data ingestion guardrails for AEP - [Link](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)

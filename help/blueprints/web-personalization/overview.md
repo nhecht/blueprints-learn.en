@@ -1,12 +1,12 @@
 ---
-title: Web & Mobile Personalization
+title: Web & Mobile Personalization blueprints
 description: Deliver personalized web and mobile content with [!UICONTROL Real-time Customer Profile].
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 
 thumbnail:
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 ---
-# Web and Mobile Personalization 
+# Web and Mobile Personalization blueprints
 
 Web and Mobile Personalization addresses the ability to use profile and audience segmentation across multiple applications to personalize and optimize customer experiences. Customer behaviors, demographics, loyalty level, and prior transactions can be leveraged to personalize layouts, call-to-actions, and content.
 
@@ -29,11 +29,11 @@ Web and Mobile Personalization addresses the ability to use profile and audience
 
 <img src="assets/personalization_guardrails.svg" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:90%; border:1px solid #4a4a4a" />
 
-## Related Blog Posts
+## Related blog posts
 
 * [[!DNL Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
 * [[!DNL Integrating Adobe Experience Platform Decisioning Engine with AEM Websites]](https://jaeness.medium.com/integrating-adobe-experience-platform-decisioning-engine-with-aem-websites-9c222acd12e2)
 * [[!DNL Content and Commerce AI: Personalizing Your Interactions with Customers Through Content Intelligence]](https://medium.com/adobetech/content-and-commerce-ai-personalizing-your-interactions-with-customers-through-content-intelligence-dc182601deab)
-* [[!DNL Implementing Adobe Experience Platform Real-Time Customer Profile through our “Customer Zero” Program]](https://medium.com/adobetech/implementing-adobe-experience-platform-real-time-customer-profile-through-our-customer-zero-32e7cd952896)
+* [[!DNL Implementing Adobe Experience Platform Real-Time Customer Profile through our "Customer Zero" Program]](https://medium.com/adobetech/implementing-adobe-experience-platform-real-time-customer-profile-through-our-customer-zero-32e7cd952896)
 * [[!DNL Segmentation in Seconds: How Adobe Experience Platform Made Real-time Customer Profiles a Reality]](https://medium.com/adobetech/segmentation-in-seconds-how-adobe-experience-platform-made-real-time-customer-profiles-a-reality-a7a8552b0847)
 * [[!DNL Build an Optimal Online Experience: Enrich Unified Profile with Query Service]](https://medium.com/adobetech/build-an-optimal-online-experience-enrich-unified-profile-with-query-service-8027c196ab33)

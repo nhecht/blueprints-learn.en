@@ -1,10 +1,10 @@
 ---
-title: Real-Time CDP with Adobe Campaign v7 and Campaign Standard Integration Pattern
+title: Real-Time CDP with Adobe Campaign v7 and Campaign Standard integration pattern
 description: Showcases how the Adobe Experience Platform and its Real-Time Customer Profile and centralized segmentation tool can be utilized with Adobe Campaign to deliver personalized conversations.
 solution: Real-time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
 ---
-# Real-Time CDP with Adobe Campaign Integration Pattern
+# Real-Time CDP with Adobe Campaign integration pattern
 
 Showcases how the Adobe Experience Platform and its Real-Time Customer Profile and centralized segmentation tool can be utilized with Adobe Campaign to deliver personalized conversations.
 
@@ -19,7 +19,7 @@ Showcases how the Adobe Experience Platform and its Real-Time Customer Profile a
 
 ## Architecture
 
-<img src="assets/rtcdp-campaign-architecture.svg" alt="Reference architecture for the Batch Messaging and Adobe Experience Platform Integration Pattern" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/rtcdp-campaign-architecture.svg" alt="Reference architecture for the Batch Messaging and Adobe Experience Platform integration pattern" style="width:100%; border:1px solid #4a4a4a" />
 
 <br> 
 
@@ -44,17 +44,17 @@ Showcases how the Adobe Experience Platform and its Real-Time Customer Profile a
 * Activation is limited to every 24hrs
 * Only union schema attributes available for activation (no support for array/maps/experience events)
 * Recommendation on no more than 20 attributes per segment
-* One file per segment of all profiles with “realized” segment membership OR if segment membership is added as an attribute in the file both “realized” and “exited” profiles
+* One file per segment of all profiles with "realized" segment membership OR if segment membership is added as an attribute in the file both "realized" and "exited" profiles
 * Incremental and full segment exports are supported
 * File encryption is not supported
 
 <br>
 
-## Implementation Steps
+## Implementation steps
 
 ### Adobe Experience Platform
 
-#### Schema / Datasets
+#### Schema/datasets
 
 1. [Configure individual profile, experience event, and multi-entity schemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) in Experience Platform, based on customer-supplied data.
 1. Create Adobe Campaign schemas for broadLog, trackingLog, non-deliverable addresses, and profile preferences (optional).
@@ -62,7 +62,7 @@ Showcases how the Adobe Experience Platform and its Real-Time Customer Profile a
 1. [Add data usage labels](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html) in Experience Platform to the dataset for governance.
 1. [Create policies](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html) that enforce governance on destinations.
 
-#### Profile / Identity
+#### Profile/identity
 
 1. [Create any customer-specific namespaces](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
 1. [Add identities to schemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
@@ -70,7 +70,7 @@ Showcases how the Adobe Experience Platform and its Real-Time Customer Profile a
 1. [Set up merge policies](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) for differing views of [!UICONTROL Real-time Customer Profile] (optional).
 1. Create segments for Adobe Campaign usage.
 
-#### Sources / Destinations
+#### Sources/destinations
 
 1. [Experience Platform and Campaign Standard Sources and Desintations](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html)
 1. [Experience Platform and Campaign v7 Sources and Desintations](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html)
@@ -97,7 +97,7 @@ Showcases how the Adobe Experience Platform and its Real-Time Customer Profile a
 1.  Send profile preferences back to Experience Platform via consulting-built workflows every four hours (optional).
 
 
-### Mobile Push Configuration
+### Mobile push configuration
 
 * Two supported approaches for integrating with mobile devices for push notifications:
     * Experience Platform Mobile SDK
@@ -113,7 +113,7 @@ Please follow the deployment documentation outlined here)
     >[!IMPORTANT]
     >If you deploy the Campaign SDK and are working with other Experience Cloud applications they will require the use of the Experience Platform Mobile SDK for data collection. This will create duplicate client side calls on the device.
 
-## Related Documentation
+## Related documentation
 
 * [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
 * [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)

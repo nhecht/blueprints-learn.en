@@ -1,12 +1,12 @@
 ---
-title: Data Preparation and Ingestion Blueprint
+title: Data Preparation and Ingestion blueprint
 description: This blueprint shows all the methods by which data can be ingested and prepared in Adobe Experience Platform.
 solution: Data Collection
 kt: 7204
 thumbnail: 
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
 ---
-# Data Preparation and Ingestion Blueprint
+# Data Preparation and Ingestion blueprint
 
 Data Preparation and Ingestion Blueprint encompasses all the methods by which data can be prepared and ingested into Adobe Experience Platform.
 
@@ -16,13 +16,13 @@ Data preparation includes the mapping of source data to Experience Data Model (X
 
 <img src="../experience-platform/assets/aep_data_flow.svg" alt="Reference architecture for the Data Preparation and Ingestion Blueprint" style="width:90%; border:1px solid #4a4a4a" />
 
-## Data Ingestion Guardrails
+## Data ingestion guardrails
 
 The below diagram illustrates the average performance guardrails and latency for data ingestion into Adobe Experience Platform.
 
 <img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Experience Platform Data Flow" style="border:1px solid #4a4a4a" width="90%" />
 
-## Data Ingestion Methods
+## Data ingestion methods
 
 | Methods of Ingestion         | Description                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -35,7 +35,7 @@ The below diagram illustrates the average performance guardrails and latency for
 | Adobe Application Connectors | Automatically ingest data that is sourced from Adobe Experience Cloud Applications<ul><li>Adobe Analytics: [Documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en#connectors) and [Video Tutorial](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-adobe-analytics.html)</li><li>Audience Manager: [Documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=en#connectors) and [Video Tutorial](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-aam.html)</li></ul> |
 
 
-## Data Preparation Methods
+## Data preparation methods
 
 | Methods of Data Preparation                                | Description                                                                                                                                                                                                                                                                                    |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -43,11 +43,11 @@ The below diagram illustrates the average performance guardrails and latency for
 | [!UICONTROL Query Service] - Data Prep                                  | Joins, Splits, Merge, Transform, Query, and Filter data into a new dataset. Using Create Table as Select (CTAS) <br>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en#sql)                                                                       |
 | XDM Mapper & Data Prep functions (Streaming and Batch)     | Map source attributes in CSV or JSON format into XDM attributes during Experience Platform ingestion.<br>Compute functions on data as it is ingested; that is, data formatting, splitting, concatenation, and so on.<br>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) |
 
-## Related Blog Posts
+## Related blog posts
 
 * [[!DNL Leveraging External Data Platforms in Adobe Experience Platform Journey Orchestration]](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17?source=your_stories_page-------------------------------------)
 * [[!DNL High Throughput Ingestion with Iceberg]](https://medium.com/adobetech/high-throughput-ingestion-with-iceberg-ccf7877a413f?source=your_stories_page-------------------------------------)
 * [[!DNL Query Service Tricks in Adobe Experience Platform (Writing Queries and Storing Derived Datasets)]](https://medium.com/adobetech/query-service-tricks-in-adobe-experience-platform-writing-queries-and-storing-derived-datasets-eaee0d6d683e?source=your_stories_page-------------------------------------)
-* [[!DNL Digging into Adobe Experience Platform’s Experience Data Model to More Fully Understand the Power of Real-time Customer Profile]](https://medium.com/adobetech/digging-into-adobe-experience-platforms-experience-data-model-to-more-fully-understand-the-power-3e109271e04f?source=your_stories_page-------------------------------------)
+* [[!DNL Digging into Adobe Experience Platform's Experience Data Model to More Fully Understand the Power of Real-time Customer Profile]](https://medium.com/adobetech/digging-into-adobe-experience-platforms-experience-data-model-to-more-fully-understand-the-power-3e109271e04f?source=your_stories_page-------------------------------------)
 * [[!DNL An Introductory Look at Exploratory Data Analysis on Adobe Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a?source=your_stories_page-------------------------------------)
 * [[!DNL Modeling XDM Data for Data Science at Scale on Adobe Experience Platform]](https://medium.com/adobetech/modeling-xdm-data-for-data-science-at-scale-on-adobe-experience-platform-222bb2a6dbf7?source=your_stories_page-------------------------------------)

@@ -56,7 +56,7 @@ role: Architect, Developer, User
       + [Decision Management on the edge](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
       + [Decision Management on the hub](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)  
     + [Journey Optimizer with Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
-    + [3rd Party Messaging](/help/blueprints/customer-journeys/3rd-party-messaging.md)
+    + [3rd-party Messaging](/help/blueprints/customer-journeys/3rd-party-messaging.md)
   + Campaign Standard{#campaign-standard}
     + [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html)
     + [Real-Time CDP with Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html)

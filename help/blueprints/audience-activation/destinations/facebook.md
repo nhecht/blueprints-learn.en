@@ -9,7 +9,7 @@ exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
 
 Ingest customer data from multiple sources to build a single profile view of the customer, segment these profiles to built audiences for marketing and personalization, share these audiences to Social Ad Networks such as Facebook to target and personalization campaigns against those audiences. 
 
-## Use Cases
+## Use cases
 
 * Audience targeting for known audiences on social and advertising destinations.
 * Online personalization with online and offline attributes.
@@ -22,7 +22,7 @@ Ingest customer data from multiple sources to build a single profile view of the
 
 <img src="../assets/facebook.svg" alt="Reference architecture for Facebook Custom Audience Activation" style="width:90%; border:1px solid #4a4a4a" />
 
-## Implementation Steps
+## Implementation steps
 
 1. Configure Identity Namespaces to be used in Profile data sources.
     * Use out of the box namespaces such as Email, Email SHA256 Hash, where available.
@@ -82,6 +82,6 @@ Ingest customer data from multiple sources to build a single profile view of the
 
 [Profile & Segmentation Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 
-## Related Documentation
+## Related documentation
 
 Activation to Facebook Custom Audiences - [Destination Configuration](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html)

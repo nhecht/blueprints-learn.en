@@ -4,13 +4,13 @@ description: Execute triggered messages and experiences using Adobe Experience P
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 ---
-# Journey Optimizer
+# Journey Optimizer blueprints
 
 Adobe Journey Optimizer is a purpose built system for marketing teams to react in real-time to customer behaviors and meet them where they are at. Data management capabilities have been moved to the Adobe Experience Platform allowing marketing teams to focus on what they do best: which is creating world class customer journey's and personalized conversations.  This blueprint outlines the technical capabilities of the application and provides a deep dive into the various architectural components that make up Adobe Journey Optimizer. 
 
 <br>
 
-## Use Cases
+## Use cases
 
 * Triggered messages
 * Welcome and registration confirmations
@@ -27,15 +27,15 @@ Adobe Journey Optimizer is a purpose built system for marketing teams to react i
 
 <br>
 
-## Blueprint Scenarios
+## Blueprint scenarios
 
 | Scenario | Description | Capabilities |
 | :-- | :--- | :--- |
-| [3rd Party Messaging](3rd-party-messaging.md) | Demonstrates how Adobe Journey Optimizer can be utilized with 3rd party messaging systems to orchestrate and send personalized communications | Deliver 1:1 in the moment personalized communications to customers as they interact with your brand or company<br><br>Considerations:<br><ul><li>3rd party system has to support bearer tokens for authentication</li><li>No support for static IPs due to multi-tenant architecture</li><li>Be aware of architectural constraints on 3rd party system when it comes to API calls per second.  May be a need for the customer to buy additional volume from the 3rd party vendor to support volume coming from Journey Optimizer</li><li>Does not support Decision Management in messages or payloads</li></ul> |
+| [3rd-party Messaging](3rd-party-messaging.md) | Demonstrates how Adobe Journey Optimizer can be utilized with 3rd party messaging systems to orchestrate and send personalized communications | Deliver 1:1 in the moment personalized communications to customers as they interact with your brand or company<br><br>Considerations:<br><ul><li>3rd party system has to support bearer tokens for authentication</li><li>No support for static IPs due to multi-tenant architecture</li><li>Be aware of architectural constraints on 3rd party system when it comes to API calls per second.  May be a need for the customer to buy additional volume from the 3rd party vendor to support volume coming from Journey Optimizer</li><li>Does not support Decision Management in messages or payloads</li></ul> |
 
 <br>
 
-## Integration Patterns
+## Integration patterns
 
 | Integration | Description | Capabilities |
 | :-- | :--- | :--- |
@@ -77,36 +77,36 @@ Please be aware of these not listed in the link above:
   * Email
   * Push (FCM / APNS)
   * Custom Actions (via Rest API)
-* Outbound integrations to 3rd Party systems
+* Outbound integrations to 3rd-party systems
   * No support for a single Static IPs as our infrastructure is multi-tenant (must allow list all datacenter IPs)
   * Only POST and PUT methods are supported for custom actions
   * Authentication via user/pass or authorization token
 * No ability to package and move individual components of Adobe Experience Platform or Journey Optimizer between various sandboxes. Must re-implement in new environments
 
-### Data Ingestion Guardrails
+### Data ingestion guardrails
 
 <img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Experience Platform Data Flow" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
-### Activation Guardrails
+### Activation guardrails
 
 <img src="../experience-platform/assets/AJO_guardrails.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:85%; border:1px solid #4a4a4a" />
 
 <br>
 
-## Implementation Steps
+## Implementation steps
 
 ### Adobe Experience Platform
 
-#### Schema/Datasets
+#### Schema/datasets
 
 1. [Configure individual profile, experience event, and multi-entity schemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) in Experience Platform, based on customer-supplied data.
 1. [Create datasets](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) in Experience Platform for data to be ingested.
 1. [Add data usage labels](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html) in Experience Platform to the dataset for governance.
 1. [Create policies](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html) that enforce governance on destinations.
 
-#### Profile/Identity
+#### Profile/identity
 
 1. [Create any customer-specific namespaces](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
 1. [Add identities to schemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
@@ -114,7 +114,7 @@ Please be aware of these not listed in the link above:
 1. [Set up merge policies](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) for differing views of [!UICONTROL Real-time Customer Profile] (optional).
 1. Create segments for Journey usage.
 
-#### Sources/Destinations
+#### Sources/destinations
 
 1. [Ingest data into Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) using streaming APIs & source connectors.
 
@@ -124,7 +124,7 @@ Please be aware of these not listed in the link above:
 1. Configure external data sources.
 1. Configure custom actions.
 
-### Mobile Push Configuration
+### Mobile push configuration
 
 1. Implement Experience Platform Mobile SDK to collect push tokens and login information to tie back to known customer profiles
 1. Leverage Adobe Tags and create a mobile property with the following extension:
@@ -136,7 +136,7 @@ Please be aware of these not listed in the link above:
 1. For more information follow the [Adobe Journey Optimizer Mobile Guide](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
 
 
-## Related Documentation
+## Related documentation
 
 * [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
 * [Experience Platform Tags documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)

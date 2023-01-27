@@ -1,26 +1,26 @@
 ---
-title: Adobe Experience Platform & Applications architecture diagram
+title: Adobe Experience Platform & Applications architecture diagrams
 description: This architecture diagram shows how Adobe Experience Platform relates to other Adobe Experience Cloud applications and application services.
 solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 kt: 7199
 thumbnail:
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
 ---
-# Adobe Experience Platform & Applications
+# Adobe Experience Platform & applications architecture diagrams
 
-## Adobe Experience Platform & Applications architecture diagram
+## Adobe Experience Platform & applications architecture diagram
 
 This architecture diagram shows how Adobe Experience Platform relates to Adobe Experience Cloud applications and application services.
 
 <img src="assets/aep+apps_vertical.svg" alt="Experience Platform & Applications" style="border:1px solid #4a4a4a; width:90%;" />
 
-## Adobe Experience Platform & Applications detailed architecture diagram
+## Adobe Experience Platform & applications detailed architecture diagram
 
 <img src="assets/aep-app-architecture.svg" alt="Experience Platform & Applications" style="border:1px solid #4a4a4a; width:90%;" />
 
 >[!VIDEO](https://video.tv.adobe.com/v/32456/?quality=12&learn=on)
 
-## Adobe Experience Platform & Experience Cloud Application Integrations
+## Adobe Experience Platform & Experience Cloud application integrations
 
 <table class="relative-table wrapped" style="width: 100%;">
 <colgroup>

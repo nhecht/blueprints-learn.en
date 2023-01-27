@@ -1,15 +1,15 @@
 ---
-title: Audience and Profile Activation to File and Enterprise Streaming Destinations Blueprint
+title: Audience and Profile Activation to File and Enterprise Streaming Destinations blueprint
 description: Audience and Profile Activation to Enterprise Destinations
 solution: Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
 ---
-# Audience and Profile Activation to File and Enterprise Streaming Destinations Blueprint
+# Audience and Profile Activation to File and Enterprise Streaming Destinations blueprint
 
 Share profile and audience changes and events in streaming or batch from [!UICONTROL Real-time Customer Data Platform] to enterprise data stores and applications. These profile and audience events can be used to initiate a sales or support action to the customer such as following up on an abandoned application process or webinar registration or to update enterprise applications with the latest customer attributes and intelligence from [!UICONTROL Real-time Customer Data Platform].
 
-## Use Cases
+## Use cases
 
 * Profile and audience activation to cloud storage destinations, or streaming destinations for enterprise tracking, storage, analysis, and activation of customer data and insights. 
 
@@ -26,7 +26,7 @@ Share profile and audience changes and events in streaming or batch from [!UICON
 
 [Refer to the guardrails as outlined on the Audience and Profile Activation Overview page.](overview.md)  
 
-## Implementation Steps
+## Implementation steps
 
 1. [Create schemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) for data to be ingested.
 1. [Create datasets](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) for data to be ingested.
@@ -37,7 +37,7 @@ Share profile and audience changes and events in streaming or batch from [!UICON
 1. [Create segments](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html) in Experience Platform. The system automatically determines whether the segment is evaluated as batch or streaming.
 1. [Configure destinations](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html) for sharing of profile attributes and audience memberships to desired destinations.
 
-## Related Documentation
+## Related documentation
 
 * [Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 * [Cloud storage destinations overview](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/overview.html?lang=en#catalog)
@@ -46,7 +46,7 @@ Share profile and audience changes and events in streaming or batch from [!UICON
 * [Profile and segmentation guidelines](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 * [Segmentation documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
 
-## Related Videos & Tutorials
+## Related videos & tutorials
 
 * [[!UICONTROL Real-time Customer Data Platform] overview](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html)
 * [Demo of [!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html)

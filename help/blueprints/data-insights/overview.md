@@ -1,12 +1,12 @@
 ---
-title: Data Analysis, Intelligence, & AI/ML
+title: Data Analysis, Intelligence, & AI/ML blueprints
 description: This blueprint shows the ability within Adobe Experience Platform to perform exploratory query and analysis of the data that exists in the data lake.
 solution: Experience Platform
 kt: 7207
 thumbnail:
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
 ---
-# Data Analysis, Intelligence, & AI/ML
+# Data Analysis, Intelligence, & AI/ML blueprints
 
 Data Analysis, Intelligence, and AI/ML comprises the ability within Adobe Experience Platform to perform exploratory query and analysis of the data that exists in the data lake.
 

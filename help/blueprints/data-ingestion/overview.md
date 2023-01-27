@@ -6,7 +6,7 @@ kt: 7204
 thumbnail:
 exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 ---
-# Data Collection and Preparation
+# Data Collection and Preparation blueprints
 
 Data Collection and Preparation encompasses all the methods by which data can be prepared and ingested into Adobe Experience Platform. As well as the ability to collect data to Adobe Experience Platform's Edge Network and subsequent forwarding of data via Side forwarding to enterprise destinations.
 

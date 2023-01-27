@@ -10,7 +10,7 @@ exl-id: 32bdc04d-b101-4b17-af27-329e5c71d888
 
 Ingest customer data from multiple sources to build a single profile view of the customer, segment these profiles to built audiences for marketing and personalization, share these audiences to Social Ad Networks such as Google Customer Match to target and personalization campaigns against those audiences. Google Customer Match lets you use your online and offline data to reach and re-engage with your customers across Google’s owned and operated properties, such as: Search, Shopping, Gmail, and YouTube.
 
-## Use Cases
+## Use cases
 
 * Audience targeting for known audiences on social and advertising destinations.
 * Online personalization with online and offline attributes.
@@ -23,7 +23,7 @@ Ingest customer data from multiple sources to build a single profile view of the
 
 <img src="../assets/gcm.svg" alt="Reference architecture for Google Customer Match Activation" style="width:90%; border:1px solid #4a4a4a" />
 
-## Implementation Steps
+## Implementation steps
 
 1. Configure Identity Namespaces to be used in Profile data sources.
     * Use out of the box namespaces such as Email, Email SHA256 Hash, where available.
@@ -83,6 +83,6 @@ Ingest customer data from multiple sources to build a single profile view of the
 
 [Profile & Segmentation Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 
-## Related Documentation
+## Related documentation
 
 Activation to Google Customer Match - [Destination Configuration](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html)

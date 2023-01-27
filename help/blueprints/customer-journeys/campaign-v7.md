@@ -1,16 +1,16 @@
 ---
-title: Campaign v7 Blueprint
+title: Campaign v7 blueprint
 description: Adobe Campaign v7 is a campaigning tool built for traditional marketing channels such as email and direct mail. It provides robust ETL and data management capabilities to help craft and curate the perfect campaign. Its orchestration engine provides for rich multi-touch marketing programs with a core focus on batch-based driven journeys.  It also comes paired with a real-time messaging server that enables marketing teams to send pre-defined messages based on a all-inclusive payload from any IT system for things such as password reset, order confirmation, e-receipt's and much more.
 solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
 ---
-# Campaign v7 Blueprint
+# Campaign v7 blueprint
 
 Adobe Campaign v7 is a campaigning tool built for traditional marketing channels such as email and direct mail. It provides robust ETL and data management capabilities to help craft and curate the perfect campaign. Its orchestration engine provides for rich multi-touch marketing programs with a core focus on batch-based driven journeys.  It also comes paired with a real-time messaging server that enables marketing teams to send pre-defined messages based on a all-inclusive payload from any IT system for things such as password reset, order confirmation, e-receipt's and much more.
 
 <br>
 
-## Use Cases
+## Use cases
 
 * Batch based messaging programs
 * Onboarding and re-marketing campaigns
@@ -25,7 +25,7 @@ Adobe Campaign v7 is a campaigning tool built for traditional marketing channels
 
 <br>
 
-## Integration Patterns
+## Integration patterns
 
 | Scenario | Description | Capabilities |
 | :-- | :--- | :--- |
@@ -36,13 +36,13 @@ Adobe Campaign v7 is a campaigning tool built for traditional marketing channels
 
 ## Prerequisites
 
-### Application Server and Real-Time Messaging Server
+### Application server and real-Time messaging server
 
 * The Adobe Campaign Client Console is required to interact and use the Campaign v8 software. It is a windows based client and uses standard internet protocols (SOAP, HTTP, etc.). Ensure you have the necessary permissions enabled in your org to distribute, install and run software
 
 * IP Address Allow Listing
     * Identify the IP ranges that all users will leverage during access to the client console 
-    * Identity which enterprise systems will be allowed to talk to the Real-Time messaging server and ensure they have a statically assigned IP or range that you can allow list
+    * Identity which enterprise systems will be allowed to talk to the real-time messaging server and ensure they have a statically assigned IP or range that you can allow list
     * This can be setup and controlled via the Campaign Control Panel
 * sFTP Key Management
     * Have SSH public keys available to use with the Campaign provided sFTP. This can be setup and controlled via the Campaign Control Panel.
@@ -53,7 +53,7 @@ Adobe Campaign v7 is a campaigning tool built for traditional marketing channels
 * Subdomain can either be fully delegated to Adobe (recommended) or CNAMEs can be used to point to Adobe-specific DNS servers (custom)
 * Google TXT record is needed for each subdomain to ensure good deliverability
 
-### Mobile Push
+### Mobile push
 
 * Have a mobile developer available to deploy, configure and build the mobile app
 * Adobe is only providing a SDK to collect the necessary information from FCM (Android) and APNS (iOS) to send message payloads to their servers. How the mobile app needs to be coded, deployed, managed and debugged is the responsibility of the customer
@@ -67,7 +67,7 @@ Adobe Campaign v7 is a campaigning tool built for traditional marketing channels
 
 ## Guardrails
 
-### Application Server sizing
+### Application server sizing
 
 * Storage can be scaled to up 100M profiles
 * Setup and control user access via Adobe Admin Console (recommended) or locally in the application itself
@@ -76,16 +76,16 @@ Adobe Campaign v7 is a campaigning tool built for traditional marketing channels
     * Using APIs to read data for custom application purposes is not supported
 * API calls are limited to 15 per second or 150k per day at scale
 
-### Batch Messaging Server sizing
+### Batch messaging server sizing
 
 * Can scale to handle up to 2.5M messages per hour
 
-### Real-Time Messaging Server sizing
+### Real-Time messaging server sizing
 
 * Can send up to 50k messages per hour 
 * By default two real-time messaging servers are provisioned. Ability to scale up to eight real-time messaging servers.
 
-### SMS Configuration
+### SMS configuration
 
 * Campaign provides the ability to integrate with a SMS provider. The provider is procured by the customer and integrated with campaign for sending SMS based messages
 * Support is via the SMPP protocol
@@ -94,7 +94,7 @@ Adobe Campaign v7 is a campaigning tool built for traditional marketing channels
     * SMS MO (Mobile Originated): an SMS that is sent by a mobile to Adobe Campaign through the SMPP provider.
     * SMS SR (Status Report) or DR or DLR (Delivery Receipt): a return receipt sent by the mobile to Adobe Campaign through the SMPP provider indicating that the SMS has been received successfully. Adobe Campaign may also receive SR indicating that the message could not be delivered, often with a description of the error. 
 
-### Mobile Push Configuration
+### Mobile push configuration
 
 * Two supported approaches for integrating with mobile devices for push notifications:
     * Experience Platform Mobile SDK (recommended)
@@ -112,12 +112,12 @@ Adobe Campaign v7 is a campaigning tool built for traditional marketing channels
     
 <br>
 
-## Implementation Steps
+## Implementation steps
 
 See the [Getting Started Guide](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html?lang=en) for implementing Adobe Campaign v7
 
 
-## Related Documentation
+## Related documentation
 
 * [Campaign v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)
 * [Campaign v7 Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)

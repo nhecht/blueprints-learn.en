@@ -1,30 +1,30 @@
 ---
-title: Data Access and Export Blueprint
+title: Data Access and Export blueprint
 description: This blueprint provides and overview of all the methods by which data can be accessed and exported from Adobe Experience Platform and applications.
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
 ---
-# Data Access and Export Blueprint
+# Data Access and Export blueprint
 
 The Data Access and Export Blueprint outlines all the possible methods whereby data can be accessed or exported from Adobe Experience Platform and Applications.
 
 The Blueprint is broken up into two categories for data access from Experience Platform and applications. First, approaches for egressing data from Experience Platform and applications; this would be considered a push type method of data egress. Second, approaches for access data from Experience Platform and applications; this would be conssidered a pull type method of data access.
 
-Data Access Approahces
+Data access approahces:
 
 * [Real-time Customer Profile Access API](#rtcp-profile-access-api)
 * [Data Access API](#data-access-api)
 * [Query Service](#query-service)
 
-Data Export Approaches
+Data export approaches:
 
 * [Client Side Tags](#client-side-tags-extensions)
 * [Event Forwarding](#event-forwarding)
 * [Real-time Customer Data Platform Destinations](#RTCDP-destinations)
 * [Journey Optimizer Custom Actions](#jo-custom-actions)
 
-## Data Access and Export Overview Architecture
+## Data Access and Export overview architecture
 
 <img src="../experience-platform/assets/aep_data_flow.svg" alt="Reference architecture for the Data Preparation and Ingestion Blueprint" style="width:90%; border:1px solid #4a4a4a" />
 
@@ -36,7 +36,7 @@ Customers can access single unified profiles from the Real-time Customer Profile
 
 Refer to the [Real-time Customer Profile Access API](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html?lang=en) documentation for additional information.
 
-#### Use Cases
+#### Use cases
 
 * Lookup a single profile to add context to agent customer interaction such as a support interactions through chat and call center, or a sales interaction at the point of sale.
 * Allow added context to a personalization descision made by an external system, for example a web personalization system or a offer decision system.
@@ -53,7 +53,7 @@ Using the data access API customers can directly access the raw dataset files th
 
 * For additional details on using the data access API please refer to the [documentation](https://experienceleague.adobe.com/docs/experience-platform/data-access/home.html?lang=en).
 
-#### Use Cases
+#### Use cases
 
 * Pull raw and processed data files from Experience Platform for storage and evaluation in enterprise environments.
 
@@ -68,7 +68,7 @@ Using the experience platform Query Service customers can query datasets within 
 
 * For additional details on connectin to SQL clients to persist SQL results from Experience Platform Query Service see the following [documentation](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=en).
 
-#### Use Cases
+#### Use cases
 
 * Query raw data from the Experience Platform datasets and persist the query results.
 * Query the profile snapshot dataset to extract insights on the Real-time Customer Profile. [Documentation](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=en#profile-attribute-datasets). 
@@ -82,13 +82,13 @@ Using the experience platform Query Service customers can query datasets within 
 
 ## Approaches for Data Export
 
-### Client Side Tags Extensions {#client-side-tags-extensions}
+### Client-side tag extensions {#client-side-tags-extensions}
 
 Extensions can be deployed using Adobe's Tags solution. Once an extension is deployed data requests are deployed directly on a client browser or application and a request can be invoked to send data and requests to the desired destination.
 
 Refer to the [Tags Overview](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) documentation for additional information.
 
-#### Use Cases
+#### Use cases
 
 * Collect raw streaming information directly from client side environments using tagging.
 
@@ -99,30 +99,30 @@ Refer to the [Tags Overview](https://experienceleague.adobe.com/docs/experience-
 * Ability to set up rules to only request data when certain criteria are met. 
 * Data is collected directly from the client, limiting the types of transformations and enrichment that can be performed prior to collecting the data.
 
-### Event Forwarding {#event-forwarding}
+### Event forwarding {#event-forwarding}
 
 Data collection requests are collected directly to Adobe's Edge Network. From the Edge Network requests to external RESTful endpoints can ba configured to forward these requests on to the external destination. 
 
 Refer to the following [Event Forwarding](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=en) documentation for additional information.
 
-#### Use Caseas
+#### Use cases
 
 * Collect raw streaming information directly from client side environments to a enterprise endpoint using Adobe's server side event forwarding.
 
 #### Considerations
 
-* To use Event Forwarding, data must be sent to the Edge Network using the WebSDK or MobileSDK.
+* To use Event Forwarding, data must be sent to the Edge Network using the Web SDK or MobileSDK.
 * Event forwarding approach reduces the page load time and weight due to additional tags being added on the page.
 * No enrichment from the edge profile or other data sources is currently supported. 
 * Limited data filtering and simple mapping transformations are supported.
 
-### Real-time Customer Data Platform Destinations {#RTCDP-destinations}
+### Real-time Customer Data Platform destinations {#RTCDP-destinations}
 
 Profile attribute data and audience membership data can be activated to enterprise and advertising destinations. This means the data egressed must be ingested into the Experience Platform Real-time Customer Profile. 
 
 Refer to the [Real-time Customer Data Platform Destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=en) documentation for additional information.
 
-#### Use Cases
+#### Use cases
 
 * Activate profile attibute information including audience membership to a internal enterprise data stores, analytsis tools, email systems, or support systems.
 * Activate profile audience membership to a external advertising vender to target and personalize content to the profile. 
@@ -132,13 +132,13 @@ Refer to the [Real-time Customer Data Platform Destinations](https://experiencel
 * Profile attributes and audience memberships can be activated. Raw experience events can not currently be activated as part of RTCDP Destinations. 
 * Activations happen in streaming or batch depending on the nature of the segment evalution and the nature of the ingestion protocal that the destination accepts.
 
-### Journey Optimizer Custom Actions {#jo-custom-actions}
+### Journey Optimizer custom actions {#jo-custom-actions}
 
 Using Journey Optimizer customers can invoke a custom action from the journey canvas to send a payload or message to a external API endpoint that is configured. An action can be configured to any service from any provider that can be called through a REST API with a JSON-formatted payload. This payload can include event information, profile attributes and prior event data, transformations and enrichments that are configured in the journey.
 
 Refer to the [Journey Optimizer custom actions](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-custom-actions.html?lang=en) documentation for additional information.
 
-#### Use Cases
+#### Use cases
 
 * Activation events from Experience Platform and Journey Optimizer that include additional information from the Real-time Customer Profile.
 * Notify external systems when a customer has reached a specific point of a journey. 

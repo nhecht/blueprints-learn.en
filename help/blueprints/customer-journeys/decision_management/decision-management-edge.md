@@ -1,10 +1,10 @@
 ---
-title: Decision Management on the edge
+title: Decision Management on the Edge blueprint
 description: Deliver personalized offers to consumers across channels including in real-time web and mobile experiences.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
 ---
-# Journey Optimizer - Decision Management on the edge
+# Journey Optimizer - Decision Management on the Edge blueprint
 
 To learn more about Decision Management refer to the product documentation [HERE](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) and the Decision Management Overview [HERE](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=en)
 
@@ -18,7 +18,7 @@ This blueprint will cover the specifics of Decision Management on the Edge.
 
 To learn more about Decision Management on the hub refer to the [Decision Management on the hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-hub.html?lang=en) blueprint.
 
-## Use Cases for Decision Management on the edge
+## Use cases for Decision Management on the edge
 
 * Online personalization via web or mobile inbound experiences.
 * Cross channel journey execution - offer consistency across web, mobile, email, and other interaction channels through Adobe Journey Optimizer.
@@ -31,7 +31,7 @@ To learn more about Decision Management on the hub refer to the [Decision Manage
 
 <br>
 
-## Integration Patterns
+## Integration patterns
 
 | Integration | Description |
 | :-- | :--- |
@@ -56,23 +56,23 @@ Adobe Experience Platform
 * Access to edge real-time profile. Only edge projected audiences and profile attributes will be available in the profile. 
 * If personalization is required in first time experiences, hub will be ideal as the full profile is available. The edge profile must sync from the hub for the first time edge experience. Hence the very first experience from the edge will not include prior uploaded profile data to the hub.
 
-### Data Ingestion Guardrails
+### Data ingestion guardrails
 
 <img src="../../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Experience Platform Data Flow" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
-### Activation Guardrails
+### Activation guardrails
 
 <img src="../../experience-platform/assets/AJO_guardrails.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:85%; border:1px solid #4a4a4a" />
 
 <br>
 
-## Implementation Patterns
+## Implementation patterns
 
 * Use the Web or Mobile SDK for deployment on websites and mobile applications to implement Decision Management where the SDK deployed.
   * [Web/Mobile SDK Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/websdk.html?lang=en)
-  * [WebSDK](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html)
+  * [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html)
   * [MobileSDK](https://aep-sdks.gitbook.io/docs/)
 
 Or
@@ -82,18 +82,18 @@ Or
 
 <br>
 
-## Implementation Steps
+## Implementation steps
 
 ### Adobe Experience Platform
 
-#### Schema/Datasets
+#### Schema/datasets
 
 1. [Configure individual profile, experience event, and multi-entity schemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) in Experience Platform, based on customer-supplied data.
 1. [Create datasets](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) in Experience Platform for data to be ingested.
 1. [Add data usage labels](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html) in Experience Platform to the dataset for governance.
 1. [Create policies](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html) that enforce governance on destinations.
 
-#### Profile/Identity
+#### Profile/identity
 
 1. [Create any customer-specific namespaces](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
 1. [Add identities to schemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
@@ -101,11 +101,11 @@ Or
 1. [Set up merge policies](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) for differing views of [!UICONTROL Real-time Customer Profile] (optional).
 1. Create segments for Journey usage.
 
-#### Sources/Destinations
+#### Sources/destinations
 
 1. [Ingest data into Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) using streaming APIs & source connectors.
 
-## Related Documentation
+## Related documentation
 
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html)

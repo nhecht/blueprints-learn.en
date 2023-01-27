@@ -1,15 +1,15 @@
 ---
-title: B2B Activation
+title: B2B Audience and Profile Activation blueprint
 description: Deliver accouunt based audiences and profile centric customer experiences with Real-time Customer Data Platform​.
 solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
 ---
-# B2B Audience and Profile Activation
+# B2B Audience and Profile Activation blueprint
 
 Use account, opportunity, and lead information tied to a individual customer to create actionable b2b profiles for improved personalization and targeting across channels.
 
-## Use Cases
+## Use cases
 
 * Create audiences of people for targeting and personalization across channels against B2B data including accounts, opportunities, and leads.
 * Activate audiences to any Experience Platform destinations for targeting and personalization.
@@ -18,7 +18,7 @@ Use account, opportunity, and lead information tied to a individual customer to 
 
 * Real-time Customer Data Platform B2B Edition
 
-## Integration Patterns
+## Integration patterns
 
 * B2B data sources (Marketo, Salesforce, etc.) -> Real-time Customer Data Platform B2B Edition -> Destinations
 Various B2B data souces can be used to map account, lead, opportunity, and people data to the B2B Edition of Real-time Customer Data Platform.
@@ -75,13 +75,13 @@ The following outlines the supported patterns of mapping Experience Platform and
 * Please refer to the destination documentation for specific guidance on the destinations. [Destination Guardrails](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=en)
 
 
-## Implementation Steps
+## Implementation steps
 
 For guidance on how to implement and configure the B2B Edition of the Real-time Customer Data Platform please see the B2B Edition of the Real-time Customer Data Platform Documentation. [B2B Edition of Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
 
 Two possible implementation patters exist. Both the ability to ingest B2B data and profiles from Marketo Engage or the ability to ingest B2B data from other CRM data sources.
 
-## Implementation Considerations
+## Implementation considerations
 
 Guidance on key considerations and configurations of the blueprint.
 
@@ -90,7 +90,7 @@ If the implementation will be using Marketo Engage as a source and Marketo Engag
 * Lead initiation and nurturing out of the B2B Edition of Real-time Customer Data Platform alone is not recommended. The use of a lead nurturing tool(such as Marketo Engage) is recommended for this use case.
 * The Marketo Engage destination connector for AEP which pushes audiences to Marketo Engage for activation, only pushes email addresses and ECIDs. It does not create a new lead if the contact does not already exist, hence it is required to ingest the profile and lead data into Marketo Engage.
 
-## Related Documentation
+## Related documentation
 
 * [B2B Edition of Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)

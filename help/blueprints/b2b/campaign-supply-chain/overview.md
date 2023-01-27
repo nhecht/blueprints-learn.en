@@ -1,9 +1,9 @@
 ---
-description: Overview - Optimize Campaign Supply Chain with Marketo and Workfront
-title: Overview
+title: Campaign Supply Chain with Marketo and Workfront blueprints
+description: Overview - Optimize Campaign Supply Chain with Marketo and Workfront blueprints
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
 ---
-# Overview {#overview}
+# Campaign Supply Chain with Marketo and Workfront blueprints {#overview}
 
 ## Achieving Faster Time-to-market With Optimized Campaign Supply Chain {#achieving-faster-time-to-market-with-optimized-campaign-supply-chain}
 

@@ -1,17 +1,17 @@
 ---
-title: Audience and Profile Activation with Experience Cloud Applications Blueprint
+title: Audience and Profile Activation with Experience Cloud Applications blueprint
 description: Manage profiles and audiences in Experience Platform and share them with Experience Cloud applications.
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
 ---
-# Audience and Profile Activation with Experience Cloud Applications Blueprint
+# Audience and Profile Activation with Experience Cloud Applications blueprint
 
 Manage profiles and audiences in Experience Platform and share them with Experience Cloud Applications. Build and share rich customer segments and insights in Experience Platform and share them with Experience Cloud applications.
 
-Activation with Experience Cloud Applications aligns with the [Known Customer Activation Blueprint](known.md).
+Activation with Experience Cloud Applications aligns with the [Known Customer Activation blueprint](known.md).
 
-## Use Cases
+## Use cases
 
 * Personalize and target across customer interaction channels powered by Experience Cloud.
 * Share audience and profile data between Experience Platform and Experience Cloud applications.
@@ -35,16 +35,16 @@ Activation with Experience Cloud Applications aligns with the [Known Customer Ac
 
 See the [Experience Platform and Applications Architecture Section](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html) for additional architecture diagrams related to Experience Platform integrations with Experience Cloud Applications.
 
-### Audience and Profile Activation with Experience Cloud Applications
+### Audience and Profile Activation with Experience Cloud applications
 
-<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Reference architecture for the Audience and Profile Activation with Experience Cloud Applications" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Reference architecture for the Audience and Profile Activation with Experience Cloud applications" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
 ## Guardrails
 
 Refer to the [guardrails on the Audience and Profile Activation Overview page](overview.md) and the [deployment guardrails](../experience-platform/deployment/guardrails.md) page. 
 
-## Implementation Considerations
+## Implementation considerations
 
 * Sharing profile data to destinations requires that you include the specific identity value used by the destination in the destination payload. Any identity that is necessary for a target destination must be ingested into Platform and configured as an identity for the [!UICONTROL Real-time Customer Profile].
 
@@ -75,14 +75,14 @@ Refer to the [guardrails on the Audience and Profile Activation Overview page](o
 
 * See the [RTCDP audiences shared with Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=en) for additional details on shareing Real-time Customer Data Platform audiences to Customer Journey Analytics.
 
-## Related Documentation
+## Related documentation
 
 * [[!UICONTROL Real-time Customer Data Platform] Product Description](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Profile and segmentation guidelines](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 * [Segmentation documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
 * [Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 
-## Related Videos & Tutorials
+## Related videos & tutorials
 
 * [[!UICONTROL Real-time Customer Data Platform] overview](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html)
 * [Demo of [!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html)

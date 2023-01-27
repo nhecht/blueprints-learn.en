@@ -1,11 +1,11 @@
 ---
-title: Multi Sandbox Event Forwarding Data Collection Blueprint
+title: Multi Sandbox Event Forwarding Data Collection blueprint
 description: Stream collected data by Experience Platform SDKs to multiple sandboxes using Event Forwarding
 solution: Data Collection
 kt: 7202
 exl-id: c24a47fe-b3da-4170-9416-74d2b6a18f32
 ---
-# Multi Sandbox Event Forwarding Data Collection Blueprint
+# Multi Sandbox Event Forwarding Data Collection blueprint
 
 Multi Sandbox Event Forwarding Data Collection Blueprint shows how data collected with Adobe Experience Platform Web and Mobile SDKs can be confgiured to collect a single event and forward to multiple AEP Sandboxes. This Blueprint is a specific use case that uses the Event Forwarding feature of Adobe Tags.
 
@@ -17,41 +17,40 @@ Your destination sadnbox would need a HTTP Streaming End Point configured that w
 
 
 
-## Use Cases
+## Use cases
 
 * Global Data Reporting - When using multiple sandboxes to isolate operating environments and the need to consolidate Data Collection to one sandbox for cross sandbox reporting. Event Forward to a reporting sandbox allows each sandbox operating environment to send data as it is collected in real time to a reporting sandbox
 * Manage data collection across sandboxes based on different data rules for each sandbox operating environment. Such operating environments that require filtering of sensitive data such as Healthcare and Financial Services
 
 ## Applications
 
-* Adobe Experience Platform Collection
+* Adobe Experience Platform Data Collection
 
 ## Architecture
 
 <img src="assets/multi-Sandbox-Data-Collection.svg" alt="Reference Architecture for Multi Sandbox Event Forwarding" style="width:90%; border:1px solid #4a4a4a" />
 
-1. Tag Authors define both a Tag property as well as a Event Forwarding Property. Here, authors will define the Data Elements, Rules and Actions that manage data collection. Keep in mind, Tag Property code runs on the client and is distributed by a CDN Host. The Event Forwarding Property code runs on the Adobe Edge Server.
+1. Tag authors define both a tag property as well as a Event Forwarding Property. Here, authors will define the data elements, rules and actions that manage data collection. Keep in mind, tag property code runs on the client and is distributed by a CDN Host. The Event Forwarding Property code runs on the Adobe Edge Server.
 
-1. Data collected on the client is sent to the Edge Server. Customers also have the option to send data to their own server first as a method of server side collection. 
-The WebSDK can provide a Server to Server collection capability. This however does require a different programming model to implement. Refer to the documentation **Edge Network Server API Overview** below
+1. Data collected on the client is sent to the Edge Network. Customers also have the option to send data to their own server first as a method of server side collection.  The Web SDK can provide a server-to-server collection capability. This however does require a different programming model to implement. Refer to the documentation **Edge Network Server API Overview** below
 
-1. Platform Edge Server recieves data collection payloads and orchestrates the flow of data to the required systems such as Target and Analytics.
+1. Platform Edge Network recieves data collection payloads and orchestrates the flow of data to the required systems such as Target and Analytics.
 
-1. Event Forwarding property Data Elements are used to access Event data arriving in the payload. Rules may also be used to manipulate the Event data as needed prior to forwarding. Such as formatting the data into the required XDM for streaming data ingestion
+1. Event forwarding property data elements are used to access event data arriving in the payload. Rules may also be used to manipulate the Event data as needed prior to forwarding. Such as formatting the data into the required XDM for streaming data ingestion
 
-1. Event Forwarding provides the HTTPS Extension that provides the ability to forward your event data to a HTTPS end point.
+1. Event forwarding provides the HTTPS extension that provides the ability to forward your event data to a HTTPS end point.
 
-1. Sandbox 2 is configured with a Streaming End Point that recieves the forwarded event.
+1. Sandbox 2 is configured with a streaming end point that recieves the forwarded event.
 
-## Related Documentation
+## Related documentation
 
 * [Event forwarding documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html)
 * [Event forwarding videos](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html)
 * [Event forwarding lesson](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/event-forwarding/setup-event-forwarding.html) of the Web SDK tutorial
-* [Experience Platform WebSDK Overview](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
+* [Experience Platform Web SDK Overview](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * [Edge Network Server API Overview](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html)
 
-## Related Blog Posts
+## Related blog posts
 
 * [[!DNL Boosting Website Performance with Adobe Experience Platform Web SDK and Edge Network]](https://medium.com/adobetech/boosting-website-performance-with-adobe-experience-platform-web-sdk-and-edge-network-329fcf70fdf9)
 * [[!DNL Solving Implementation Pain Points with Adobe Experience Platform Web SDK and Edge Network]](https://medium.com/adobetech/solving-implementation-pain-points-with-adobe-experience-platform-web-sdk-and-edge-network-880b635e6819)

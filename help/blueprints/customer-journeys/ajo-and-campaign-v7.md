@@ -1,10 +1,10 @@
 ---
-title: Journey Optimizer with Adobe Campaign v7 Blueprint
+title: Journey Optimizer with Adobe Campaign v7 blueprint
 description: Demonstrates how Adobe Journey Optimizer can be used with Adobe Campaign to natively send messages by utilizing the real-time messaging server in Campaign
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: 6d9bc65c-cca0-453f-8106-d2895d005ada
 ---
-# Journey Optimizer with Adobe Campaign v7
+# Journey Optimizer with Adobe Campaign v7 blueprint
 
 Demonstrates how Adobe Journey Optimizer can be used with Adobe Campaign to natively send messages by utilizing the real-time messaging server in Campaign.
 
@@ -39,7 +39,7 @@ Demonstrates how Adobe Journey Optimizer can be used with Adobe Campaign to nati
 
 [Journey Optimizer Guardrails Product Link](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en)
 
-### Additional Journey Optimizer Guardrails
+### Additional Journey Optimizer guardrails
 
 * Capping is available via API today to ensure that the destination system is not saturated to the point of failure. This means that messages that exceed the cap will be dropped completely and never sent. Throttling is not supported.
   * Max connections - maximum number of http/s connections a destination can handle
@@ -52,7 +52,7 @@ Demonstrates how Adobe Journey Optimizer can be used with Adobe Campaign to nati
 * Streaming segments – need to ensure the initial burst of profile qualifications can be handled along with the daily streaming qualifying volume per journey and across all journeys
 * Decision Management in not supported
 * Business events are not supported
-* Outbound integrations to 3rd Party systems
+* Outbound integrations to 3rd-party systems
   * No support for a single Static IPs as our infrastructure is multi-tenant (must allow list all datacenter IPs)
   * Only POST and PUT methods are supported for custom actions
   * Authentication support: token | password | OAuth2
@@ -74,11 +74,11 @@ Demonstrates how Adobe Journey Optimizer can be used with Adobe Campaign to nati
 
 <br>
 
-## Implementation Steps
+## Implementation steps
 
 ### Adobe Experience Platform
 
-#### Schema/Datasets
+#### Schema/datasets
 
 1. [Configure individual profile, experience event, and multi-entity schemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) in Experience Platform, based on customer-supplied data.
 1. Create Experience Event class-based schemas for Adobe Campaign broadLog, trackingLog and non-deliverable addresses tables (optional).
@@ -86,7 +86,7 @@ Demonstrates how Adobe Journey Optimizer can be used with Adobe Campaign to nati
 1. [Add data usage labels](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html) in Experience Platform to the dataset for governance.
 1. [Create policies](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html) that enforce governance on destinations.
 
-#### Profile/Identity
+#### Profile/identity
 
 1. [Create any customer-specific namespaces](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
 1. [Add identities to schemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
@@ -94,7 +94,7 @@ Demonstrates how Adobe Journey Optimizer can be used with Adobe Campaign to nati
 1. [Set up merge policies](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) for differing views of [!UICONTROL Real-time Customer Profile] (optional).
 1. Create segments for Journey usage.
 
-#### Sources/Destinations
+#### Sources/destinations
 
 1. [Ingest data into Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) using streaming APIs & source connectors.
 
@@ -109,7 +109,7 @@ Demonstrates how Adobe Journey Optimizer can be used with Adobe Campaign to nati
 * Messaging templates need to be configured with appropriate personalization context
 * For Campaign v7 - Export workflows need to configured to export the transactional messaging logs back to the Experience Platform. The recommendation is to run at most every 4hrs.
 
-### Mobile Push Configuration (optional)
+### Mobile push configuration (optional)
 
 1. Implement Experience Platform Mobile SDK to collect push tokens and login information to tie back to known customer profiles
 1. Leverage Adobe Tags and create a mobile property with the following extension:
@@ -125,7 +125,7 @@ Demonstrates how Adobe Journey Optimizer can be used with Adobe Campaign to nati
 
 <br>
 
-## Related Documentation
+## Related documentation
 
 * [Journey Optimizer documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=en)
 * [Journey Optimizer Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)

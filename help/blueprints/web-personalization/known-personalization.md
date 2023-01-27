@@ -7,9 +7,9 @@ kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 ---
 
-# Web/Mobile Personalization with known customer data
+# Web/Mobile Personalization with known customer data blueprint
 
-## Use Cases
+## Use cases
 
 * Online personalization with known customer data
 * Landing page optimization
@@ -23,13 +23,13 @@ exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 * Adobe Audience Manager (optional): Adds third-party audience data
 * Adobe Analytics or Customer Journey Analytics(optional): Adds the ability to build segments based on historical customer and behavioral data with fine grained segmentation
 
-## Integration Patterns
+## Integration patterns
 
 | Integration Pattern | Capability |  Pre-Requisites |
 |---|---|---|
 |Real-time segment evaluation on the Edge shared from Real-time Customer Data Platform to Target|<ul><li>Evaluate audiences in real-time for same or next page personalization on the Edge.</li><li>In addition, any segments evaluated in streaming or batch fashion will also be projected to the Edge Network to be included in edge segment evaluation and personalization.</li></ul>|<ul><li>Web/Mobile SDK must be implemented or the Edge Network Server API</li><li>Datastream must be configured in Experience Edge with the Target and Experience Platform extension enabled</li><li>Target destination must be configured in Real-time Customer Data Platform Destinations.</li><li>Integration with Target requires the same IMS Org as the Experience Platform instance.</li></ul>|
-|Streaming and batch audience sharing from Real-time Customer Data Platform to Target via the Edge approach|<ul><li>Share streaming and batch audiences from Real-time Customer Data Platform to Target through the Edge Network. Audiences evaluated in real-time require the WebSDK and Edge Network implementation.</li></ul>|<ul><li>Web/Mobile SDK or Edge API implementation of Target is not required for sharing of streaming and batch RTCDP audiences to Target though it is required to enable real-time edge segment evaluation outlined above.</li><li>If using AT.js, only profile integration against the ECID identity namespace is supported.</li><li>For custom identity namespace lookups on the Edge, the WebSDK/Edge API deployment is required and each identity must be set as an identity in the identity map.</li><li>Target destination must be configured in Real-time Customer Data Platform Destinations, only the default production sandbox in RTCDP is supported.</li><li>Integration with Target requires the same IMS Org as the Experience Platform instance.</li></ul>|
-|Streaming and batch audience sharing from Real-time Customer Data Platform to Target and Audience Manager via the Audience Sharing Service Approach|<ul><li>This integration pattern can be leveraged when additional enrichment from 3rd party data and audiences in Audience Manager is desired.</li></ul>|<ul><li>Web/Mobile SDK is not required for sharing of streaming and batch audiences to Target though it is required to enable real-time edge segment evaluation.</li><li>If using AT.js, only profile integration against the ECID identity namespace is supported.</li><li>For custom identity namespace lookups on the Edge, the WebSDK/Edge API deployment is required and each identity must be set as an identity in the identity map.</li><li>Audience projection via audience sharing service must be provisioned.</li><li>Integration with Target requires the same IMS Org as the Experience Platform instance.</li><li>Only audiences from the default production sandbox support the audience sharing core service.</li></ul>|
+|Streaming and batch audience sharing from Real-time Customer Data Platform to Target via the Edge approach|<ul><li>Share streaming and batch audiences from Real-time Customer Data Platform to Target through the Edge Network. Audiences evaluated in real-time require the Web SDK and Edge Network implementation.</li></ul>|<ul><li>Web/Mobile SDK or Edge API implementation of Target is not required for sharing of streaming and batch RTCDP audiences to Target though it is required to enable real-time edge segment evaluation outlined above.</li><li>If using AT.js, only profile integration against the ECID identity namespace is supported.</li><li>For custom identity namespace lookups on the Edge, the Web SDK/Edge API deployment is required and each identity must be set as an identity in the identity map.</li><li>Target destination must be configured in Real-time Customer Data Platform Destinations, only the default production sandbox in RTCDP is supported.</li><li>Integration with Target requires the same IMS Org as the Experience Platform instance.</li></ul>|
+|Streaming and batch audience sharing from Real-time Customer Data Platform to Target and Audience Manager via the Audience Sharing Service Approach|<ul><li>This integration pattern can be leveraged when additional enrichment from 3rd party data and audiences in Audience Manager is desired.</li></ul>|<ul><li>Web/Mobile SDK is not required for sharing of streaming and batch audiences to Target though it is required to enable real-time edge segment evaluation.</li><li>If using AT.js, only profile integration against the ECID identity namespace is supported.</li><li>For custom identity namespace lookups on the Edge, the Web SDK/Edge API deployment is required and each identity must be set as an identity in the identity map.</li><li>Audience projection via audience sharing service must be provisioned.</li><li>Integration with Target requires the same IMS Org as the Experience Platform instance.</li><li>Only audiences from the default production sandbox support the audience sharing core service.</li></ul>|
 
 ## Real-time, Streaming, and Batch Audience Sharing to Adobe Target
 
@@ -45,7 +45,7 @@ Overview Architecture
 
 <img src="assets/personalization_with_apps.svg" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:90%; border:1px solid #4a4a4a"/>
 
-## Implementation Patterns
+## Implementation patterns
 
 Known Customer Personalization is supported via several implementation approaches.
 
@@ -62,7 +62,7 @@ Using traditional application-specific SDKs (for example, AT.js and AppMeasureme
 
 [Refer to the application specific SDK Blueprint](../experience-platform/deployment/appsdk.md) 
 
-### Implementation Steps
+### Implementation steps
 
 1. [Implement Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) for your web or mobile applications
 1. [Implement Experience Platform and [!UICONTROL Real-time Customer Profile]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html) ensure that audiences created are activated to the Edge by configuring the applicable [merge policy](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#create-a-merge-policy) as active on the Edge. 
@@ -80,16 +80,16 @@ Using traditional application-specific SDKs (for example, AT.js and AppMeasureme
 * Edge profiles have a default time to live of 14 days. If the user has not had active edge events collected, then the profile will expire on the edge after 14 days of inactivity. The profile will remain valid in the hub and be synced with the edge once the user becomes active on the edge again. 
 * When a fresh profile is created on the edge, a sync call is made asynchronously to the hub to fetch any audiences and attributes that are configured for edge projection via a destination. As it is an asynchronous process it can take anywhere from 1 second to several minutes for the hub profile to sync to the edge. As such, fresh profiles can not be guaranteed to have the profile context from the hub for first page experiences. This applies as well for newly collected data to the hub. This data is projected to the edge asynchronously and hence the timing of when the data arrives to the appropriate edge will by separate from the edge activity. Only profiles that are active on the edge will persist attributes and audiences projected from the hub.
 
-## Implementation Considerations
+## Implementation considerations
 
 Identity pre-requisites
 
-* Any primary identity can be leveraged when utilizing implementation pattern 1 outlined above with the Edge network and WebSDK. First login personalization requires the personalization request set primary identity match the primary identity of the profile from Real-time Customer Data Platform. Identity stitching between anonymous devices and known customers is processed on the hub and subsequently projected to the edge.
+* Any primary identity can be leveraged when utilizing implementation pattern 1 outlined above with the Edge network and Web SDK. First login personalization requires the personalization request set primary identity match the primary identity of the profile from Real-time Customer Data Platform. Identity stitching between anonymous devices and known customers is processed on the hub and subsequently projected to the edge.
 * Note that data uploaded to the hub prior to a consumer visiting or logging into a website will not be immediately available for personalization. An active edge profile must first exist for hub data to be synced to. Once created the edge profile will sync with the hub profile asynchronously resulting in next page personalization. 
 * Sharing audiences from Adobe Experience Platform to Adobe Target requires the use of ECID as a identity when using the audience sharing service as outlined in integration pattern 2 and 3 above.
 * Alternate identities can be used to share Experience Platform audiences to Adobe Target via Audience Manager as well. Experience Platform activates audiences to Audience Manager via the following supported namespaces: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Note that Audience Manager and Target resolve audience memberships via the ECID identity, so ECID is still required to be in the identity graph for the consumer for the final audience sharing to Adobe Target.  
 
-## Related Documentation
+## Related documentation
 
 ### SDK Documentation
 
@@ -115,11 +115,11 @@ Identity pre-requisites
 
 * [Next-hit personalization with Real-time CDP and Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=en)
 
-### Related Blog Posts
+### Related blog posts
 
 * [Adobe announces Same Page Enhanced Personalization with Adobe Target and Real-time Customer Data Platform](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform)
 * [[!DNL Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
-* [[!DNL Adobe Experience Platform’s Identity Service — How to Solve the Customer Identity Conundrum]](https://medium.com/adobetech/adobe-experience-platforms-identity-service-how-to-solve-the-customer-identity-conundrum-f95e22d16ea9)
+* [[!DNL Adobe Experience Platform's Identity Service — How to Solve the Customer Identity Conundrum]](https://medium.com/adobetech/adobe-experience-platforms-identity-service-how-to-solve-the-customer-identity-conundrum-f95e22d16ea9)
 * [[!DNL Adobe Experience Platform Web SDK for Audience Management]](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)
-* [[!DNL Implementing Adobe Experience Platform Real-Time Customer Profile through our “Customer Zero” Program]](https://medium.com/adobetech/implementing-adobe-experience-platform-real-time-customer-profile-through-our-customer-zero-32e7cd952896)
+* [[!DNL Implementing Adobe Experience Platform Real-Time Customer Profile through our "Customer Zero" Program]](https://medium.com/adobetech/implementing-adobe-experience-platform-real-time-customer-profile-through-our-customer-zero-32e7cd952896)
 * [[!DNL Segmentation in Seconds: How Adobe Experience Platform Made Real-time Customer Profiles a Reality]](https://medium.com/adobetech/segmentation-in-seconds-how-adobe-experience-platform-made-real-time-customer-profiles-a-reality-a7a8552b0847)
