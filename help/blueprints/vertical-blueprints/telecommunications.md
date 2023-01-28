@@ -23,7 +23,7 @@ This limitation had to be solved in order to initiate a timelier follow-up to us
 |---|---|---|
 | **Drive higher campaign conversion rates**<br></br>**Grow annual account revenues**</ul> | <ul><li>Create a new segment in near real time for users who have shown an interest in adding a line but not yet converted.</li><li>Drive follow-up for unconverted customers with a second touchpoint for interested non-converters. </li><li>Use a testing strategy to measure journey performance & optimize for conversion through email.</li></ul>                               | <ul><li><strong>High Quality, Relevant Experiences:</strong> With journey orchestration in place customers experience more relevant messaging which reduces email list churn.</li><li><strong>Journey Orchestration at Scale:</strong>A personalized and timelier journey can be created to drive an increase in conversions and total revenue.</li></ul>    |
 
-## Primary blueprint: Audience & activation with Experience Cloud applications
+## Primary blueprint: Audience & Activation with Experience Cloud Applications
 
 ### Description 
 

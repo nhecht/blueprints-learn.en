@@ -1,7 +1,7 @@
 ---
 title: B2B Analytics & Activation blueprints
-description: Deliver account based audiences and profile centric customer experiences with Real-time Customer Data Platform.
-solution: Real-time Customer Data Platform
+description: Deliver account based audiences and profile centric customer experiences with Real-Time Customer Data Platform.
+solution: Real-Time Customer Data Platform
 kt: 9311
 exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
 ---
@@ -14,6 +14,6 @@ With a channel-first approach, each channel acts as a silo in which personalizat
 | Blueprint | Description| Experience Cloud Applications|
 |---|---|---|
 | **[B2B Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html)** | <ul><li>Include B2B account information in customer journey analysis</li></ul>|<ul><li>Adobe Customer Journey Analytics</li></ul>|
-| **[B2B Audience Activation](b2bactivation.md)** | <ul><li>Target B2B audiences across web, email, and advertising channels</li></ul>|<ul><li>Adobe Real-time Customer Data Platform B2B Edition</li></ul>|
+| **[B2B Audience Activation](b2bactivation.md)** | <ul><li>Target B2B audiences across web, email, and advertising channels</li></ul>|<ul><li>Adobe Real-Time Customer Data Platform B2B Edition</li></ul>|
 | **[Campaign Supply Chain: Overview](/help/blueprints/b2b/campaign-supply-chain/overview.md)** | <ul><li>Optimize B2B marketing campaign plannning, development, and execution</li></ul>|<ul><li>Adobe Marketo Engage</li></ul><ul><li>Adobe Workfront + Workfront Fusion</li></ul>|
 | **[Campaign Supply Chain: Intake and Create](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md)** | <ul><li>Automate B2B marketing campaign request intake to campaign development execution</li></ul>|<ul><li>Adobe Marketo Engage</li></ul><ul><li>Adobe Workfront + Workfront Fusion</li></ul>|

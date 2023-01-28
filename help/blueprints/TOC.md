@@ -58,8 +58,8 @@ role: Architect, Developer, User
     + [Journey Optimizer with Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
     + [3rd-party Messaging](/help/blueprints/customer-journeys/3rd-party-messaging.md)
   + Campaign Standard{#campaign-standard}
-    + [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html)
-    + [Real-Time CDP with Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html)
+    + [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html){target="_blank"}
+    + [Real-Time CDP with Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html){target="_blank"}
   + Campaign v8{#campaign-v8}
     + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
     + [Real-Time CDP with Adobe Campaign v8](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)

@@ -21,11 +21,11 @@ Anonymous audience activation is the ability to target and personalize to audien
 ## Applications
 
 * Audience Manager
-* Real-time Customer Data Platform
+* Real-Time Customer Data Platform
 
-Both Audience Manager and Real-time Customer Data Platform can be leveraged to power Anonymous Audience Activation for onsite and advertising destinations. Note that Real-time Customer Data Platform supports only a subset of advertising destinations with anonymous device identifiers as cataloged in the [destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en).
+Both Audience Manager and Real-Time Customer Data Platform can be leveraged to power Anonymous Audience Activation for onsite and advertising destinations. Note that Real-Time Customer Data Platform supports only a subset of advertising destinations with anonymous device identifiers as cataloged in the [destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en).
 
-Microsoft Bing, Google DV360, and TradeDesk are the primary supported Real-time Customer Data Platform advertising destinations for anonymous device based targeting. Beyond these, Real-time Customer Data Platform supports numerous known customer based destinations as cataloged in the [destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en) and as described in the [Known Customer Activation blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
+Microsoft Bing, Google DV360, and TradeDesk are the primary supported Real-Time Customer Data Platform advertising destinations for anonymous device based targeting. Beyond these, Real-Time Customer Data Platform supports numerous known customer based destinations as cataloged in the [destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en) and as described in the [Known Customer Activation blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
 
 ## Architecture
 
@@ -37,9 +37,9 @@ Microsoft Bing, Google DV360, and TradeDesk are the primary supported Real-time 
 
 * For details on implementing Audience Manager see the following [documentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html).
 
-## Implementation steps for Real-time Customer Data Platform
+## Implementation steps for Real-Time Customer Data Platform
 
-* For implementation steps of Real-time Customer Data Platform see the following [documentation](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
+* For implementation steps of Real-Time Customer Data Platform see the following [documentation](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
 
 ## Related documentation
 
@@ -48,4 +48,4 @@ Microsoft Bing, Google DV360, and TradeDesk are the primary supported Real-time 
 * [Integrate Audience Manager with Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
 * [Adobe Analytics Segment Sharing through Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 * [Known Customer Activation blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
-* [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)
+* [Real-Time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)

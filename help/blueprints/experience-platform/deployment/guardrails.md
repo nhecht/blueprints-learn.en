@@ -1,7 +1,7 @@
 ---
 title: Experience Platform and Application Guardrails
 description: Guardrails define the performance expectations and impact for the components and services within Adobe Experience Platform and Applications
-solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
+solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 ---
@@ -10,7 +10,7 @@ exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 Guardrails are recommended thresholds that provide guidance for data and system usage, optimizing performance, and avoiding errors or unexpected results in Adobe Experience Platform and applications. Guardrails are intended to reflect system constrainsts and performance expectations to facilitate customer architecture and use case performance optimization. Guardrails are not intended to be service level agreements, for information on product specific service level agreements please refer to the Product Descriptions documentation linked below.
 
 
-## Guardrails for Adobe Experience Platform and applications
+## Guardrails for Adobe Experience Platform and Applications
 
 [Data ingestion guardrails](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=en)
 
@@ -42,7 +42,7 @@ Guardrails are recommended thresholds that provide guidance for data and system 
 
 <br>
 
-### Real-time Customer Data Platform & Adobe Target
+### Real-Time Customer Data Platform & Adobe Target
 
 <img src="../assets/RTCDP_Target_guardrails.svg" alt="RTCDP & Target Guardrails" style="border:1px solid #4a4a4a" width="85%" />
 
@@ -64,7 +64,7 @@ Guardrails are recommended thresholds that provide guidance for data and system 
 
 [Experience Platform Collection Enterprise](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-collection-enterprise.html)
 
-[Real-time Customer Data Platform](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
+[Real-Time Customer Data Platform](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
 
 [B2B Customer Data Platform](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-b2b.html)
 

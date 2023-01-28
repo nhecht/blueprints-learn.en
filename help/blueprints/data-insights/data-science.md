@@ -7,7 +7,7 @@ exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071
 ---
 # Custom Data Science for Profile Enrichment blueprint
 
-Custom Data Science for Profile Enrichment Blueprint illustrates how data can be used to train, deploy, and score models to provide machine learning insights into Experience Platform and the Real-time Customer Data Platform from data science and machine learning tools. Modeled insights can be ingested into Experience Platform to enrich the real-time customer profile. Examples of machine learning insights include lifetime value scoring, product and category affinity, propensity to convert, or propensity to churn.
+Custom Data Science for Profile Enrichment Blueprint illustrates how data can be used to train, deploy, and score models to provide machine learning insights into Experience Platform and the Real-Time Customer Data Platform from data science and machine learning tools. Modeled insights can be ingested into Experience Platform to enrich the real-time customer profile. Examples of machine learning insights include lifetime value scoring, product and category affinity, propensity to convert, or propensity to churn.
 
 ## Use cases
 

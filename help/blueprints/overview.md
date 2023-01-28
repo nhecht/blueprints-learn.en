@@ -4,7 +4,7 @@ description: Digital experience blueprints are repeatable implementations to add
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 ---
-# Digital experience blueprints
+# Digital Experience blueprints
 
 Digital experience blueprints are repeatable implementations that let you address strategy and quickly solve established business problems. Each Blueprint provides a series of artifacts that explain the high-value business problem, architectures, implementation steps, technical considerations, and links to the relevant documentation.
 

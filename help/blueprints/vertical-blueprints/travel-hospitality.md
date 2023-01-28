@@ -1,7 +1,7 @@
 ---
 title: Travel & Hospitality Industry - Activation with Online & Offline Data
 description: Real-time decisions with a single consolidated view of customer behavior across various channels.
-solution: Real-time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
+solution: Real-Time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
 exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
 ---
@@ -14,7 +14,7 @@ Leveraging Adobe technologies & services this organization is now prepared to ex
 ## Adobe approach
 
 * Integrated Adobe Experience Platform into their existing technology stack to deliver cross-solution customer interactions.
-* Activated Real-time Customer Data Platform and Customer Journey Analytics to provide ongoing analysis and personalized customer profiles.
+* Activated Real-Time Customer Data Platform and Customer Journey Analytics to provide ongoing analysis and personalized customer profiles.
 * Developed a holistic view of its customer journey to support effective marketing attribution and resource allocation.
 * Responded COVID-19 with a strategy that has prepared its business while continuing to engage its customers.
 
@@ -24,7 +24,7 @@ Leveraging Adobe technologies & services this organization is now prepared to ex
 |---|---|---|
 | **Make every experience relevant to that guest**<br></br>**Business ready insights & data democracy through dashboards**<br></br>**Organizational & Operational Efficacy**</ul> | <ul><li>Built unified rewards program guest profiles using online & offline data for activation and measurement</li><li>Real time activation across channels at speed and scale</li><li>Customer level analysis capability unlocked with Customer Journey Analysis</li><li>Develop intelligence in order to improve activation by learning from the historical click stream interaction data.</li><li>Use online and offline data to unify a customer view for insights across customer journeys and channels.</li></ul>                               | <ul><li><strong> Cross-Channel Activation: </strong>Driving 3X email engagement, addressable audience growth & impression growth, highly personalized web experiences </li><li><strong>Intelligence: </strong>Guest rewards program operates an activation campaign to reduce member churn rates</li><li><strong>Reporting: </strong>Merged online/offline data with AI/ML learnings into a business friendly journey & attribution dashboard while also reducing latency (by days)</li><li><strong>Future-proofed Technology Stack: </strong>Tens of millions of profiles across 7 channels ready to execute on cross-sell, up-sell, and spend optimization scenarios</li></ul>    |
 
-## Primary blueprint: Activation with online & offline data
+## Primary blueprint: Activation with Online & Offline Data
 
 ### Description 
 
@@ -32,7 +32,7 @@ Leveraging Adobe technologies & services this organization is now prepared to ex
 
 ### Experience Cloud applications
 
-<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager</li><li>Customer Journey Analytics</li></ul> 
+<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Adobe Audience Manager</li><li>Customer Journey Analytics</li></ul> 
 
 ### Blueprint architecture
 

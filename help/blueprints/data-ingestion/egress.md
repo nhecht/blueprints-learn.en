@@ -2,7 +2,7 @@
 title: Data Access and Export blueprint
 description: This blueprint provides and overview of all the methods by which data can be accessed and exported from Adobe Experience Platform and applications.
 product: adobe experience platform
-solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
+solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Tags
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
 ---
 # Data Access and Export blueprint
@@ -21,12 +21,12 @@ Data export approaches:
 
 * [Client Side Tags](#client-side-tags-extensions)
 * [Event Forwarding](#event-forwarding)
-* [Real-time Customer Data Platform Destinations](#RTCDP-destinations)
+* [Real-Time Customer Data Platform Destinations](#RTCDP-destinations)
 * [Journey Optimizer Custom Actions](#jo-custom-actions)
 
 ## Data Access and Export overview architecture
 
-<img src="../experience-platform/assets/aep_data_flow.svg" alt="Reference architecture for the Data Preparation and Ingestion Blueprint" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep_data_flow.svg" alt="Reference architecture for the Data Preparation and Ingestion Blueprint" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
 
 ## Approaches for Data Access
 
@@ -116,11 +116,11 @@ Refer to the following [Event Forwarding](https://experienceleague.adobe.com/doc
 * No enrichment from the edge profile or other data sources is currently supported. 
 * Limited data filtering and simple mapping transformations are supported.
 
-### Real-time Customer Data Platform destinations {#RTCDP-destinations}
+### Real-Time Customer Data Platform destinations {#RTCDP-destinations}
 
 Profile attribute data and audience membership data can be activated to enterprise and advertising destinations. This means the data egressed must be ingested into the Experience Platform Real-time Customer Profile. 
 
-Refer to the [Real-time Customer Data Platform Destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=en) documentation for additional information.
+Refer to the [Real-Time Customer Data Platform Destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=en) documentation for additional information.
 
 #### Use cases
 

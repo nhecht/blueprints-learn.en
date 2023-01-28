@@ -16,7 +16,7 @@ A full list of Customer Journey Analytics use cases can be found in the Customer
 
 [Common Use Cases](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=en) include:
 
-* Create and Publish Audiences to Real-time Customer Data Platform
+* Create and Publish Audiences to Real-Time Customer Data Platform
 * Top/bottom converting paths
 * Channel engagement and conversion 
 * Top viewed content
@@ -32,7 +32,7 @@ Example primary use cases included the following.
 | Blueprint | Description |  Experience Cloud Applications |
 |---|---|---|
 | **[Cross Channel Journey Analysis](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html)**  | <ul><li>Have a single consolidated view of customer behavior across various channels by unifying data from various web, mobile, and offline properties.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (optional)</li></ul>|
-| **[Publish Audiences to Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html)** | <ul><li>create and publish audiences identified in Customer Journey Analytics (CJA) to Real-time Customer Profile in Adobe Experience Platform for customer targeting and personalization. Ideal for creating audiences using historical data or more refined audiences from granular filtering and computed fields in Customer Journey Analytics.</li></ul> | <ul><li>Real-time Customer Data Platform</li><li>Customer Journey Analytics</li> |
+| **[Publish Audiences to Real-Time Customer Data Platform](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html)** | <ul><li>create and publish audiences identified in Customer Journey Analytics (CJA) to Real-time Customer Profile in Adobe Experience Platform for customer targeting and personalization. Ideal for creating audiences using historical data or more refined audiences from granular filtering and computed fields in Customer Journey Analytics.</li></ul> | <ul><li>Real-Time Customer Data Platform</li><li>Customer Journey Analytics</li> |
 | **[Call Deflection Journey Analysis](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/call-center.html)** | <ul><li>Determine what behaviors are most indicative in resulting in agent assisted calls by bringing Call Center data together with web, mobile, and other interaction data.</li><li>These insights can then be used to optimize the customer experience and reduce the path to agent assisted interactions through optimized self-service content and tooling.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
 ## Guardrail diagram for Customer Journey Analytics blueprints

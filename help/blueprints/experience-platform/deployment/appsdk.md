@@ -6,7 +6,7 @@ kt: null
 thumbnail: null
 exl-id: 05bf0a34-e5c7-498c-8d5d-1d549c00e070
 ---
-# Application-specific SDK deployment architecture diagram
+# Application-specific SDK Deployment architecture diagram
 
 The below architecture diagram illustrates the integration paths and data collection utilizing Application Specific SDKs for implementation.
 
