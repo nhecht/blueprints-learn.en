@@ -32,4 +32,4 @@ This integrated experience business sought to personalize the entire customer jo
 
 ### Blueprint architecture
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en"><img alt="thumbnail image for a Retail business delivering real-time, customer experiences across digital media, email, push, and web channels" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en" class="modal-image" /></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en"><img alt="image for a Retail business delivering real-time, customer experiences across digital media, email, push, and web channels" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en" class="modal-image" /></a>

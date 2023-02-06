@@ -29,17 +29,17 @@ Digital experience blueprints are repeatable implementations that let you addres
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><img alt="thumbnail image for the Triggered Messaging and Experience Platform Blueprint" src="customer-journeys/assets/ajo-architecture.svg" class="modal-image" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><img alt="thumbnail image for the Triggered Messaging and Experience Platform Blueprint" src="customer-journeys/assets/ajo-architecture.svg" /></a>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><strong>Cross-Channel Orchestration</strong></a></div>
     <p><em>Send messages and influence customer experiences in real-time using [!UICONTROL Platform] as a central hub.</em></p>
   </td>
   <td>
-    <a href="/help/blueprints/audience-activation/known.md"><img alt="thumbnail image for the Known Customer Activation blueprint" src="audience-activation/assets/known_activation.svg" class="modal-image" /></a>
+    <a href="/help/blueprints/audience-activation/known.md"><img alt="thumbnail image for the Known Customer Activation blueprint" src="audience-activation/assets/known_activation.svg" /></a>
     <div><a href="/help/blueprints/audience-activation/known.md"><strong>Known Customer Activation</strong></a></div>
     <p><em>Deliver audience-activated cross-channel advertising.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><img alt="thumbnail image for the Digital Behavioral Data Consolidation Blueprint" src="customer-journey-analytics/assets/CJA.svg" class="modal-image" /></a>
+    <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><img alt="thumbnail image for the Digital Behavioral Data Consolidation Blueprint" src="customer-journey-analytics/assets/CJA.svg" /></a>
     <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><strong>Cross Channel Journey Analysis</strong></a></div>
     <p><em>Have a single consolidated view of customer behavior across various channels.</em></p>
   </td>
