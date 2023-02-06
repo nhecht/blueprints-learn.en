@@ -16,13 +16,13 @@ See the following documentation for guidance on implementation and configuration
 
 ## Architecture for Customer Journey Analytics blueprints
 
-![Architecture diagram](assets/CJA_RTCDP.svg)
+![Architecture diagram](assets/CJA_RTCDP.svg){zoomable="yes"}
 
 ## Guardrail diagram for Customer Journey Analytics blueprints
 
 * For detailed guardrails and end to end latencies refer to the [deployment guardrails document](../experience-platform/deployment/guardrails.md)
 
-![Guardrail diagram](../experience-platform/assets/CJA_guardrails.svg)
+![Guardrail diagram](../experience-platform/assets/CJA_guardrails.svg){zoomable="yes"}
 
 ## Frequently asked questions
 

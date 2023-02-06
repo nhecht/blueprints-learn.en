@@ -28,7 +28,7 @@ Your destination sadnbox would need a HTTP Streaming End Point configured that w
 
 ## Architecture
 
-<img src="assets/multi-Sandbox-Data-Collection.svg" alt="Reference Architecture for Multi Sandbox Event Forwarding" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/multi-Sandbox-Data-Collection.svg" alt="Reference Architecture for Multi Sandbox Event Forwarding" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 1. Tag authors define both a tag property as well as a Event Forwarding Property. Here, authors will define the data elements, rules and actions that manage data collection. Keep in mind, tag property code runs on the client and is distributed by a CDN Host. The Event Forwarding Property code runs on the Adobe Edge Server.
 

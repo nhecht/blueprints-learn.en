@@ -19,7 +19,7 @@ Share profile and audience changes and events in streaming or batch from [!UICON
 
 ## Architecture
 
-<img src="assets/enterprise_destination_activation.svg" alt="Reference architecture for the Enterprise Activation Scenario" style="width:90%; border:1px solid #4a4a4a" zoomable="yes" />
+<img src="assets/enterprise_destination_activation.svg" alt="Reference architecture for the Enterprise Activation Scenario" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
 
 
 ## Guardrails

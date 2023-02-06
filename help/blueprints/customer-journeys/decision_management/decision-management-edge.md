@@ -27,7 +27,7 @@ To learn more about Decision Management on the hub refer to the [Decision Manage
 
 ## Architecture
 
-<img src="../assets/offers_edge.svg" alt="Reference architecture Decision Management on the edge blueprint" style="width:100%; border:1px solid #4a4a4a" />
+<img src="../assets/offers_edge.svg" alt="Reference architecture Decision Management on the edge blueprint" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
@@ -58,13 +58,13 @@ Adobe Experience Platform
 
 ### Data ingestion guardrails
 
-<img src="../../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Experience Platform Data Flow" style="border:1px solid #4a4a4a" width="85%" />
+<img src="../../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Experience Platform Data Flow" style="border:1px solid #4a4a4a" width="85%" class="modal-image" />
 
 <br>
 
 ### Activation guardrails
 
-<img src="../../experience-platform/assets/AJO_guardrails.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:85%; border:1px solid #4a4a4a" />
+<img src="../../experience-platform/assets/AJO_guardrails.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:85%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 

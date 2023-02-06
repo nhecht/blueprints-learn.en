@@ -36,4 +36,4 @@ Leveraging Adobe technologies & services this organization is now prepared to ex
 
 ### Blueprint architecture
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en"><img alt="thumbnail image for a Travel & Hospitality business making real-time decisions with a single consolidated view of customer behavior across various channels." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/known_activation.svg"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en"><img alt="thumbnail image for a Travel & Hospitality business making real-time decisions with a single consolidated view of customer behavior across various channels." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/known_activation.svg" class="modal-image" /></a>
