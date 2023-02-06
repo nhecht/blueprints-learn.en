@@ -1,7 +1,7 @@
 ---
 title: Audience and Profile Activation blueprints
 description: Deliver audience activated and profile centric customer experiences with Real-Time Customer Data Platform​.
-solution: Real-Time Customer Data Platform
+solution: Real-time Customer Data Platform
 kt: 
 thumbnail:
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
@@ -24,7 +24,7 @@ With a channel-first approach, each channel acts as a silo in which personalizat
 
 The below illustration outlines the core components of the Real-time Customer Profile of the Experience Platform.
 
-<img src="assets/profile_architecture.jpg" alt="Reference architecture for the Real-time Customer Profile" style="border:1px solid #4a4a4a" width="90%"/>
+<img src="assets/profile_architecture.jpg" alt="Reference architecture for the Real-time Customer Profile" style="border:1px solid #4a4a4a" width="90%" zoomable="yes"/>
 
 First data sources are ingested into Experience Platform. If the data source is configured for profile processing it will feed into the Real-time Customer Profile. A single profile fragment or document is created for each data source and each primary id record that is configured for each data source. Additionally as data is ingested to the profile it is also processed by the identity service. Any record from the data sources that have more than one identity marked in the schema and with the corresponding values populated in the record will be processed as a identity relationship within the identity service. 
 
@@ -36,7 +36,7 @@ The merging of profile fragments occurs as the identity graph provides the relat
 
 The below illustration outlines the various segmentation methods and the various profile and audience activation patterns.
 
-<img src="assets/segmentation_destination_overview.png" alt="Reference architecture for the Real-time Customer Profile" style="border:1px solid #4a4a4a" width="90%"/>
+<img src="assets/segmentation_destination_overview.png" alt="Reference architecture for the Real-time Customer Profile" style="border:1px solid #4a4a4a" width="90%" zoomable="yes"/>
 
 ## Guardrails for Audience and Profile Activation blueprints
 

@@ -1,7 +1,7 @@
 ---
 title: Audience and Profile Activation to File and Enterprise Streaming Destinations blueprint
 description: Audience and Profile Activation to Enterprise Destinations
-solution: Real-Time Customer Data Platform
+solution: Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
 ---
@@ -19,7 +19,7 @@ Share profile and audience changes and events in streaming or batch from [!UICON
 
 ## Architecture
 
-<img src="assets/enterprise_destination_activation.svg" alt="Reference architecture for the Enterprise Activation Scenario" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/enterprise_destination_activation.svg" alt="Reference architecture for the Enterprise Activation Scenario" style="width:90%; border:1px solid #4a4a4a" zoomable="yes" />
 
 
 ## Guardrails

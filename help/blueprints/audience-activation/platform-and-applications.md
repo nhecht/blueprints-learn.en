@@ -1,7 +1,7 @@
 ---
 title: Audience and Profile Activation with Experience Cloud Applications blueprint
 description: Manage profiles and audiences in Experience Platform and share them with Experience Cloud applications.
-solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
+solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
 ---
@@ -37,7 +37,7 @@ See the [Experience Platform and Applications Architecture Section](https://expe
 
 ### Audience and Profile Activation with Experience Cloud applications
 
-<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Reference architecture for the Audience and Profile Activation with Experience Cloud applications" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Reference architecture for the Audience and Profile Activation with Experience Cloud applications" style="width:90%; border:1px solid #4a4a4a" zoomable="yes" />
 <br>
 
 ## Guardrails

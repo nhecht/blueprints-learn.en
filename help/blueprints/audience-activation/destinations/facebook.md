@@ -1,7 +1,7 @@
 ---
 title: Activation to Facebook Custom Audiences
 description: Activation to Facebook Custom Audiences.
-solution: Real-Time Customer Data Platform, Data Collection
+solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
 ---
@@ -20,7 +20,7 @@ Ingest customer data from multiple sources to build a single profile view of the
 
 ## Architecture
 
-<img src="../assets/facebook.svg" alt="Reference architecture for Facebook Custom Audience Activation" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../assets/facebook.svg" alt="Reference architecture for Facebook Custom Audience Activation" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ## Implementation steps
 

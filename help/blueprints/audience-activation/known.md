@@ -1,7 +1,7 @@
 ---
 title: Known Customer Activation blueprint
 description: Online/Offline Audience Activation.
-solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
+solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 ---
@@ -28,12 +28,12 @@ Additional detail is provided in the [Audience and Profile Activation with Exper
 
 ### Known customer activation via Real-Time Customer Data Platform
 
-<img src="assets/known_activation.svg" alt="Reference architecture for the Known Customer Activation blueprint" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/known_activation.svg" alt="Reference architecture for the Known Customer Activation blueprint" style="width:90%; border:1px solid #4a4a4a" zoomable="yes" />
 <br>
 
 ### Known customer activation via Audience Manager People-Based Destinations
 
-<img src="assets/AAM_PBD.svg" alt="Reference architecture for the Known Customer Activation blueprint" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/AAM_PBD.svg" alt="Reference architecture for the Known Customer Activation blueprint" style="width:90%; border:1px solid #4a4a4a" zoomable="yes" />
 <br>
 
 ## Guardrails
