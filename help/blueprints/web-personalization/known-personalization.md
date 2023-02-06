@@ -3,7 +3,8 @@ title: Web/Mobile Personalization Overview - Adobe Target & RTCDP
 description: Synchronize web personalization with email and other known and anonymous channel personalization.
 landing-page-description: Synchronize web personalization with email and other known and anonymous channel personalization.
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
-kt: 7194thumb-web-personalization-scenario2.jpg
+kt: 7194
+thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 ---
 
