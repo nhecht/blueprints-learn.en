@@ -28,12 +28,12 @@ Additional detail is provided in the [Audience and Profile Activation with Exper
 
 ### Known customer activation via Real-Time Customer Data Platform
 
-<img src="assets/known_activation.svg" alt="Reference architecture for the Known Customer Activation blueprint" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/known_activation.svg" alt="Reference architecture for the Known Customer Activation blueprint" style="width:90%; border:1px solid #4a4a4a" zoomable="yes" />
 <br>
 
 ### Known customer activation via Audience Manager People-Based Destinations
 
-<img src="assets/AAM_PBD.svg" alt="Reference architecture for the Known Customer Activation blueprint" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/AAM_PBD.svg" alt="Reference architecture for the Known Customer Activation blueprint" style="width:90%; border:1px solid #4a4a4a" zoomable="yes" />
 <br>
 
 ## Guardrails
