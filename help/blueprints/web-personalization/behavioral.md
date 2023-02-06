@@ -25,7 +25,7 @@ Personalize based on online behavior and audience data.
 
 ## Architecture
 
-<img src="assets/behavioral_personalization.svg" alt="Reference architecture for the Behavioral Web Personalization Blueprint" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
+<img src="assets/behavioral_personalization.svg" alt="Reference architecture for the Behavioral Web Personalization Blueprint" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
 
 ## Implementation patterns

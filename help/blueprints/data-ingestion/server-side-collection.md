@@ -20,7 +20,7 @@ The Event Forwarding Blueprint shows how data collected with Adobe Experience Pl
 
 ## Architecture
 
-<img src="assets/enterprise_collection.svg" alt="Reference Architecture for Enterprise Data Collection" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/enterprise_collection.svg" alt="Reference Architecture for Enterprise Data Collection" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ## Related documentation
 

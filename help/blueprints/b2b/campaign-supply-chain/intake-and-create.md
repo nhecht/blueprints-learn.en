@@ -15,7 +15,7 @@ To achieve this integration, you'll use Workfront Fusion, a work automation laye
 
 The workflow below shows a request for a webinar being made by a campaign manager using a Workfront request form. The details submitted in the request then trigger a program and email to be created in Marketo Engage for the webinar. Additionally, details are taken from the request form to populate the content of the email.
 
-![](assets/intake-and-create-1.png)
+![Intake and Create blueprint](assets/intake-and-create-1.png){zoomable="yes"}
 
 >[!TIP]
 >
