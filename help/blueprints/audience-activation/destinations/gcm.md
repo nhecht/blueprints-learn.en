@@ -17,7 +17,7 @@ Ingest customer data from multiple sources to build a single profile view of the
 
 ## Applications
 
-* Real-Time Customer Data Platform
+* Real-time Customer Data Platform
 
 ## Architecture
 

@@ -14,7 +14,7 @@ Leveraging Adobe technologies & services this organization is now prepared to ex
 ## Adobe approach
 
 * Integrated Adobe Experience Platform into their existing technology stack to deliver cross-solution customer interactions.
-* Activated Real-Time Customer Data Platform and Customer Journey Analytics to provide ongoing analysis and personalized customer profiles.
+* Activated Real-time Customer Data Platform and Customer Journey Analytics to provide ongoing analysis and personalized customer profiles.
 * Developed a holistic view of its customer journey to support effective marketing attribution and resource allocation.
 * Responded COVID-19 with a strategy that has prepared its business while continuing to engage its customers.
 
@@ -32,7 +32,7 @@ Leveraging Adobe technologies & services this organization is now prepared to ex
 
 ### Experience Cloud applications
 
-<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Adobe Audience Manager</li><li>Customer Journey Analytics</li></ul> 
+<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager</li><li>Customer Journey Analytics</li></ul> 
 
 ### Blueprint architecture
 

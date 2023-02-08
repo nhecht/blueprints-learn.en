@@ -26,7 +26,7 @@ Their global technology team is using Adobe Experience Platform and relevant Ado
 
 | Goals | Tactics| Value Unlocked|
 |---|---|---|
-| **Connected cross-channel experiences**<br></br>**Drive Engagement & Retention**<br></br>**Data Democratization & Insights**</ul> | <ul><li>Onboarded several enterprise datasets to create tens of millions of profiles & hundreds of segments, several destinations, and reporting dashboards</li><li>Activation across multiple destinations using Real-Time Customer Data Platform</li><li>Customer level analysis capability unlocked with Customer Journey Analysis</li><li>Automated event triggers for customer interactions implemented through Adobe Journey Optimizer</li></ul>                               | <ul><li><strong> Customer Profile: </strong>360 Degree view of the customers for segmentation</li><li><strong>Destination Activations: </strong>Activation on Paid media, email, and Social platforms</li><li><strong>Customer Analysis & Attribution: </strong>Cross-channel attribution analysis available ad-hoc and easily distributed<li><strong>Journey Orchestration: </strong> Create & operationalize triggered campaigns & scheduled campaigns using real-time context</li></ul>    |
+| **Connected cross-channel experiences**<br></br>**Drive Engagement & Retention**<br></br>**Data Democratization & Insights**</ul> | <ul><li>Onboarded several enterprise datasets to create tens of millions of profiles & hundreds of segments, several destinations, and reporting dashboards</li><li>Activation across multiple destinations using Real-time Customer Data Platform</li><li>Customer level analysis capability unlocked with Customer Journey Analysis</li><li>Automated event triggers for customer interactions implemented through Adobe Journey Optimizer</li></ul>                               | <ul><li><strong> Customer Profile: </strong>360 Degree view of the customers for segmentation</li><li><strong>Destination Activations: </strong>Activation on Paid media, email, and Social platforms</li><li><strong>Customer Analysis & Attribution: </strong>Cross-channel attribution analysis available ad-hoc and easily distributed<li><strong>Journey Orchestration: </strong> Create & operationalize triggered campaigns & scheduled campaigns using real-time context</li></ul>    |
 
 ## Primary blueprint: Audience & Activation with Experience Cloud Applications
 
@@ -36,7 +36,7 @@ Their global technology team is using Adobe Experience Platform and relevant Ado
 
 ### Experience Cloud applications
 
-<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud Applications</li></ul> 
+<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud Applications</li></ul> 
 
 ### Blueprint architecture
 

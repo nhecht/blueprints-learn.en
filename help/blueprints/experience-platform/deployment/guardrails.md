@@ -42,7 +42,7 @@ Guardrails are recommended thresholds that provide guidance for data and system 
 
 <br>
 
-### Real-Time Customer Data Platform & Adobe Target
+### Real-time Customer Data Platform & Adobe Target
 
 <img src="../assets/RTCDP_Target_guardrails.svg" alt="RTCDP & Target Guardrails" style="border:1px solid #4a4a4a" width="85%" />
 
@@ -64,7 +64,7 @@ Guardrails are recommended thresholds that provide guidance for data and system 
 
 [Experience Platform Collection Enterprise](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-collection-enterprise.html)
 
-[Real-Time Customer Data Platform](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
+[Real-time Customer Data Platform](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
 
 [B2B Customer Data Platform](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-b2b.html)
 

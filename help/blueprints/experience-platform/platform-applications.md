@@ -40,7 +40,7 @@ This architecture diagram shows how Adobe Experience Platform relates to Adobe E
 <td colspan="1">Ad Cloud</td>
 <td colspan="1">
 <ul>
-<li>Audiences defined in Real-Time Customer Data Platform can be shared to Ad Cloud for targeting via Audience Manager.</li>
+<li>Audiences defined in Real-time Customer Data Platform can be shared to Ad Cloud for targeting via Audience Manager.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -78,7 +78,7 @@ This architecture diagram shows how Adobe Experience Platform relates to Adobe E
 <td>Audience Manager</td>
 <td>
 <ul>
-<li>Audiences defined in Real-Time Customer Data Platform can be shared to Audience Manager for activation to 3rd party cookie destinations.</li>
+<li>Audiences defined in Real-time Customer Data Platform can be shared to Audience Manager for activation to 3rd party cookie destinations.</li>
 </ul>
 </td>
 <td>
@@ -98,12 +98,12 @@ This architecture diagram shows how Adobe Experience Platform relates to Adobe E
 <td colspan="1">Campaign Classic</td>
 <td colspan="1">
 <ul>
-<li>Audiences defined in Real-Time Customer Data Platform can be shared to Campaign Classic as the audience to initiate campaigns.</li>
+<li>Audiences defined in Real-time Customer Data Platform can be shared to Campaign Classic as the audience to initiate campaigns.</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Interaction and campaign data collected by Campaign can be ingested to Experience Platform as a data source for further use in audience building via Real-Time Customer Data Platform and analysis via Customer Journey Analytics and Experience Platform Query Service.</li>
+<li>Interaction and campaign data collected by Campaign can be ingested to Experience Platform as a data source for further use in audience building via Real-time Customer Data Platform and analysis via Customer Journey Analytics and Experience Platform Query Service.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -116,12 +116,12 @@ This architecture diagram shows how Adobe Experience Platform relates to Adobe E
 <td colspan="1">Campaign Standard</td>
 <td colspan="1">
 <ul>
-<li>Audiences defined in Real-Time Customer Data Platform can be shared to Campaign Standard as the audience to initiate campaigns.</li>
+<li>Audiences defined in Real-time Customer Data Platform can be shared to Campaign Standard as the audience to initiate campaigns.</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Interaction and campaign data collected by Campaign can be ingested to Experience Platform as a data source for further use in audience building via Real-Time Customer Data Platform and analysis via Customer Journey Analytics and Experience Platform Query Service.</li>
+<li>Interaction and campaign data collected by Campaign can be ingested to Experience Platform as a data source for further use in audience building via Real-time Customer Data Platform and analysis via Customer Journey Analytics and Experience Platform Query Service.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -135,14 +135,14 @@ This architecture diagram shows how Adobe Experience Platform relates to Adobe E
 <td colspan="1">
 <ul>
 <li>Data collected and ingested into Experience Platform data lake is made available for processing into Customer Journey Analytics.&nbsp;</li>
-<li>Profile and audience data from Real-Time Customer Data Platform can be ingested into CJA. <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=en">RTCDP to CJA integration</a>.
+<li>Profile and audience data from Real-time Customer Data Platform can be ingested into CJA. <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=en">RTCDP to CJA integration</a>.
 </li>
 </ul>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Build audiences in Customer Journey Analtyics and share the audience results to Real-Time Customer Data Platform. <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en">CJA Audience Publishing</a></li>
+<li>Build audiences in Customer Journey Analtyics and share the audience results to Real-time Customer Data Platform. <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en">CJA Audience Publishing</a></li>
 </ul>
 </td>
 <td colspan="1">
@@ -178,7 +178,7 @@ This architecture diagram shows how Adobe Experience Platform relates to Adobe E
 </td>
 <td colspan="1">
 <ul>
-<li>Interaction and campaign data produced by Journey Optimizer is collected into Experience Platform for further&nbsp;use in audience building via Real-Time Customer Data Platform and analysis via Customer Journey Analytics, and Experience Platform Query Service.</li>
+<li>Interaction and campaign data produced by Journey Optimizer is collected into Experience Platform for further&nbsp;use in audience building via Real-time Customer Data Platform and analysis via Customer Journey Analytics, and Experience Platform Query Service.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -191,7 +191,7 @@ This architecture diagram shows how Adobe Experience Platform relates to Adobe E
 <td colspan="1">Adobe Commerce</td>
 <td colspan="1">
 <ul>
-<li>Profiles and audiences built in Real-Time Customer Data Platform can be made available for peersonalization in Adobe Commerce. </li>
+<li>Profiles and audiences built in Real-time Customer Data Platform can be made available for peersonalization in Adobe Commerce. </li>
 </ul>
 </td>
 <td colspan="1">
@@ -205,7 +205,7 @@ This architecture diagram shows how Adobe Experience Platform relates to Adobe E
 <td colspan="1">Marketo</td>
 <td colspan="1">
 <ul>
-<li>Audiences defined in Real-Time Customer Data Platform can be shared to Marketo as the audience to initiate Marketo campaigns and update Marketo objects.</li>
+<li>Audiences defined in Real-time Customer Data Platform can be shared to Marketo as the audience to initiate Marketo campaigns and update Marketo objects.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -223,7 +223,7 @@ This architecture diagram shows how Adobe Experience Platform relates to Adobe E
 <td colspan="1">Real-Time CDP</td>
 <td colspan="1">
 <ul>
-<li>Data ingested and collected into Experience Platform is the data source for assembling real-time customer profiles that power the Real-Time Customer Data Platform.</li>
+<li>Data ingested and collected into Experience Platform is the data source for assembling real-time customer profiles that power the Real-time Customer Data Platform.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -243,12 +243,12 @@ This architecture diagram shows how Adobe Experience Platform relates to Adobe E
 <td colspan="1">Target</td>
 <td colspan="1">
 <ul>
-<li>Audiences and Profile Attributes defined in Real-Time Customer Data Platform can be shared to Target and used in personalization and targeting experiences delivered by Target.</li>
+<li>Audiences and Profile Attributes defined in Real-time Customer Data Platform can be shared to Target and used in personalization and targeting experiences delivered by Target.</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Data collected for Target experiences and interactions can be collected to Experience Platform via the Experience Platform Web/Mobile SDK. This data can be used in audience building via the Real-Time Customer Data Platform and for analysis via Customer Journey Analytics, and Experience Platform Query Service.</li>
+<li>Data collected for Target experiences and interactions can be collected to Experience Platform via the Experience Platform Web/Mobile SDK. This data can be used in audience building via the Real-time Customer Data Platform and for analysis via Customer Journey Analytics, and Experience Platform Query Service.</li>
 </ul>
 </td>
 <td colspan="1">

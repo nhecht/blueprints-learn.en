@@ -16,7 +16,7 @@ Ingest customer data from multiple sources to build a single profile view of the
 
 ## Applications
 
-* Real-Time Customer Data Platform
+* Real-time Customer Data Platform
 
 ## Architecture
 
@@ -76,7 +76,7 @@ Ingest customer data from multiple sources to build a single profile view of the
     * Check for any skipped profiles for profile identities missing or attributes missing that were mandatory.
     * Check for any other errors that may need to be resolved.
 1. Verify the audience was activated to the end destination with the expected number of audience memberships.
-    * Login to Facebook Custom Audience portal to verify the audience from Real-Time Customer Data Platform was delivered and that the match rate of profiles in the audience in Facebook reasonably matches the number of profiles in the audience from Real-Time Customer Data Platform.
+    * Login to Facebook Custom Audience portal to verify the audience from Real-time Customer Data Platform was delivered and that the match rate of profiles in the audience in Facebook reasonably matches the number of profiles in the audience from Real-time Customer Data Platform.
 
 ## Guardrails
 

@@ -21,7 +21,7 @@ Data export approaches:
 
 * [Client Side Tags](#client-side-tags-extensions)
 * [Event Forwarding](#event-forwarding)
-* [Real-Time Customer Data Platform Destinations](#RTCDP-destinations)
+* [Real-time Customer Data Platform Destinations](#RTCDP-destinations)
 * [Journey Optimizer Custom Actions](#jo-custom-actions)
 
 ## Data Access and Export overview architecture
@@ -116,11 +116,11 @@ Refer to the following [Event Forwarding](https://experienceleague.adobe.com/doc
 * No enrichment from the edge profile or other data sources is currently supported. 
 * Limited data filtering and simple mapping transformations are supported.
 
-### Real-Time Customer Data Platform destinations {#RTCDP-destinations}
+### Real-time Customer Data Platform destinations {#RTCDP-destinations}
 
 Profile attribute data and audience membership data can be activated to enterprise and advertising destinations. This means the data egressed must be ingested into the Experience Platform Real-time Customer Profile. 
 
-Refer to the [Real-Time Customer Data Platform Destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=en) documentation for additional information.
+Refer to the [Real-time Customer Data Platform Destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=en) documentation for additional information.
 
 #### Use cases
 
