@@ -38,7 +38,7 @@ Global multinationals have challenges with data collaboration among independentl
 
 ## Architecture
 
-![Segment Match Architecture](assets/architecture-segment-match.png)
+![Segment Match Architecture](assets/architecture-segment-match.png){zoomable="yes"}
 
 [!UICONTROL Segment Match] is not a data marketplace where data can be purchased. Rather, it's an AEP feature that works with first-party data with select partners, using privacy and consent controls to help collaborate. [!UICONTROL Segment Match] helps focus efforts on improving customer relationships and growing the brand. It is beneficial where pre-existing brands or partner relationships exist. [!UICONTROL Segment Match] experience is easy to manage, scalable, and allows for administrators to share segments in an opt-in, controllable manner.
 
@@ -71,7 +71,7 @@ The pre-requisites for [!UICONTROL Segment Match] are:
 
 The [!UICONTROL Segment Match] flow to manage partners is secured by RBAC. Only individuals with the right permission can initiate, accept, or manage partners. This can be done in the Data Ingestion section of the Product Profile. The following permissions are required:
 
-![Audience Share Connection](assets/data-ingestion.png)
+![Audience Share Connection](assets/data-ingestion.png){zoomable="yes"}
 
 |Permission |Description |
 |---|---|
@@ -134,13 +134,13 @@ As part of this segment-sharing workflow, the sending partner can discover poten
 
 The overall process flow is: 
 
-![Segment sharing](assets/segment-sharing.png)
+![Segment sharing](assets/segment-sharing.png){zoomable="yes"}
 
 These overlap estimates offer key insights, partner discovery, and data to fuel data collaboration agreements. No customer or segment data is moved across sandboxes to obtain these overlap estimate metrics. The customer-selected, pre-hashed applicable identities in any given sandbox are added to a probabilistic data structure that allows Adobe to perform union and intersection operations between them. These operations help [!UICONTROL Segment Match] get the estimated intersection of two data structures composed of identities from two different sandboxes without having to compare the actual values
 
 The identity overlap process depends on the **daily full profile export** dataset from both sender and receiver sandboxes to identify common profiles that belong to the shared segments. The detailed process flow for the overlap process is shown below:
 
-![Identity overlap process](assets/overlap-process.png)
+![Identity overlap process](assets/overlap-process.png){zoomable="yes"}
 
 After segment sharing is complete from the sending partner, the receiver gets a notification about the segment feed shared. This segment feed must be enabled for profile at the receiver to initiate the segment membership dataflow. Only segment membership is ingested into the receiver IMS Organization's overlapping profile fragments and no additional identity is transferred from the sender to the receiver. 
 

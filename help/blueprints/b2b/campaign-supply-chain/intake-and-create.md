@@ -15,7 +15,7 @@ To achieve this integration, you'll use Workfront Fusion, a work automation laye
 
 The workflow below shows a request for a webinar being made by a campaign manager using a Workfront request form. The details submitted in the request then trigger a program and email to be created in Marketo Engage for the webinar. Additionally, details are taken from the request form to populate the content of the email.
 
-![](assets/intake-and-create-1.png)
+![Intake and Create blueprint](assets/intake-and-create-1.png){zoomable="yes"}
 
 >[!TIP]
 >
@@ -95,7 +95,7 @@ To learn more on creating your own center of excellence, check out the [Marketo 
 
 With Marketo Engage, tokens can be used to populate content into your campaign assets. For example, after cloning an email template from your center of excellence, Workfront Fusion can take details from the campaign request in Workfront and pass them to the My Tokens in the Marketo Engage program. The token values can then be inherited directly into the email to build the email out.
 
-![](assets/intake-and-create-2.png)
+![Use tokens to populate content diagram](assets/intake-and-create-2.png){zoomable="yes"}
 
 ### Populate images from AEM Assets {#populate-images-from-aem-assets}
 
@@ -143,7 +143,7 @@ Some basic information to include in your Program Template Lookup Library are:
 
 Here's an example of how the workflow logic can be assembled in Fusion using prebuilt [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html){target="_blank"} modules that enable you to deliver automation faster.
 
-![](assets/intake-and-create-3.png)
+![Intake and Create automation flow](assets/intake-and-create-3.png)Use tokens to populate content
 
 ## Resources {#resources}
 

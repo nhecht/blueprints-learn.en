@@ -40,4 +40,4 @@ Their global technology team is using Adobe Experience Platform and relevant Ado
 
 ### Blueprint architecture
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en"><img alt="thumbnail image for an Apparel business using audience activation, customer journey analytics, and customer journeys Blueprints" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en"><img alt="image for an Apparel business using audience activation, customer journey analytics, and customer journeys Blueprints" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en" class="modal-image"/></a>
