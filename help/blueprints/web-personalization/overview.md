@@ -27,7 +27,7 @@ Web and Mobile Personalization addresses the ability to use profile and audience
 
 ### Known customer personalization guardrail diagram
 
-<img src="assets/personalization_guardrails.svg" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
+<img src="assets/personalization_guardrails.svg" alt="Reference architecture for the Online/Offline Web Personalization Blueprint" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
 ## Related blog posts
 

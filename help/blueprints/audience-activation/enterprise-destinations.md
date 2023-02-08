@@ -19,7 +19,8 @@ Share profile and audience changes and events in streaming or batch from [!UICON
 
 ## Architecture
 
-<img src="assets/known_activation.svg" alt="Reference architecture for the Enterprise Activation Scenario" style="width:90%; border:1px solid #4a4a4a" />
+
+<img src="assets/known_activation.svg" alt="Reference architecture for the Enterprise Activation Scenario" style="width:90%; border:1px solid #4a4a4a" /
 
 
 ## Guardrails

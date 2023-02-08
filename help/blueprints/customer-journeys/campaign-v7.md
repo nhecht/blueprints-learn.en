@@ -21,7 +21,7 @@ Adobe Campaign v7 is a campaigning tool built for traditional marketing channels
 
 ## Architecture
 
-<img src="assets/campaign-v7-architecture.svg" alt="Reference architecture for Campaign v7 Blueprint" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/campaign-v7-architecture.svg" alt="Reference architecture for Campaign v7 Blueprint" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 

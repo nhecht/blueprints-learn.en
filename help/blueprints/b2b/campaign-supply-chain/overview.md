@@ -34,7 +34,7 @@ With Workfront Fusion, marketing operations teams can largely eliminate manual a
 
 Below you can see a workflow diagram of the campaign development process in the case of an email blast request. Additionally, you can see how Workfront Fusion can play a role between Workfront and Marketo Engage to drive workflow and process automation across the campaign development cycle.
 
-![](assets/overview-1.png)
+![Campaign planning to execution - automation use cases](assets/overview-1.png){zoomable="yes"}
 
 Take note of the different phases in the campaign development process.
 
@@ -54,7 +54,7 @@ Adobe Workfront enables organizations to manage work to drive more efficient exe
 
 Understanding how to map your business process to these objects will be important to understanding the relationship between Workfront and Marketo Engage.
 
-![](assets/overview-2.png)
+![Understanding how marketing initiatives are represented in Workfront](assets/overview-2.png){zoomable="yes"}
 
 ### Portfolio hierarchy defined {#portfolio-hierarchy-defined}
 
@@ -109,7 +109,7 @@ The Zeplin Company is releasing an updated version of one of their compact utili
 
 The hierarchy below shows how the strategy, tactics, tasks, and assets map to Workfront for this marketing campaign.
 
-![](assets/overview-3.png)
+![Marketing initiative work management example](assets/overview-3.png){zoomable="yes"}
 
 ## Mapping Workfront to Marketo {#mapping-workfront-to-marketo}
 
@@ -123,7 +123,7 @@ Using Workfront Fusion as an integration layer, you can map your Projects in Wor
 
 Below you can see an example of how a Program can include multiple projects and how those Workfront Projects can map to Programs in Marketo Engage.
 
-![](assets/overview-4.png)
+![Mapping Workfront projects to Marketo Engage Programs](assets/overview-4.png){zoomable="yes"}
 
 You may want to kick-off a large marketing initiative that needs multiple Workfront Projects to be housed in a Workfront Program, or you may have a one-off request for a webinar or email that just needs a single Workfront Project created. Whatever your needs are, with Workfront, Workfront Fusion, and Marketo Engage, your team has the flexibility to integrate your campaign development process seamlessly from planning to execution.
 
