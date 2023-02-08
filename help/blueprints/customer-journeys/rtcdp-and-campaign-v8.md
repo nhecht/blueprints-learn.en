@@ -1,7 +1,7 @@
 ---
 title: Real-Time CDP with Adobe Campaign v8 integration pattern
 description: Showcases how the Adobe Experience Platform and its Real-Time Customer Profile and centralized segmentation tool can be utilized with Adobe Campaign v8 to deliver personalized conversations.
-solution: Real-Time Customer Data Platform, Campaign
+solution: Real-time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
 ---
 # Real-Time CDP with Adobe Campaign v8 integration pattern
@@ -34,7 +34,7 @@ Showcases how the Adobe Experience Platform and its Real-Time Customer Profile a
 
 ## Implementation steps
 
-Refer to the following documentation on configuring the Campaign v8 source connector to Adobe Experience Platform and the Real-Time Customer Data Platform destination connector to Campaign v8.
+Refer to the following documentation on configuring the Campaign v8 source connector to Adobe Experience Platform and the Real-time Customer Data Platform destination connector to Campaign v8.
 [Campaign and AEP Connectors](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=en)
 
 ## Guardrails
@@ -46,7 +46,7 @@ Refer to the following documentation on configuring the Campaign v8 source conne
 * Adobe Campaign is source of truth for all active profiles meaning profiles must exist in Adobe Campaign and new profiles should not be created based on Experience Platform segments.
 
 
-### Experience Platform Real-Time Customer Data Platform segment sharing
+### Experience Platform Real-time Customer Data Platform segment sharing
 
 * Refer to the RTCDP Campaign Destination connector - [RTCDP Campaign Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html)
 * Recommendation of 50 segment limit

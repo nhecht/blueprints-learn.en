@@ -1,7 +1,7 @@
 ---
 title: Audience and Profile Activation blueprints
-description: Deliver audience activated and profile centric customer experiences with Real-Time Customer Data Platform​.
-solution: Real-Time Customer Data Platform
+description: Deliver audience activated and profile centric customer experiences with Real-time Customer Data Platform​.
+solution: Real-time Customer Data Platform
 kt: 
 thumbnail:
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
@@ -16,8 +16,8 @@ With a channel-first approach, each channel acts as a silo in which personalizat
 | Blueprint | Description| Experience Cloud applications|
 |---|---|---|
 | **[Anonymous Audience Activation](anonymous.md)** | <ul><li>Target audiences across web and advertising channels for anonymous and behavioral customer data.</li><li>Integrate with third-party audience data for increased personalization.</li></ul>|<ul><li>Adobe Audience Manager</li></ul>                                               |
-| **[Known Customer Activation](known.md)**        | <ul><li>Activate to known profile-based destinations, such as email providers, social networks, and advertising destinations. </li><li>Use offline attributes and events, such as offline orders, transactions, CRM, or loyalty data along with online behavior for online targeting and personalization.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-Time Customer Data Platform]</li><li>Adobe Audience Manager (optional)</li></ul> |
-| **[Audience and Profile Activation with Experience Cloud applications](platform-and-applications.md)**        | <ul><li>Manage profiles and audiences in Experience Platform and share them with Experience Cloud Applications</li><li>Build and share rich customer segments and insights in Experience Platform and share them with Experience Cloud Applications</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud Applications</li></ul> |
+| **[Known Customer Activation](known.md)**        | <ul><li>Activate to known profile-based destinations, such as email providers, social networks, and advertising destinations. </li><li>Use offline attributes and events, such as offline orders, transactions, CRM, or loyalty data along with online behavior for online targeting and personalization.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager (optional)</li></ul> |
+| **[Audience and Profile Activation with Experience Cloud applications](platform-and-applications.md)**        | <ul><li>Manage profiles and audiences in Experience Platform and share them with Experience Cloud Applications</li><li>Build and share rich customer segments and insights in Experience Platform and share them with Experience Cloud Applications</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud Applications</li></ul> |
 |**[Segment Match](segment-match.md)** |<ul><li>With better governance, permissions, and preference management systems, marketers can further enhance their first-party authenticated audiences with key partners.</li></ul>  |<ul><li>Adobe Experience Platform </li></ul>|
 
 ## Real-time Customer Profile architecture
@@ -44,7 +44,7 @@ The below illustration outlines the various segmentation methods and the various
 
 ### Activating attributes and identities
 
-* [!UICONTROL The Real-Time Customer Data Platform] can activate audience memberships as well as attribute and identity changes that occur for profiles that are members of segments selected for activation. If your goal is to activate attributes or identities, you must define a global segment that includes all the profiles to which attribute and identity updates are sent. At that point, you can select the segment and desired attributes to activate as part of the destination configuration.
+* [!UICONTROL The Real-time Customer Data Platform] can activate audience memberships as well as attribute and identity changes that occur for profiles that are members of segments selected for activation. If your goal is to activate attributes or identities, you must define a global segment that includes all the profiles to which attribute and identity updates are sent. At that point, you can select the segment and desired attributes to activate as part of the destination configuration.
 * Note that batch destinations do not support activation of attribute-only change events. Full or incremental audience memberships can be sent along with the selected attributes for activation.  
 
 ### Activating batch segments to streaming destinations

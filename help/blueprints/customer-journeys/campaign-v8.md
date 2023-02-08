@@ -17,7 +17,7 @@ Adobe Campaign v8 is the next-gen campaigning tool built for traditional marketi
 * Direct Mail advertising, brochure and magazine campaigns
 * Simple transactional messaging (i.e. password reset, email receipts, order confirmations, etc.)
 * Integration of Campaign data to Adobe Experience Platform for analysis and profile building
-* Sharing of Real-Time Customer Data Platform audiences to Campaign.
+* Sharing of Real-time Customer Data Platform audiences to Campaign.
 
 <br>
 

@@ -12,7 +12,7 @@ Segment Match enables partner brands to share audiences across their respective 
 
 The service enables customers to securely identify matching IDs in a safe, neutral way without having to disclose their entire database. Partners receive only designated attributes (segment name) for overlapping IDs, enabling faster and easier sharing in a controllable, consent-governed manner.
 
-[!UICONTROL Segment Match] uses AEP data governance and consent framework as its backbone. It is available for all B2C and B2P Real-Time Customer Data Platform customers. Key features of [!UICONTROL [!UICONTROL Segment Match]] include:
+[!UICONTROL Segment Match] uses AEP data governance and consent framework as its backbone. It is available for all B2C and B2P Real-time Customer Data Platform customers. Key features of [!UICONTROL [!UICONTROL Segment Match]] include:
 
 * Segment sharing for overlapping consenting customers
 * Pre-share overlap reports for insights on estimated match volume
