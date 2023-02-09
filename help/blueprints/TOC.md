@@ -29,9 +29,7 @@ role: Architect, Developer, User
   + [Anonymous Audience Activation (AAM)](/help/blueprints/audience-activation/anonymous.md)
   + Known Customer Activation (RTCDP) {#known-customer-audience-activation}
     + [Overview](/help/blueprints/audience-activation/known.md)
-    + Activation to Social & Advertising Channels{#audience-activation}
-      + [Activation to Facebook Custom Audiences](/help/blueprints/audience-activation/destinations/facebook.md)
-      + [Activation to Google Customer Match](/help/blueprints/audience-activation/destinations/gcm.md)
+    + [Activation to Social & Advertising Channels](/help/blueprints/audience-activation/advertising-activation.md)
     + [Activation to File & Enterprise Streaming Destinations](/help/blueprints/audience-activation/enterprise-destinations.md)
     + [Customer Activity Hub](/help/blueprints/audience-activation/customer-activity.md)
     + [Segment Match](/help/blueprints/audience-activation/segment-match.md)

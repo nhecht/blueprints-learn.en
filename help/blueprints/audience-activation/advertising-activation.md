@@ -1,14 +1,13 @@
 ---
-title: Activation to Google Customer Match
-description: Activation to FGoogle Customer Match.
+title: Activation to Social and Advertising Destinations from Real-time Customer data Platform
+description: Activation to Social and Advertising Destinations from Real-time Customer data Platform
 solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
-exl-id: 32bdc04d-b101-4b17-af27-329e5c71d888
+exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
 ---
+# Activation to Social and Advertising Destinations from Real-time Customer data Platform
 
-# Activation to Google Customer Match
-
-Ingest customer data from multiple sources to build a single profile view of the customer, segment these profiles to built audiences for marketing and personalization, share these audiences to Social Ad Networks such as Google Customer Match to target and personalization campaigns against those audiences. Google Customer Match lets you use your online and offline data to reach and re-engage with your customers across Google's owned and operated properties, such as: Search, Shopping, Gmail, and YouTube.
+Ingest customer data from multiple sources to build a single profile view of the customer, segment these profiles to built audiences for marketing and personalization, share these audiences to Ad Networks such as Facebook and Google to target and personalization campaigns against those audiences. 
 
 ## Use cases
 
@@ -21,12 +20,15 @@ Ingest customer data from multiple sources to build a single profile view of the
 
 ## Architecture
 
-<img src="../assets/gcm.svg" alt="Reference architecture for Google Customer Match Activation" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="./assets/social_activation.svg" alt="Reference architecture for Facebook Custom Audience Activation" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ## Implementation steps
 
 1. Configure Identity Namespaces to be used in Profile data sources.
     * Use out of the box namespaces such as Email, Email SHA256 Hash, where available.
+    * Facebook has a list of supported identities. In order to activate to Facebook custom audiences, one of the supported identities must be present in the profiles to be activated.
+    * The following identities are currently supported by Facebook: GAID, IDFA, phone_sha256, email_lc_sha256, extern_id.
+    * For additional details see the [Facebook Destination Guide](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html).
     * Google Customer Match has a list of supported identities. In order to activate to Google Customer Match, one of the supported identities must be present in the profiles to be activated.
     * The following identities are currently supported by Google Customer Match: GAID, IDFA, phone_sha256_e.164, email_lc_sha256, user_id.
     * For additional details see the [Google Customer Match Destination Guide](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html).
@@ -64,19 +66,23 @@ Ingest customer data from multiple sources to build a single profile view of the
     * Review the segment results count for the given segments.
     * Investigate the profile that should be included in the segment to verify the segment membership is included in the segment membership portion of the profile.
 1. Configure the delivery of the audience to the destination in the Destination configuration.
-    * See the [Google Customer Match Destination Guide](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html) for further details on configuring the Facebook Destination.
+    * See the [Facebook Destination Guide](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html) for further details on configuring the Facebook Destination.
+    * See the [Google Customer Match Destination Guide](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html) for further details on configuring the Google Destination.
     * When configuring a destination, select which audience you would like to activate to the destination.
     * Determine the scheduled start date you would like the destination dataflow to begin delivering the audience to the destination.
     * Each destination has required and optional attributes that will be sent.
+        * For Facebook one of the required identities must be included and is used to match the profiles in the audiences within Experience Platform to a profile that is targetable by Facebook.
         * For Google Customer Match one of the required identities must be included and is used to match the profiles in the audiences within Experience Platform to a profile that is targetable by Google Customer Match.
     * Each destination also has a specified delivery type, whether streaming or batch, file based or JSON payload.
+        * For Facebook, audience memberships are delivered in streaming fashion to a Facebook endpoint in JSON format.
         * For Google Customer Match, audience memberships are delivered in streaming fashion to a Google Customer Match endpoint in JSON format.
         * Audience memberships will be delivered in streaming fashion subsequent to the streaming or batch segmentation evaluation in Experience Platform.
 1. Ensure the destination flow has delivered the audience to the destination as expected. 
-    * Check the monitoring interface to confirm the audience was delivered with the number of profiles expected. The audience size should be reflective of the expected number of profiles activated, noting that specific destination such as Google Customer Match will require certain fields, such as an email hash identity, and if not present in the profile that is a member of the audience, it will not be activated to the destination.
+    * Check the monitoring interface to confirm the audience was delivered with the number of profiles expected. The audience size should be reflective of the expected number of profiles activated, noting that specific destination such as Facebook and Google will require certain fields, such as an email hash identity, and if not present in the profile that is a member of the audience, it will not be activated to the destination.
     * Check for any skipped profiles for profile identities missing or attributes missing that were mandatory.
     * Check for any other errors that may need to be resolved.
 1. Verify the audience was activated to the end destination with the expected number of audience memberships.
+    * Login to Facebook Custom Audience portal to verify the audience from Real-time Customer Data Platform was delivered and that the match rate of profiles in the audience in Facebook reasonably matches the number of profiles in the audience from Real-time Customer Data Platform.
     * After completing the activation flow, switch to your Google Ads account. The activated segments are shown in your Google account as customer lists. Please note that depending on your segment size, some audiences do not populate unless there are over 100 active users to serve.
 
 ## Guardrails
@@ -84,5 +90,7 @@ Ingest customer data from multiple sources to build a single profile view of the
 [Profile & Segmentation Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 
 ## Related documentation
+
+Activation to Facebook Custom Audiences - [Destination Configuration](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html)
 
 Activation to Google Customer Match - [Destination Configuration](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html)
