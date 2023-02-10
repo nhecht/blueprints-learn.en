@@ -37,7 +37,7 @@ See the [Experience Platform and Applications Architecture Section](https://expe
 
 ### Audience and Profile Activation with Experience Cloud applications
 
-<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Reference architecture for the Audience and Profile Activation with Experience Cloud applications" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
+<img src="../experience-platform/assets/aep+apps.svg" alt="Reference architecture for the Audience and Profile Activation with Experience Cloud applications" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
 <br>
 
 ## Guardrails
