@@ -35,4 +35,4 @@ This limitation had to be solved in order to initiate a timelier follow-up to us
 
 ### Blueprint architecture
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><img alt="image for an Telecommunications business offers tailored deals in real-time while with efficient customer onboarding for long term loyalty." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/journey-optimizer.png?lang=en"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><img alt="image for an Telecommunications business offers tailored deals in real-time while with efficient customer onboarding for long term loyalty." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/ajo-architecture.svg"/></a>
