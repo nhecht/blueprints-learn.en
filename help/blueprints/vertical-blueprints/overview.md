@@ -12,10 +12,10 @@ Learn how customers are architecting great experiences and succeeding with Digit
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/apparel.html"><img alt="thumbnail image for an Apparel industry using audience activation, customer journey analytics, and customer journeys Blueprints" src="../experience-platform/assets/aep+apps_vertical.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/apparel.html"><img alt="thumbnail image for an Apparel industry using audience activation, customer journey analytics, and customer journeys Blueprints" src="../experience-platform/assets/aep+apps.svg" /></a>
     </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/retail.html"><img alt="thumbnail image for a Retail industry using Activation with Online/Offline Data & Journey Optimizer Blueprints" src="../experience-platform/assets/aep+apps_vertical.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/retail.html"><img alt="thumbnail image for a Retail industry using Activation with Online/Offline Data & Journey Optimizer Blueprints" src="../experience-platform/assets/aep+apps.svg" /></a>
     
   </td>
   <td>
