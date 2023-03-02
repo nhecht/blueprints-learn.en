@@ -43,7 +43,6 @@ Refer to the following documentation on configuring the Campaign v8 source conne
 
 * Refer to the Campaign source connector documentation - [Campaign Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/campaign.html?lang=en)
 * Only supports Adobe Campaign single organizational unit deployments
-* Adobe Campaign is source of truth for all active profiles meaning profiles must exist in Adobe Campaign and new profiles should not be created based on Experience Platform segments.
 
 
 ### Experience Platform Real-time Customer Data Platform segment sharing
