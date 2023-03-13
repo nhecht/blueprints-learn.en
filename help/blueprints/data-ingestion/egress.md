@@ -149,3 +149,236 @@ Refer to the [Journey Optimizer custom actions](https://experienceleague.adobe.c
 * Custom actions can be performed in a streaming one by one fashion for each event or profile in a journey. Bulk operations or bulk data egress in the form of files or aggregated requests across customer journeys can not be performed. 
 * Streaming access to Real-time Customer Profile attributes and experience events which can be included in the activation payload.
 * Event data can be filtered and simple mapping transformations applied before sending events to external destinations.
+
+
+
+<table cellspacing="0" class="Table" style="border-collapse:collapse; width:1303px">
+	<tbody>
+		<tr>
+			<td colspan="5" style="background-color:#308fff; border-bottom:4px solid white; border-left:1px solid white; border-right:1px solid white; border-top:1px solid white; height:39px; vertical-align:top; width:1303px">
+			<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="color:black">Streaming Destinations</span></strong></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#969696; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:240px">
+			<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Method</span></span></span></p>
+			</td>
+			<td style="background-color:#969696; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:593px">
+			<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Common Use Cases</span></span></span></p>
+			</td>
+			<td style="background-color:#969696; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:164px">
+			<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Protocols</span></span></span></p>
+			</td>
+			<td style="background-color:#969696; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:305px">
+			<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Considerations</span></span></span></p>
+			</td>
+			<td style="border-bottom:none; border-left:none; border-right:none; border-top:none; width:1px">
+			<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif">&nbsp;</span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:240px">
+			<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Event Forwarding</span></span></span></p>
+			</td>
+			<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:593px">
+			<ul style="list-style-type:square">
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Forwarding of raw data collected from Adobe SDKs for analysis and collection to enterprise systems</span></span></span></li>
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Light weight tagging for 3<sup>rd</sup> party data collection through extensions</span></span></span></li>
+			</ul>
+			</td>
+			<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:164px">
+			<ul style="list-style-type:square">
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Push</span></span></span></li>
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">JSON</span></span></span></li>
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">REST API</span></span></span></li>
+			</ul>
+			</td>
+			<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:305px">
+			<ul style="list-style-type:square">
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Low level raw events</span></span></span></li>
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">No aggregation or prior record context added</span></span></span></li>
+			</ul>
+			</td>
+			<td style="border-bottom:none; border-left:none; border-right:none; border-top:none; width:1px">
+			<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif">&nbsp;</span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:240px">
+			<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP &ndash; Streaming Segment Exports</span></span></span></p>
+			</td>
+			<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:593px">
+			<ul style="list-style-type:square">
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Activate audiences from RTCDP to marketing and advertising, systems..</span></span></span></li>
+			</ul>
+			</td>
+			<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:164px">
+			<ul style="list-style-type:square">
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Push</span></span></span></li>
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">JSON</span></span></span></li>
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">REST API</span></span></span></li>
+			</ul>
+			</td>
+			<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:305px">
+			<ul style="list-style-type:square">
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Aggregated data representing audience membership</span></span></span></li>
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">No activation of raw experience event data</span></span></span></li>
+			</ul>
+			</td>
+			<td style="border-bottom:none; border-left:none; border-right:none; border-top:none; width:1px">
+			<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif">&nbsp;</span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:240px">
+			<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP &ndash; Profile Export Destinations</span></span></span></p>
+			</td>
+			<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:593px">
+			<ul style="list-style-type:square">
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Leverage RTCDP rich behavioral profiles and audiences to enhance consumer experiences and marketing.</span></span></span></li>
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Activate audiences and profile attributes from RTCDP to marketing and advertising, systems that operate on audiences and profile attributes. </span></span></span></li>
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Activate AEP profiles to Email Service Providers, lead nurturing and CRM systems.</span></span></span></li>
+			</ul>
+			</td>
+			<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:164px">
+			<ul style="list-style-type:square">
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Push</span></span></span></li>
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">JSON</span></span></span></li>
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">REST API</span></span></span></li>
+			</ul>
+			</td>
+			<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:305px">
+			<ul style="list-style-type:square">
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Aggregated data representing audience membership and profile record attributes</span></span></span></li>
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">No activation of raw experience event data</span></span></span></li>
+			</ul>
+			</td>
+			<td style="border-bottom:none; border-left:none; border-right:none; border-top:none; width:1px">
+			<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif">&nbsp;</span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:240px">
+			<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP - Personalization Destinations</span></span></span></p>
+			</td>
+			<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:593px">
+			<ul style="list-style-type:square">
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Access the Real-time Customer Profile in browser and client side experiences to enrich client side personalization. </span></span></span></li>
+			</ul>
+			</td>
+			<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:164px">
+			<ul style="list-style-type:square">
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">JSON</span></span></span></li>
+			</ul>
+			</td>
+			<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:305px">
+			<ul style="list-style-type:square">
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Requires deployment of WebSDK</span></span></span></li>
+			</ul>
+			</td>
+			<td style="border-bottom:none; border-left:none; border-right:none; border-top:none; width:1px">
+			<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif">&nbsp;</span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:240px">
+			<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP - Destination SDK</span></span></span></p>
+			</td>
+			<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:593px">
+			<ul style="list-style-type:square">
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Configure a customized destination card in the RTCDP destinations.</span></span></span></li>
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Supports file and streaming type destinations</span></span></span></li>
+			</ul>
+			</td>
+			<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:164px">
+			<ul style="list-style-type:square">
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">JSON</span></span></span></li>
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">CSV</span></span></span></li>
+			</ul>
+			</td>
+			<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:305px">
+			<ul style="list-style-type:square">
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Allows partners and brands to configure custom destination cards</span></span></span></li>
+			</ul>
+			</td>
+			<td style="border-bottom:none; border-left:none; border-right:none; border-top:none; width:1px">
+			<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif">&nbsp;</span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:240px">
+			<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP - Profile Lookup Hub API</span></span></span></p>
+			</td>
+			<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:593px">
+			<ul style="list-style-type:square">
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Access profile to enrich consumer experiences for agent assisted experiences such as support or sales agent interactions.</span></span></span></li>
+			</ul>
+			</td>
+			<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:164px">
+			<ul style="list-style-type:square">
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Pull</span></span></span></li>
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">JSON</span></span></span></li>
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">REST API</span></span></span></li>
+			</ul>
+			</td>
+			<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:305px">
+			<ul style="list-style-type:square">
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Hub lookup ideal for &gt;500ms+ use cases only</span></span></span></li>
+			</ul>
+			</td>
+			<td style="border-bottom:none; border-left:none; border-right:none; border-top:none; width:1px">
+			<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif">&nbsp;</span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:27px; vertical-align:top; width:240px">
+			<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP - Profile Lookup Edge API</span></span></span></p>
+			</td>
+			<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:27px; vertical-align:top; width:593px">
+			<ul style="list-style-type:square">
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Access profile on the edge to enrich consumer experiences for real-time &lt;200ms experiences such as personalization or offer decisions on web and mobile.</span></span></span></li>
+			</ul>
+			</td>
+			<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:27px; vertical-align:top; width:164px">
+			<ul style="list-style-type:square">
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Pull</span></span></span></li>
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">JSON</span></span></span></li>
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">REST API</span></span></span></li>
+			</ul>
+			</td>
+			<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:27px; vertical-align:top; width:305px">
+			<ul style="list-style-type:square">
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">For real-time experiences and server to server integrations</span></span></span></li>
+			</ul>
+			</td>
+			<td style="border-bottom:none; border-left:none; border-right:none; border-top:none; width:1px">
+			<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif">&nbsp;</span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:240px">
+			<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Journey Optimizer Custom Actions</span></span></span></p>
+			</td>
+			<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:593px">
+			<ul style="list-style-type:square">
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Activation of 1:1 journey events and triggers to notify an external system. Cart abandons, application abandons, registrations.</span></span></span></li>
+			</ul>
+			</td>
+			<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:164px">
+			<ul style="list-style-type:square">
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Push</span></span></span></li>
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">JSON</span></span></span></li>
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">REST API</span></span></span></li>
+			</ul>
+			</td>
+			<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:305px">
+			<ul style="list-style-type:square">
+				<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Single event activation for a given profile. Not for aggregation or bulk operations</span></span></span></li>
+			</ul>
+			</td>
+			<td style="border-bottom:none; border-left:none; border-right:none; border-top:none; width:1px">
+			<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif">&nbsp;</span></span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
