@@ -2,6 +2,7 @@
 title: Anonymous Audience Activation blueprint
 description: Learn to target audiences across web and advertising channels based on anonymous and behavioral customer data. This ability enables personalized and consistent real-time customer experiences across devices.
 landing-page-description: Learn to target audiences across web and advertising channels based on anonymous and behavioral customer data.
+short-description: Learn to target audiences across web and advertising channels based on anonymous and behavioral customer data.
 solution: Audience Manager
 kt: 7211
 thumbnail:

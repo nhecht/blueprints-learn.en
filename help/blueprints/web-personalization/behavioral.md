@@ -2,6 +2,7 @@
 title: Behavioral Web Personalization blueprint
 description: Find out how to personalize content based on online behavior and audience data.
 landing-page-description: Learn to personalize based on online behavior and audience data.
+short-description: Learn to personalize based on online behavior and audience data.
 solution: Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7085
 thumbnail: thumb-web-personalization-scenario1.jpg
