@@ -68,7 +68,7 @@ role: Architect, Developer, User
     + [Journey Optimizer with Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + Data Collection, Access, & Export{#data-ingestion}
   + [Overview](/help/blueprints/data-ingestion/overview.md)
-  + []
+  + [Multi Sandbox Event Forwarding Data Collection](/help/blueprints/data-ingestion/multi-sandbox-event-forwarding.md)
   + [Data Preparation & Ingestion](/help/blueprints/data-ingestion/ingestion.md)
   + [Data Access & Export](/help/blueprints/data-ingestion/egress.md)
   + [Event Forwarding](/help/blueprints/data-ingestion/server-side-collection.md)
