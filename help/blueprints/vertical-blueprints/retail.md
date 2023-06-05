@@ -18,7 +18,7 @@ This integrated experience business sought to personalize the entire customer jo
 
 | Goals | Tactics| Value Unlocked|
 |---|---|---|
-| **Orchestrate real-time customer journeys**<br></br>**Drive repeat purchases from new customers**<br></br>**Improve marketing efficiencies and reduce media costs**</ul> | <ul><li>Robust data and identity strategy to fuel a comprehensive real-time profile.</li><li>Customer and transactional data streaming in real-time including plus a 90 day historical load</li><li>Streaming segmentation to Google and Adobe Target to power media spend and personalization efforts.</li><li>Real-time customer journeys through Adobe Campaign that includes a strategy to measure performance</li></ul>                               | <ul><li><strong>Real-time Customer Data Platform:</strong> Delivering real-time, customer experiences across media, email, push, and web</li><li><strong>Data Sources:</strong> Streaming data covering this retailer's profile stores, order system, product catalogue, and retail outlets.</li><li><strong>Real-time Media Activation:</strong>Streaming segments out to Google media for attribution & ad suppression</li><li><strong>Real-time Web Personalization:</strong>Streaming segments out to Adobe Target in order to activate on retailer's web experience.</li><li><strong>Journey Orchestration at Scale:</strong>Triggered messaging in real-time enriched with all available customer data & activating real-time in email & push channels</li></ul>    |
+| **Orchestrate real-time customer journeys**<br></br>**Drive repeat purchases from new customers**<br></br>**Improve marketing efficiencies and reduce media costs**</ul> | <ul><li>Robust data and identity strategy to fuel a comprehensive real-time profile.</li><li>Customer and transactional data streaming in real-time including a 90 day historical load</li><li>Streaming segmentation to Advertising Networks and Adobe Target to power media spend and personalization efforts.</li><li>Real-time customer journeys through Adobe Campaign that include a strategy to measure performance</li></ul>                               | <ul><li><strong>Real-time Customer Data Platform:</strong> Delivering real-time, customer experiences across media, email, push, and web</li><li><strong>Data Sources:</strong> Streaming data covering this retailer's profile stores, order system, product catalogue, and retail outlets.</li><li><strong>Real-time Media Activation:</strong>Streaming segments to Advertising Networks for attribution & ad suppression</li><li><strong>Real-time Web Personalization:</strong>Streaming segments activated to Adobe Target in order to activate on the retailer's web experience.</li><li><strong>Journey Orchestration at Scale:</strong>Triggered messaging in real-time enriched with available customer data & activated in real-time to email & push channels</li></ul>    |
 
 
 ## Usecases
@@ -27,28 +27,28 @@ This integrated experience business sought to personalize the entire customer jo
 |:----|:----|:----|:----|
 |Customer Journeys|Acquisition|Welcome Series|Welcome new subscribers with introduction to the business, product & services|
 | | |1st purchase program| |
-| |Improve Sales|Abandoned Cart/Browse|Recover more of them and drive-up sales|
+| |Improve Sales|Abandoned Cart/Browse|Recover prospective purchasers and drive-up sales|
 | | |Product Review/Cross-Sell|Cross-sell more items with Product reviews.|
 | | |Product Promotions||
 | | |Time to Reorder|Recurring reminder for cyclic products/services|
-| |Brand Loyalty|Win back|Recover customers who have been on sunset.|
+| |Brand Loyalty|Win back|Recover customers who have been inactive.|
 | | |Birthday Reminders|Foster a more personal relationship with your customers by being part of their birthday celebration!|
-|Merchandising|Manage Inventory|Back in Stock|Improve inventory by showing customers products they wanted is back|
-| | |Next Best Category| Identity best categories/selling for users|
+|Merchandising|Manage Inventory|Back in Stock|Improve inventory by showing customers products they wanted are back in stock|
+| | |Next Best Category| Identify best categories/selling for users|
 | | |Best Sellers| |
-| | |Price Drop Reminders|Show users that item they liked has reduced price|
+| | |Price Drop Reminders|Show users that items they liked have a reduced price|
 | | |Similar Products||
 |Personalize|Increase Conversion|Coupons/Offers|Show best offers/coupons to customers|
 | | |Personalized Product Search|Improve search experience|
 | | |Product Recommendations|Improve product browsing experience|
 | | |Omni-Channel Experience|Reach customers across all channels|
-|Measure|Understand Customer Journey |Cross Channel Campaign |Measure cross channel campaigns|
-| | |Segment Performance|Understand segments better|
+|Measure|Understand Customer Journeys |Cross Channel Campaign |Measure cross channel campaigns|
+| | |Segment Performance|Understand segment performance and contribution|
 | | |Fallout Reports|Visualize conversions at each stage|
 | | |Cohort Analysis|Measure engagement between segment groups|
 | | |Click-to-Brick Reports|See how customer conversions lead to in-store experience|
-| | |Attribution|View which touchpoint/experience is most engaging|
-| | |Predictive Insights|Know more about customers|
+| | |Attribution|View which touchpoint/experience has the highest influence on purchase conversion|
+| | |Predictive Insights|Know more about customer propensities|
 
 ## Architecture
 
