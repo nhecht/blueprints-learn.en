@@ -141,11 +141,9 @@ Now that you have a foundational understanding of how Workfront and Marketo Enga
 
 ### Getting started with Workfront Fusion, Workfront and Marketo Engage integration {#getting-started-with-workfront-fusion}
 
-* [Intake and Create](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md){target="_blank"} - Campaign Development Automation with Marketo Engage and Workfront
+* [Intake and Create](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md){target="_blank"} - Campaign Development Automation with Marketo Engage and Workfront
 
 * Proof and Approve (Coming soon)
-
-* Report and Audit (Coming soon)
 
 ### Managing Marketo Engage campaign names and their associated URLs {#managing-marketo-engage-campaign-names}
 
