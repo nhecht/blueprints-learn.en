@@ -1,6 +1,6 @@
 ---
 title: Intake and Create blueprint
-description: Intake and Create - Optimize Campaign Supply Chain with Marketo and Workfront
+description: Intake and Create - Marketo Engage and Workfront integration blueprint
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
 ---
 # Intake and Create blueprint {#intake-and-create}
