@@ -151,4 +151,4 @@ Here's an example of how the workflow logic can be assembled in Fusion using pre
 
 * [Adobe Workfront Modules](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html){target="_blank"}
 
-* [Marketo and Workfront Overview](/help/blueprints/b2b/campaign-supply-chain/overview.md){target="_blank"}
+* [Marketo and Workfront Overview](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}
