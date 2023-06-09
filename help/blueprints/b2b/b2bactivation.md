@@ -94,6 +94,6 @@ If the implementation will be using Marketo Engage as a source and Marketo Engag
 
 * [B2B Edition of Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
-* [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=en) 
+* [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html) 
 * [Adobe Experience Platform - Marketo Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=en)
-* [Adobe Experience Platform – Marketo Destination Connector](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/push-an-adobe-experience-cloud-segment-to-a-marketo-static-list.html?lang=en)
+* [Adobe Experience Platform – Marketo Destination Connector](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/push-an-adobe-experience-cloud-segment-to-a-marketo-static-list.html)

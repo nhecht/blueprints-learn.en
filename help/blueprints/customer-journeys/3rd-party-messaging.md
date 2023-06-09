@@ -106,7 +106,7 @@ Additional Journey Optimizer Guardrails:
     * Identity for Edge Network
     * Mobile Core
 1. Ensure you have a dedicated datastream for mobile app deployments vs. web deployments
-1. For more information follow the [Adobe Journey Optimizer Mobile Guide](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
+1. For more information follow the [Adobe Journey Optimizer Mobile Guide](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/)
 
 <br>
 

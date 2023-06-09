@@ -1,11 +1,11 @@
 ---
-title: Campaign Supply Chain with Marketo and Workfront blueprints
-description: Overview - Optimize Campaign Supply Chain with Marketo and Workfront blueprints
+title: Marketo Engage and Workfront integration blueprint overview
+description: Overview - Marketo Engage and Workfront integration blueprint overview
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
 ---
-# Campaign Supply Chain with Marketo and Workfront blueprints {#overview}
+# Marketo Engage and Workfront integration blueprint overview {#overview}
 
-## Achieve faster time-to-market With optimized campaign supply chain {#achieving-faster-time-to-market-with-optimized-campaign-supply-chain}
+## Achieve faster time-to-market with Marketo Engage and Workfront {#achieve-faster-time-to-market-with-marketo-engage-and-workfront}
 
 The job of marketing continues to grow with new channels and more ways to personalize communications every day. Marketing teams need ways to continue to automate and evolve to support changing marketing demands around the world.
 
@@ -141,15 +141,13 @@ Now that you have a foundational understanding of how Workfront and Marketo Enga
 
 ### Getting started with Workfront Fusion, Workfront and Marketo Engage integration {#getting-started-with-workfront-fusion}
 
-* [Intake and Create](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md){target="_blank"} - Campaign Development Automation with Marketo Engage and Workfront
+* [Intake and Create](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md){target="_blank"} - Campaign Development Automation with Marketo Engage and Workfront
 
 * Proof and Approve (Coming soon)
 
-* Report and Audit (Coming soon)
-
 ### Managing Marketo Engage campaign names and their associated URLs {#managing-marketo-engage-campaign-names}
 
-Standardizing your naming conventions for campaigns and URLs is a key foundation to accurate program management in Marketo Engage and helps drive a more consistent process across the campaign supply chain. If you're looking for tools to help with this, we recommend checking out some free open source tools from [Adobe Success Services](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"} that allow you to create a consistent approach to creating and managing Marketo Engage campaigns and their associated URLs.
+Standardizing your naming conventions for campaigns and URLs is a key foundation to accurate program management in Marketo Engage and helps drive a more consistent process across the campaign development lifecycle. If you're looking for tools to help with this, we recommend checking out some free open source tools from [Adobe Success Services](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"} that allow you to create a consistent approach to creating and managing Marketo Engage campaigns and their associated URLs.
 
 ### Resources {#resources}
 

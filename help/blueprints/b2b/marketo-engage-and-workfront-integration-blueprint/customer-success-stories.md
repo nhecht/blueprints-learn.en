@@ -1,6 +1,6 @@
 ---
 title: Customer Success Stories
-description: Customer Success Stories - Optimize Campaign Supply Chain with Marketo and Workfront
+description: Customer Success Stories - Marketo Engage and Workfront integration blueprint
 exl-id: fabe67b4-8ad6-49fc-a38f-cd4b5319d09a
 ---
 # Customer success stories {#customer-success-stories}

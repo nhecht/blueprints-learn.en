@@ -37,10 +37,10 @@ role: Architect, Developer, User
 + B2B Activation & Marketing{#b2b-activation}
   + [Overview](/help/blueprints/b2b/overview.md)
   + [B2B Activation](/help/blueprints/b2b/b2bactivation.md)
-  + Campaign Supply Chain with Marketo and Workfront{#optimize-campaign-supply-chain-with-marketo-and-workfront}
-    + [Overview](/help/blueprints/b2b/campaign-supply-chain/overview.md)
-    + [Intake and Create](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md)
-    + [Customer Success Stories](/help/blueprints/b2b/campaign-supply-chain/customer-success-stories.md)
+  + Marketo Engage and Workfront Integration Blueprint{#marketo-engage-and-workfront-integration-blueprint}
+    + [Overview](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)
+    + [Intake and Create](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
+    + [Customer Success Stories](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md)
 + Customer Journey Analytics{#customer-journey-analytics}
   + [Overview](/help/blueprints/customer-journey-analytics/overview.md)
   + [Sharing CJA Audiences to RTCDP](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
@@ -68,6 +68,7 @@ role: Architect, Developer, User
     + [Journey Optimizer with Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + Data Collection, Access, & Export{#data-ingestion}
   + [Overview](/help/blueprints/data-ingestion/overview.md)
+  + [Multi Sandbox Event Forwarding Data Collection](/help/blueprints/data-ingestion/multi-sandbox-event-forwarding.md)
   + [Data Preparation & Ingestion](/help/blueprints/data-ingestion/ingestion.md)
   + [Data Access & Export](/help/blueprints/data-ingestion/egress.md)
   + [Event Forwarding](/help/blueprints/data-ingestion/server-side-collection.md)

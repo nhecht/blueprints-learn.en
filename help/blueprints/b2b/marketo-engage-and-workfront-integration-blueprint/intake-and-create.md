@@ -1,6 +1,6 @@
 ---
 title: Intake and Create blueprint
-description: Intake and Create - Optimize Campaign Supply Chain with Marketo and Workfront
+description: Intake and Create - Marketo Engage and Workfront integration blueprint
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
 ---
 # Intake and Create blueprint {#intake-and-create}
@@ -19,7 +19,7 @@ The workflow below shows a request for a webinar being made by a campaign manage
 
 >[!TIP]
 >
->To learn more about the different types of objects in Workfront used for organizing marketing campaign work and how it's mapped to a Marketo Engage program, check out the [Marketo and Workfront Overview](/help/blueprints/b2b/campaign-supply-chain/overview.md){target="_blank"}.
+>To learn more about the different types of objects in Workfront used for organizing marketing campaign work and how it's mapped to a Marketo Engage program, check out the [Marketo and Workfront Overview](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}.
 
 ## Prepare your campaign development process for automation {#prepare-your-campaign-development-process-for-automation}
 
@@ -151,4 +151,4 @@ Here's an example of how the workflow logic can be assembled in Fusion using pre
 
 * [Adobe Workfront Modules](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html){target="_blank"}
 
-* [Marketo and Workfront Overview](/help/blueprints/b2b/campaign-supply-chain/overview.md){target="_blank"}
+* [Marketo and Workfront Overview](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}
