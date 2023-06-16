@@ -3,8 +3,8 @@ title: Multi-sandbox event-forwarding data collection
 description: Learn how data collected with Experience Platform Web and Mobile SDKs can be configured to collect a single event and forwarded to multiple Experience Platform sandboxes.
 solution: Data Collection
 kt: 7202
+exl-id: 3d9d312a-50b6-435f-b277-076e0c442a5f
 ---
-
 # Multi-sandbox event-forwarding data collection
 
 This blueprint shows how data collected with Experience Platform Web and Mobile SDKs can be configured to collect a single event and forward to multiple AEP sandboxes. This blueprint is specific to multi-sandbox data collection that uses [!UICONTROL Event Forwarding] to accomplish this goal.
