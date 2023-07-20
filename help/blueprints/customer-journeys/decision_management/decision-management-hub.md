@@ -57,13 +57,13 @@ Adobe Experience Platform
 
 ### Data ingestion guardrails
 
-<img src="../../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Experience Platform Data Flow" style="border:1px solid #4a4a4a" width="85%" class="modal-image" />
+<img src="../../experience-platform/deployment/assets/aep_data_flow_guardrails.svg" alt="Experience Platform Data Flow" style="border:1px solid #4a4a4a" width="85%" class="modal-image" />
 
 <br>
 
 ### Activation guardrails
 
-<img src="../../experience-platform/assets/AJO_guardrails.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:85%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="../../experience-platform/deployment/assets/AJO_guardrails.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:85%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
