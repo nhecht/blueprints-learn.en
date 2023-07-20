@@ -1,7 +1,7 @@
 ---
 title: Activation to Social and Advertising Destinations from Real-time Customer data Platform
 description: Activation to Social and Advertising Destinations from Real-time Customer data Platform
-solution: Real-time Customer Data Platform, Data Collection
+solution: Real-Time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
 ---
