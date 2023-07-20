@@ -10,7 +10,7 @@ exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 Guardrails are recommended thresholds that provide guidance for data and system usage, optimizing performance, and avoiding errors or unexpected results in Adobe Experience Platform and applications. Guardrails are intended to reflect system constrainsts and performance expectations to facilitate customer architecture and use case performance optimization. Guardrails are not intended to be service level agreements, for information on product specific service level agreements please refer to the Product Descriptions documentation linked below.
 
 
-## Guardrails for Adobe Experience Platform and Applications
+## Guardrails Reference Documentation for Adobe Experience Platform and Applications
 
 [Data ingestion guardrails](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=en)
 
@@ -36,31 +36,31 @@ Guardrails are recommended thresholds that provide guidance for data and system 
 
 ### Data ingestion
 
-<img src="../assets/aep_data_flow_guardrails.svg" alt="Experience Platform Data Flow" style="border:1px solid #4a4a4a" width="85%" />
+<img src="assets/aep_data_flow_guardrails.svg" alt="Experience Platform Data Flow" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Segmentation
 
-<img src="../assets/segmentation_guardrails.svg" alt="Experience Platform Segmentation Guardrails" style="border:1px solid #4a4a4a" width="85%" />
+<img src="assets/segmentation_guardrails.svg" alt="Experience Platform Segmentation Guardrails" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Real-time Customer Data Platform & Adobe Target
 
-<img src="../assets/RTCDP_Target_guardrails.svg" alt="RTCDP & Target Guardrails" style="border:1px solid #4a4a4a" width="85%" />
+<img src="assets/RTCDP_Target_guardrails.svg" alt="RTCDP & Target Guardrails" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Customer Journey Analytics
 
-<img src="../assets/CJA_guardrails.svg" alt="CJA Guardrails" style="border:1px solid #4a4a4a" width="85%" />
+<img src="assets/CJA_guardrails.svg" alt="CJA Guardrails" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Journey Optimizer
 
-<img src="../assets/AJO_guardrails.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:85%; border:1px solid #4a4a4a" />
+<img src="assets/AJO_guardrails.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:85%; border:1px solid #4a4a4a" />
 
 <br>
 
