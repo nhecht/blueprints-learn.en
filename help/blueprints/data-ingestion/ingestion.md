@@ -20,7 +20,7 @@ Data preparation includes the mapping of source data to Experience Data Model (X
 
 The below diagram illustrates the average performance guardrails and latency for data ingestion into Adobe Experience Platform.
 
-<img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Experience Platform Data Flow" style="border:1px solid #4a4a4a; margin-bottom: 15px;" width="90%" class="modal-image" />
+<img src="../experience-platform/deployment/assets/aep_data_flow_guardrails.svg" alt="Experience Platform Data Flow" style="border:1px solid #4a4a4a; margin-bottom: 15px;" width="90%" class="modal-image" />
 
 ## Data ingestion methods
 

@@ -24,4 +24,4 @@ For a detailed list of all data egress and access patters see the [Data Access a
 
 The below diagram illustrates the average performance guardrails and latency for data ingestion into Adobe Experience Platform.
 
-<img src="assets/aep_data_flow_guardrails.svg" alt="Experience Platform Data Flow" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" class="modal-image" />
+<img src="deployment/assets/aep_data_flow_guardrails.svg" alt="Experience Platform Data Flow" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" class="modal-image" />

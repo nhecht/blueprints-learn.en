@@ -22,7 +22,7 @@ See the following documentation for guidance on implementation and configuration
 
 * For detailed guardrails and end to end latencies refer to the [deployment guardrails document](../experience-platform/deployment/guardrails.md)
 
-![Guardrail diagram](../experience-platform/assets/CJA_guardrails.svg){zoomable="yes"}
+![Guardrail diagram](../experience-platform/deployment/assets/CJA_guardrails.svg){zoomable="yes"}
 
 ## Frequently asked questions
 
