@@ -40,7 +40,7 @@ Take note of the different phases in the campaign development process.
 
 1. Intake and Create: the request for campaign is made and the campaign assets are programmatically assembled.
 
-1. Proof and Approve: once the campaign is assembled it's time for stakeholders to review and sign-off on campaign assets such as emails and landing pages.
+1. Review and Approve: once the campaign is assembled it's time for stakeholders to review and sign-off on campaign assets such as emails and landing pages.
 
 1. Report and Audit: share campaign results to Workfront to provide greater visibility to cross-functional stakeholders.
 
@@ -143,7 +143,7 @@ Now that you have a foundational understanding of how Workfront and Marketo Enga
 
 * [Intake and Create](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md){target="_blank"} - Campaign Development Automation with Marketo Engage and Workfront
 
-* Proof and Approve (Coming soon)
+* [Review and Approve](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md){target="_blank"}
 
 ### Managing Marketo Engage campaign names and their associated URLs {#managing-marketo-engage-campaign-names}
 

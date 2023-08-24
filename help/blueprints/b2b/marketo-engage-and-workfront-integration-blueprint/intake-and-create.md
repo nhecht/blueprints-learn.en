@@ -143,7 +143,7 @@ Some basic information to include in your Program Template Lookup Library are:
 
 Here's an example of how the workflow logic can be assembled in Fusion using prebuilt [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html){target="_blank"} modules that enable you to deliver automation faster.
 
-![Intake and Create automation flow](assets/intake-and-create-3.png)Use tokens to populate content
+![Intake and Create automation flow](assets/intake-and-create-3.png)
 
 ## Resources {#resources}
 

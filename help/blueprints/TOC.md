@@ -40,6 +40,7 @@ role: Architect, Developer, User
   + Marketo Engage and Workfront Integration Blueprint{#marketo-engage-and-workfront-integration-blueprint}
     + [Overview](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)
     + [Intake and Create](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
+    + [Review and Approve](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md)
     + [Customer Success Stories](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md)
 + Customer Journey Analytics{#customer-journey-analytics}
   + [Overview](/help/blueprints/customer-journey-analytics/overview.md)
