@@ -7,10 +7,14 @@ exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 ---
 # Guardrails
 
-Guardrails are recommended thresholds that provide guidance for data and system usage, optimizing performance, and avoiding errors or unexpected results in Adobe Experience Platform and applications. Guardrails are intended to reflect system constrainsts and performance expectations to facilitate customer architecture and use case performance optimization. Guardrails are not intended to be service level agreements, for information on product specific service level agreements please refer to the Product Descriptions documentation linked below.
+Guardrails are recommended thresholds that provide guidance for data and system usage in Adobe Experience Platform and applications. Guardrails reflect system constraints and performance expectations to optimize customer architecture and use case performance, and help to avoid errors or unexpected results. Guardrails are not intended to be service level agreements. 
+
+For information on specific service level agreements for applications and features, refer to "Application and feature descriptions" at the bottom of this page.
 
 
 ## Guardrails Reference Documentation for Adobe Experience Platform and Applications
+
+The following pages provide information about guardrails for Adobe Experience Platform features, services, and applications:
 
 [Data ingestion guardrails](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=en)
 
@@ -64,7 +68,9 @@ Guardrails are recommended thresholds that provide guidance for data and system 
 
 <br>
 
-## Product descriptions
+## Application and feature descriptions
+
+For information on feature-specific service level agreements, refer to the descriptions below:
 
 [Experience Platform Collection Enterprise](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-collection-enterprise.html)
 
