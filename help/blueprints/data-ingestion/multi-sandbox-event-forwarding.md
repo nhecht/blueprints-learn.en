@@ -3,7 +3,7 @@ title: Multi-sandbox event-forwarding data collection
 description: Learn how data collected with Experience Platform Web and Mobile SDKs can be configured to collect a single event and forwarded to multiple Experience Platform sandboxes.
 solution: Data Collection
 kt: 7202
-exl-id: 3d9d312a-50b6-435f-b277-076e0c442a5f
+exl-id: ecc94fc8-9fad-4b88-a153-3d0fc00d8d58
 ---
 # Multi-sandbox event-forwarding data collection
 
