@@ -42,6 +42,8 @@ role: Architect, Developer, User
     + [Intake and Create](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
     + [Review and Approve](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md)
     + [Customer Success Stories](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md)
++ Content & Commerce{#content-commerce}
+  + [Adobe Commerce & RTCDP](/help/blueprints/content-commerce/commerce/commerce-rtcdp.md)
 + Customer Journey Analytics{#customer-journey-analytics}
   + [Overview](/help/blueprints/customer-journey-analytics/overview.md)
   + [Sharing CJA Audiences to RTCDP](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)

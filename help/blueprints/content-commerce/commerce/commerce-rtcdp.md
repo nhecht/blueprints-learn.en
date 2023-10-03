@@ -36,7 +36,7 @@ To use the Experience Platform connector, you must have the following:
 * [Connect to Commerce Services](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html?lang=en).
 * [Connect to Adobe Experience Platform](https://experienceleague.adobe.com/docs/commerce-merchant-services/experience-platform-connector/fundamentals/connect-data.html?lang=en).
 
-###Connect to the Commerce Destination from AEP for Segment Sharing
+### Connect to the Commerce Destination from AEP for Segment Sharing
 
 To connect to the Adobe Commerce destination:
 
