@@ -1,7 +1,7 @@
 ---
 title: Adobe Commerce - RTCDP Blueprint
 description: Adobe Experience Platform Integration with Adobe Commerce to create a single view of customers and intelligently personalize experiences on a digital storefront and across channels.
-solution: Real-Time Customer Data Platform, Adobe Commerce
+solution: Real-Time Customer Data Platform, Commerce
 
 ---
 # Adobe Commerce & RTCDP
