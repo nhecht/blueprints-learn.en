@@ -176,14 +176,14 @@ You can use Adobe Experience Platform Segment Match in privacy-centric audience 
 
 **Consider the following example workflow between a brand (Luma) and a media network (ACME):**
 
-* A brand (Luma) conducts an audience match with a media network (ACME) via Segment Match.
-* ACME pushes the audience(s) to ad server or Programmatic SSP via Adobe Real-Time CDP Destination(s).
-* ACME sets up a Private Inventory Deal (ID) with the applicable targeting criteria, including the audience established in the previous step. The Private Inventory Deal ID is then pushed to Luma's DSP.
-* Luma sets up a Private Inventory Deal and traffic campaign/ad creative.
-* The campaign then delivers via programmatic Private Inventory Deal.
-* Next, the ad server or SSP delivers ad impressions that meet the established targeting criteria. (Additional targeting criteria, such as frequency capping, are available through ad server and/or DSP, depending on whether a Guaranteed deal or a Preferred deal was established in the agreement).
-* Traffic is driven to Luma's brand properties.
-* ACME then shares back the post-campaign insights or audiences via Segment Match for re-targeting.
+1. A brand (Luma) conducts an audience match with a media network (ACME) via Segment Match.
+2. ACME pushes the audience(s) to ad server or Programmatic SSP via Adobe Real-Time CDP Destination(s).
+3. ACME sets up a Private Inventory Deal (ID) with the applicable targeting criteria, including the audience established in the previous step. The Private Inventory Deal ID is then pushed to Luma's DSP.
+4. Luma sets up a Private Inventory Deal and traffic campaign/ad creative.
+5. The campaign then delivers via programmatic Private Inventory Deal.
+6. Next, the ad server or SSP delivers ad impressions that meet the established targeting criteria. (Additional targeting criteria, such as frequency capping, are available through ad server and/or DSP, depending on whether a Guaranteed deal or a Preferred deal was established in the agreement).
+7. Traffic is driven to Luma's brand properties.
+8. ACME then shares back the post-campaign insights or audiences via Segment Match for re-targeting.
 
 >[!ENDSHADEBOX]
 
