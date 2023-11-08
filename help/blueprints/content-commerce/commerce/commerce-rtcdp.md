@@ -10,7 +10,7 @@ This integrated experience helps Adobe Commerce customers to seamlessly intergra
 
 ## Technical Capablities Enabled
 
-* Storefront data(client side) collected and sent into any Adobe Experience Cloud product. (add to cart, cart abandons,etc)
+* Storefront data(client side) collected and sent into any Adobe Experience Cloud product. (add to cart, cart abandons, etc.)
 * Back office order status to any AEC product
 * Back office historical orders can be sent to Adobe Experience Platform
 * Share and personalize RTCDP audiences to Adobe Commerce
@@ -19,9 +19,9 @@ This integrated experience helps Adobe Commerce customers to seamlessly intergra
 
 To use the Experience Platform connector, you must have the following:
 
-* Adobe Commerce 2.4.3 or newer
+* Adobe Commerce 2.4.4 or newer
 * Adobe ID and Organization ID
-* Adobe Experience Platform/RT-CDP
+* Adobe Experience Platform/RTCDP
 * [Adobe Client Data Layer (ACDL)](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/client-data-layer/overview.html?lang=en). The ACDL is required to collect storefront event data.
 
 ## Onboarding steps
@@ -56,7 +56,6 @@ For complete list of events supported, please refer to [Commerce Events](https:/
 ## Architecture
 
 <img src="../commerce/assets/commerce_rtcdp.png" alt="Adobe Commerce RTCDP architecture" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
-
 
 ## Related Implementation Guides
 
