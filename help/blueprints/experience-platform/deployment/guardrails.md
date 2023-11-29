@@ -32,39 +32,37 @@ The following pages provide information about guardrails for Adobe Experience Pl
 * [Query Service Guardrails](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=en)
 * [Destination Activation Guardrails](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html)
 
+## End-to-end latency diagrams {#end-to-end-latency}
 
+### Data ingestion {#data-ingestion}
 
-## End-to-end latency diagrams
+The diagram below displays expected data ingestion latency values through [streaming ingestion](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html) and [batch ingestion](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=en) when bringing data into Real-Time CDP. Click the image to see a high-resolution version.
 
-### Data ingestion
+![Data ingestion high-level visual overview.](/help/blueprints/experience-platform/deployment/assets/aep_data_flow_guardrails.svg "Data ingestion high-level visual overview and latency values"){width="1000" zoomable="yes"}
 
-<img src="assets/aep_data_flow_guardrails.svg" alt="Experience Platform Data Flow" style="border:1px solid #4a4a4a" width="85%" />
+### Segmentation {#segmentation}
 
-<br>
+The diagram below displays expected latency values when working with audiences in the [Real-Time CDP segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html). Click the image to see a high-resolution version.
 
-### Segmentation
+![Segmentation high-level visual overview.](/help/blueprints/experience-platform/deployment/assets/segmentation_guardrails.svg "Segmentation high-level visual overview and latency values"){width="1000" zoomable="yes"}
 
-<img src="assets/segmentation_guardrails.svg" alt="Experience Platform Segmentation Guardrails" style="border:1px solid #4a4a4a" width="85%" />
+### Real-time Customer Data Platform & Adobe Target {#adobe-target-latency}
 
-<br>
+The diagram below displays expected latency values when exporting audiences from Real-Time CDP to [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en). Click the image to see a high-resolution version.
 
-### Real-time Customer Data Platform & Adobe Target
+![Export to Adobe Target high-level visual overview.](/help/blueprints/experience-platform/deployment/assets/RTCDP_Target_guardrails.svg "Exporting audiences to Adobe Target high-level visual overview and latency values"){width="1000" zoomable="yes"}
 
-<img src="assets/RTCDP_Target_guardrails.svg" alt="RTCDP & Target Guardrails" style="border:1px solid #4a4a4a" width="85%" />
+### Customer Journey Analytics {#customer-journey-analytics}
 
-<br>
+The diagram below displays expected latency values when working with [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en). Click the image to see a high-resolution version.
 
-### Customer Journey Analytics
+![Working with Customer Journey Analytics high-level visual overview.](/help/blueprints/experience-platform/deployment/assets/CJA_guardrails.svg "Working with Customer Journey Analytics high-level visual overview and latency values"){width="1000" zoomable="yes"}
 
-<img src="assets/CJA_guardrails.svg" alt="CJA Guardrails" style="border:1px solid #4a4a4a" width="85%" />
+### Journey Optimizer {#journey-optimizer}
 
-<br>
+The diagram below displays expected latency values when working with [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=en). Click the image to see a high-resolution version.
 
-### Journey Optimizer
-
-<img src="assets/AJO_guardrails.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:85%; border:1px solid #4a4a4a" />
-
-<br>
+![Working with Adobe Journey Optimizer high-level visual overview.](/help/blueprints/experience-platform/deployment/assets/AJO_guardrails.svg "Working with Adobe Journey Optimizer high-level visual overview and latency values"){width="1000" zoomable="yes"}
 
 ## Application and feature descriptions {#application-feature-descriptions}
 
