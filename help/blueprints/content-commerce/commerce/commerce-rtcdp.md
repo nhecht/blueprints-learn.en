@@ -59,7 +59,7 @@ For complete list of events supported, please refer to [Commerce Events](https:/
 
 ## Related Implementation Guides
 
-| Guide |Link|
+| Guide |Link|
 |:----|:----|
 |Platform Connector|[Adobe Commerce Experience Platform connector overview](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html)|
 |Commerce Destination|[Adobe Commerce Connection in RTCDP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html)|
