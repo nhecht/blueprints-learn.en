@@ -1,5 +1,5 @@
 ---
-title: Experience Platform and Application Guardrails
+title: Experience Platform and Application Guardrails and End to End Latencies
 description: Guardrails define the performance expectations and impact for the components and services within Adobe Experience Platform and Applications
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
