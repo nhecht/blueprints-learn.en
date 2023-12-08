@@ -1,6 +1,7 @@
 ---
 title: Review and approve blueprint
 description: Review and approve blueprint - Marketo Engage and Workfront integration blueprint
+exl-id: a446faab-7db4-42a2-b4b9-395725c49c9f
 ---
 # Review and approve blueprint {#review-and-approve-blueprint}
 
