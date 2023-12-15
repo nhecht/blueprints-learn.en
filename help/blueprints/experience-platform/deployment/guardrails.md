@@ -5,9 +5,9 @@ solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer 
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 ---
-# Guardrails
+# Guardrails and End to End Latencies
 
-Guardrails are recommended thresholds that provide guidance for data and system usage in Adobe Experience Platform and applications. Guardrails reflect system constraints and performance expectations to optimize customer architecture and use case performance, and help to avoid errors or unexpected results. Guardrails are not intended to be service level agreements. 
+Guardrails are recommended thresholds that provide guidance for data, observed latencies and system usage in Adobe Experience Platform and applications. Guardrails reflect system constraints and performance expectations to optimize customer architecture and use case performance, and help to avoid errors or unexpected results. Guardrails are not intended to be service level agreements. 
 
 For information on specific service level agreements for applications and features, refer to the [Application and feature descriptions](#application-feature-descriptions) section at the bottom of this page.
 
@@ -19,15 +19,15 @@ The following pages provide information about guardrails for Adobe Experience Pl
 **Experience Platform applications**
 
 * [Real-Time CDP guardrails overview](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html)
-* [Customer Journey Analytics audience sharing guardrails](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#latency)
-* [Customer Journey Analytics data ingestion guardrails](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
-* [Journey Optimizer guardrails](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=en)
+* [Customer Journey Analytics audience sharing guardrails](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)
+* [Customer Journey Analytics data ingestion guardrails](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
+* [Journey Optimizer guardrails](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html)
 
 **Experience Platform services**
 
-* [Data ingestion guardrails](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=en)
-* [Edge Network API Guardrails](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=en)
-* [Real-time Customer Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
+* [Data ingestion guardrails](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)
+* [Edge Network API Guardrails](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [Real-time Customer Profile and Segmentation Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 * [Identity Guardrails](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=en)
 * [Query Service Guardrails](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=en)
 * [Destination Activation Guardrails](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html)
