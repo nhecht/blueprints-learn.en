@@ -7,9 +7,11 @@ exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 ---
 # Guardrails
 
-Guardrails are recommended thresholds that provide guidance for data, observed latencies and system usage in Adobe Experience Platform and applications. Guardrails reflect system constraints and performance expectations to optimize customer architecture and use case performance, and help to avoid errors or unexpected results. Guardrails are not intended to be service level agreements. 
+Guardrails are recommended thresholds that provide guidance for data, observed latencies and system usage in Adobe Experience Platform and applications. Guardrails reflect system constraints and performance expectations to optimize customer architecture and use case performance, and help to avoid errors or unexpected results. Guardrails are not intended to be service level agreements, service level agreements are documented in the Product Descriptions linked below and in the customer license agreements. Guardrails are intended to provide guidance in architecting solutions for specific customer use cases to ensure stability and execution.
 
 For information on specific service level agreements for applications and features, refer to the [Application and feature descriptions](#application-feature-descriptions) section at the bottom of this page.
+
+Note that for any customer use case that has strict latency or volume requirements, Adobe recommends reviewing your use case in detail with your Adobe Account Team and Implementation partner. In certain cases it is advisable to test and observe a given use case implementation prior to production launch of the use case to observe and understand expected behavior - as each customer implementation has varying factors at play including the nature and cadence of data ingestion, the specifics of the segment rules being built and the various activation challens and payloads - each use case implementation will have varying observed performance. As such it is best to establish and test the expected performance up front to ensure proper architecture and implementation according to the latency and performance requirements of the use case. 
 
 
 ## Guardrails Reference Documentation for Adobe Experience Platform and Applications
