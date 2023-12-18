@@ -48,12 +48,5 @@ Refer to the following documentation on configuring the Campaign v8 source conne
 ### Experience Platform Real-time Customer Data Platform segment sharing
 
 * Refer to the RTCDP Campaign Destination connector - [RTCDP Campaign Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html)
-* Recommendation of 50 segment limit
-* Note that segment membership realization from AEP is latent for both batch (1 per day) and streaming (~5 min) and based on segment evaluation schedule.
-* The activation latency is 3 hours minimum
-* Only union schema attributes available for activation (no support for array/maps/experience events)
-* Recommendation on no more than 20 attributes per segment
-* One file per segment of all profiles with "realized" segment membership OR if segment membership is added as an attribute in the file both "realized" and "exited" profiles
-* Incremental and full segment exports are supported
-* File encryption is not supported
+
 * See profile and data ingestion guardrails for AEP - [Link](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)

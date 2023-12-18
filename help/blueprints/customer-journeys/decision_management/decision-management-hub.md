@@ -50,22 +50,8 @@ Adobe Experience Platform
 
 * For Journey Optimizer guardrails refer to the following [Journey Optimizer Guardrails](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html).
 * For Decision Management guardrails refer to the following [Decision Management Product Description](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
-* Requests per second = 2000.
-* Latency of response < 500ms.
-* Access to full real-time customer profile including audience memberships, attributes and experience events.
 
-
-### Data ingestion guardrails
-
-<img src="../../experience-platform/deployment/assets/aep_data_flow_guardrails.svg" alt="Experience Platform Data Flow" style="border:1px solid #4a4a4a" width="85%" class="modal-image" />
-
-<br>
-
-### Activation guardrails
-
-<img src="../../experience-platform/deployment/assets/AJO_guardrails.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:85%; border:1px solid #4a4a4a" class="modal-image" />
-
-<br>
+[Guardrails and End to End Latency Guidance](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## Implementation patterns
 

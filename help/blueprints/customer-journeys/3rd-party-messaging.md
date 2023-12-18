@@ -34,39 +34,8 @@ Adobe Experience Platform
 
 [Journey Optimizer Guardrails Product Link](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en)
 
-Additional Journey Optimizer Guardrails: 
+[Guardrails and End to End Latency Guidance](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
-* Capping is available via API today to ensure that the destination system is not saturated to the point of failure. This means that messages that exceed the cap will be dropped completely and never sent. Throttling is not supported.
-  * Max connections - maximum number of http/s connections a destination can handle
-  * Max call count - maximum number of calls to be made in the periodInMs paramater
-  * periodInMs - time in milliseconds
-* Segment membership initiated journeys can operate in two modes:
-  * Batch segments (refreshed every 24hrs)
-  * Streaming segments (<5mins qualification)
-* Batch segments – need to ensure you understand the daily volume of qualified users and ensure the destination system can handle the burst throughput per journey and across all journeys
-* Streaming segments – need to ensure the initial burst of profile qualifications can be handled along with the daily streaming qualifying volume per journey and across all journeys
-* Decision Management in not supported
-* Outbound integrations to 3rd-party systems
-  * No support for a single Static IPs as our infrastructure is multi-tenant (must allow list all datacenter IPs)
-  * Only POST and PUT methods are supported for custom actions
-  * Authentication support: token | password | OAuth2
-* No ability to package and move individual components of Adobe Experience Platform or Journey Optimizer between various sandboxes. Must re-implement in new environments
-
-<br>
-
-3rd-party messaging system
-
-* Need to understand what load the system can support for transactional API calls
-  * Number of calls allowed per second
-  * Number of connections
-* Need to understand what authentication is required to make API calls
-  * Auth type:  token | password | OAuth2 are supported via Journey Optimizer
-  * Auth cache duration:  how long is the token valid? 
-* If batch ingestion is only supported then needs to be streamed to a cloud storage engine like Amazon Kinesis or Azure Event Grid 1st
-  * Data can be batched of these cloud storage engines and funneled into the 3rd-party
-  * Any middleware required would be the responsibility of the customer or 3rd-party to provide
-
-<br>
 
 ## Implementation steps
 

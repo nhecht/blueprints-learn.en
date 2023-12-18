@@ -39,37 +39,7 @@ Demonstrates how Adobe Journey Optimizer can be used with Adobe Campaign to nati
 
 [Journey Optimizer Guardrails Product Link](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en)
 
-### Additional Journey Optimizer guardrails
-
-* Capping is available via API today to ensure that the destination system is not saturated to the point of failure. This means that messages that exceed the cap will be dropped completely and never sent. Throttling is not supported.
-  * Max connections - maximum number of http/s connections a destination can handle
-  * Max call count - maximum number of calls to be made in the periodInMs paramater
-  * periodInMs - time in milliseconds
-* Segment membership initiated journeys can operate in two modes:
-  * Batch segments (refreshed every 24hrs)
-  * Streaming segments (<5mins qualification)
-* Batch segments – need to ensure you understand the daily volume of qualified users and ensure the destination system can handle the burst throughput per journey and across all journeys
-* Streaming segments – need to ensure the initial burst of profile qualifications can be handled along with the daily streaming qualifying volume per journey and across all journeys
-* Decision Management in not supported
-* Business events are not supported
-* Outbound integrations to 3rd-party systems
-  * No support for a single Static IPs as our infrastructure is multi-tenant (must allow list all datacenter IPs)
-  * Only POST and PUT methods are supported for custom actions
-  * Authentication support: token | password | OAuth2
-* No ability to package and move individual components of Adobe Experience Platform or Journey Optimizer between various sandboxes. Must re-implement in new environments
-
-<br>
-
-### Campaign (v8)
-
-* Execution instance of Message Center must be hosted by Adobe Managed Cloud Services
-* Messaging throughput
-  * AC (v8) up to 1M per hour based on package
-* AC (v8) does not support Decision Management in messages
-* No throttling of outbound API calls made to Campaign
-* With Campaign v8.4 it is possible to leverage Adobe Campaign Managed Services Source Connector in Experience Platform to sync delivery and tracking events from Campaign into Experience Platform. Refer to the Source Connector Documentation for additional details. [Link](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
-
-<br>
+[Guardrails and End to End Latency Guidance](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## Implementation steps
 

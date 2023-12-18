@@ -40,15 +40,9 @@ Showcases how the Adobe Experience Platform and its Real-Time Customer Profile a
 
 ### Experience Platform CDP segment sharing
 
-* Recommendation of 20 segment limit
-* Activation is limited to every 24hrs
-* Only union schema attributes available for activation (no support for array/maps/experience events)
-* Recommendation on no more than 20 attributes per segment
-* One file per segment of all profiles with "realized" segment membership OR if segment membership is added as an attribute in the file both "realized" and "exited" profiles
-* Incremental and full segment exports are supported
-* File encryption is not supported
+* Refer to the RTCDP Campaign Destination connector - [RTCDP Campaign Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html)
 
-<br>
+* See profile and data ingestion guardrails for AEP - [Link](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 
 ## Implementation steps
 

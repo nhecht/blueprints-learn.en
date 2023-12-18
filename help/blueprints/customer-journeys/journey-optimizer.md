@@ -68,22 +68,7 @@ Mobile Push
 
 [Journey Optimizer Guardrails Product Link](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html)
 
-[End to End Latency Guidance](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
-
-Please be aware of the following additional considerations:
-
-* Batch segments – need to ensure you understand the daily volume of qualified users and ensure the destination system can handle the burst throughput per journey and across all journeys
-* Streaming segments – need to ensure the initial burst of profile qualifications can be handled along with the daily streaming qualifying volume per journey and across all journeys
-* Natively supports Decision Management in messages only (no custom actions)
-* Message types supported:
-  * Email
-  * Push (FCM / APNS)
-  * Custom Actions (via Rest API)
-* Outbound integrations to 3rd-party systems
-  * No support for a single Static IPs as our infrastructure is multi-tenant (must allow list all datacenter IPs)
-  * Only POST and PUT methods are supported for custom actions
-  * Authentication via user/pass or authorization token
-* No ability to package and move individual components of Adobe Experience Platform or Journey Optimizer between various sandboxes. Must re-implement in new environments
+[Guardrails and End to End Latency Guidance](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## Related documentation
 
