@@ -66,9 +66,11 @@ Mobile Push
 
 ## Guardrails
 
-[Journey Optimizer Guardrails Product Link](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en)
+[Journey Optimizer Guardrails Product Link](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html)
 
-Please be aware of these not listed in the link above:
+[End to End Latency Guidance](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+
+Please be aware of the following additional considerations:
 
 * Batch segments – need to ensure you understand the daily volume of qualified users and ensure the destination system can handle the burst throughput per journey and across all journeys
 * Streaming segments – need to ensure the initial burst of profile qualifications can be handled along with the daily streaming qualifying volume per journey and across all journeys
@@ -82,59 +84,6 @@ Please be aware of these not listed in the link above:
   * Only POST and PUT methods are supported for custom actions
   * Authentication via user/pass or authorization token
 * No ability to package and move individual components of Adobe Experience Platform or Journey Optimizer between various sandboxes. Must re-implement in new environments
-
-### Data ingestion guardrails
-
-<img src="../experience-platform/deployment/assets/aep_data_flow_guardrails.svg" alt="Experience Platform Data Flow" style="border:1px solid #4a4a4a" width="85%" class="modal-image" />
-
-<br>
-
-### Activation guardrails
-
-<img src="../experience-platform/deployment/assets/AJO_guardrails.svg" alt="Reference architecture Journey Optimizer blueprint" style="width:85%; border:1px solid #4a4a4a" class="modal-image" />
-
-<br>
-
-## Implementation steps
-
-### Adobe Experience Platform
-
-#### Schema/datasets
-
-1. [Configure individual profile, experience event, and multi-entity schemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) in Experience Platform, based on customer-supplied data.
-1. [Create datasets](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) in Experience Platform for data to be ingested.
-1. [Add data usage labels](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html) in Experience Platform to the dataset for governance.
-1. [Create policies](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html) that enforce governance on destinations.
-
-#### Profile/identity
-
-1. [Create any customer-specific namespaces](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
-1. [Add identities to schemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
-1. [Enable the schemas and datasets for Profile](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
-1. [Set up merge policies](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) for differing views of [!UICONTROL Real-time Customer Profile] (optional).
-1. Create segments for Journey usage.
-
-#### Sources/destinations
-
-1. [Ingest data into Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) using streaming APIs & source connectors.
-
-### Journey Optimizer
-
-1. Configure your Experience Platform data source and determine what fields should be cached as part of the profileStreaming data used to initiate a customer journey must be configured within Journey Optimizer first to get an orchestration ID. This orchestration ID is then supplied to the developer to use with ingestion
-1. Configure external data sources.
-1. Configure custom actions.
-
-### Mobile push configuration
-
-1. Implement Experience Platform Mobile SDK to collect push tokens and login information to tie back to known customer profiles
-1. Leverage Adobe Tags and create a mobile property with the following extension:
-1. Adobe Journey Optimizer
-1. Adobe Experience Platform Edge Network
-1. Identity for Edge Network
-1. Mobile Core
-1. Ensure you have a dedicated datastream for mobile app deployments vs. web deployments
-1. For more information follow the [Adobe Journey Optimizer Mobile Guide](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
-
 
 ## Related documentation
 
