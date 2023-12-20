@@ -20,6 +20,7 @@ To learn more about Decision Management on the hub refer to the [Decision Manage
 
 ## Use cases for Decision Management on the edge
 
+* Streaming use cases where profile context latency is strict below 15 minute latency and decision management execution is sub-second.
 * Online personalization via web or mobile inbound experiences.
 * Cross channel journey execution - offer consistency across web, mobile, email, and other interaction channels through Adobe Journey Optimizer.
 

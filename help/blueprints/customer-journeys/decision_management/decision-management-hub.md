@@ -22,11 +22,16 @@ To learn more about Decision Management on the Edge refer to the [Decision Manag
 
 ## Use cases for Decision Management on the hub
 
+* Streaming use cases where profile context latency is not strict - 15 minute or above latency.
 * Personalized offers on kiosks and in store experiences.
 * Personalized offers via agent assisted experience such as to call centers or sales intereactions.
 * Offers included in email, SMS, mobile push notifications or other outbound interactions.
 * Provide offers to external ESP and messageing systems for delivery.
 * Cross channel journey execution - offer consistency across web, mobile, email, and other interaction channels through Adobe Journey Optimizer.
+
+>[!IMPORTANT]
+>
+>For offer and journey use cases that require accessing the profile for additional information and context. It is important to consider the associated latency of ingesting data to profile on the hub to ensure it is available at decision time. For scenarios where context is streaming or ingesting into profile and the offer or journey must have that context available within seconds or minutes of the offer decision, these scenarios are best served with Decision Management on the Edge. 
 
 <br>
 
