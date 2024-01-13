@@ -48,11 +48,11 @@ The diagram below displays expected latency values when working with audiences i
 
 ![Segmentation high-level visual overview.](/help/blueprints/experience-platform/deployment/assets/segmentation_guardrails.svg "Segmentation high-level visual overview and latency values"){width="1000" zoomable="yes"}
 
-### Real-time Customer Data Platform & Adobe Target {#adobe-target-latency}
+### Real-time Customer Data Platform & Edge Network {#adobe-edge-latency}
 
-The diagram below displays expected latency values when exporting audiences from Real-Time CDP to [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en). Click the image to see a high-resolution version.
+The diagram below displays expected latency values when leveraging the Edge Network - for example to leverage RTCDP audiences in [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en). Click the image to see a high-resolution version.
 
-![Export to Adobe Target high-level visual overview.](/help/blueprints/experience-platform/deployment/assets/RTCDP_Target_guardrails.svg "Exporting audiences to Adobe Target high-level visual overview and latency values"){width="1000" zoomable="yes"}
+![Adobe Edge Network and Experience Platform high-level visual overview.](/help/blueprints/experience-platform/deployment/assets/RTCDP_Edge_guardrails.svg "Exporting audiences to Adobe Target high-level visual overview and latency"){width="1000" zoomable="yes"}
 
 ### Customer Journey Analytics {#customer-journey-analytics}
 
