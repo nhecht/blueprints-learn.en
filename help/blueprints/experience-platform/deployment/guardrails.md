@@ -36,6 +36,12 @@ The following pages provide information about guardrails for Adobe Experience Pl
 
 ## End-to-end latency diagrams {#end-to-end-latency}
 
+### Experience Platform Edge Network and Hub Primary Observed Latencies {#edge-hub-latencies}
+
+The following diagram depicts the primary edge and hub observed latencies to be aware of when architecting use case on the Experience Platform and Applications. 
+
+![Experience Platform Edge Network and hub primary observed latencies.](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "Experience Platform Edge Network and hub primary observed latencies"){width="1000" zoomable="yes"}
+
 ### Data ingestion {#data-ingestion}
 
 The diagram below displays expected data ingestion latency values through [streaming ingestion](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html) and [batch ingestion](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=en) when bringing data into Real-Time CDP. Click the image to see a high-resolution version.
