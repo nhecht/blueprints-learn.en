@@ -21,9 +21,18 @@ Adobe Campaign v8 is the next-gen campaigning tool built for traditional marketi
 
 <br>
 
-## Architecture
+## Architecture diagrams
 
-<img src="assets/campaign-v8-architecture.svg" alt="Reference architecture for Campaign v8 Blueprint" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+Learn more about Campaign v8 deployment models in [this page](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}.
+
+### Campaign Enterprise (FFDA) Deployment
+
+<img src="assets/P4-architecture.png" alt="Reference architecture for Campaign v8 Blueprint (P4)" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+
+
+### Campaign v8 FDA Deployment
+
+<img src="assets/P1-P3-architecture.png" alt="Reference architecture for Campaign v8 Blueprint (P1-P3)" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
@@ -78,7 +87,7 @@ Adobe Campaign v8 is the next-gen campaigning tool built for traditional marketi
     * API data loading support is primarily for managing of profiles or simple objects within the database (i.e. create and update). It is not intended to be used for loading large volumes of data or batch like operations.
     * Using APIs to read data for custom application purposes is not supported
     * Data loaded via API is staged in the application database and then replicated every hour to Cloud database
-* API calls are limited to 15 per second or 150k per day at scale
+* Limits to API calls apply. Learn more in the [Adobe Campaign Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 ### Batch messaging server sizing
 
@@ -98,16 +107,6 @@ Adobe Campaign v8 is the next-gen campaigning tool built for traditional marketi
     * SMS MO (Mobile Originated): an SMS that is sent by a mobile to Adobe Campaign through the SMPP provider.
     * SMS SR (Status Report) or DR or DLR (Delivery Receipt): a return receipt sent by the mobile to Adobe Campaign through the SMPP provider indicating that the SMS has been received successfully. Adobe Campaign may also receive SR indicating that the message could not be delivered, often with a description of the error. 
 
-### Mobile push configuration
-
-* Only the Campaign SDK is supported for Campaign v8. Contact Adobe Customer Care to get access
-* Please follow the [Campaign SDK documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/integrating-campaign-sdk-into-the-mobile-application.html?lang=en) to learn how to install and configure the SDK
-
-    >[!IMPORTANT]
-    >Other Experience Cloud applications will require the use of the Experience Platform Mobile SDK for data collection. This is a different SDK and will need to be installed along side the Campaign SDK
-    
-<br>
-
 ## Implementation steps
 
 See the getting started guide for [Implementing Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=en)
@@ -115,7 +114,7 @@ See the getting started guide for [Implementing Adobe Campaign v8](https://exper
 
 ## Related documentation
 
-* [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=en)
+* [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign-v8.html)
 * [Campaign v8 Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-* [Experience Platform Tags documentation](https://experienceleague.adobe.com/docs/launch.html?lang=en)
-* [Experience Platform Mobile SDK documentation](https://experienceleague.adobe.com/docs/mobile.html?lang=en)
+* [Experience Platform Tags documentation](https://experienceleague.adobe.com/docs/launch.html)
+* [Experience Platform Mobile SDK documentation](https://experienceleague.adobe.com/docs/mobile.html)
