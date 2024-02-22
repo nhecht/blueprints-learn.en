@@ -34,6 +34,11 @@ role: Architect, Developer, User
     + [Customer Activity Hub](/help/blueprints/audience-activation/customer-activity.md)
     + [Segment Match](/help/blueprints/audience-activation/segment-match.md)
   + [Activation with Experience Cloud Applications](/help/blueprints/audience-activation/platform-and-applications.md)
+  + Web & Mobile Personalization{#web-personalization}
+    + [Overview](/help/blueprints/audience-activation/web-personalization/overview.md)
+    + [Behavioral Personalization - Target](/help/blueprints//audience-activation/web-personalization/behavioral.md)
+    + [Known Customer Personalization - Target & RTCDP](/help/blueprints/audience-activation/web-personalization/known-personalization.md)
+    + [Decision Management](/help/blueprints/audience-activation/web-personalization/decision-management-edge.md)
 + B2B Activation & Marketing{#b2b-activation}
   + [Overview](/help/blueprints/b2b/overview.md)
   + [B2B Activation](/help/blueprints/b2b/b2bactivation.md)
@@ -79,8 +84,3 @@ role: Architect, Developer, User
   + [Overview](/help/blueprints/data-insights/overview.md)
   + [Data Analysis & Intelligence](/help/blueprints/data-insights/analysis.md)
   + [Custom Data Science for Profile Enrichment](/help/blueprints/data-insights/data-science.md)
-+ Web & Mobile Personalization{#web-personalization}
-  + [Overview](/help/blueprints/web-personalization/overview.md)
-  + [Behavioral Personalization - Target](/help/blueprints/web-personalization/behavioral.md)
-  + [Known Customer Personalization - Target & RTCDP](/help/blueprints/web-personalization/known-personalization.md)
-  + [Decision Management](/help/blueprints/web-personalization/decision-management-edge.md)
