@@ -9,7 +9,7 @@ role: Architect, Developer, User
 
 # Digital Experience Blueprints {#architecture}
 
-+ [Overview](/help/blueprints/overview.md)
++ [Digital Experiences Blueprints](/help/blueprints/overview.md)
 + Vertical Industry Blueprints{#vertical-blueprints}
   + [Overview](/help/blueprints/vertical-blueprints/overview.md)
   + [Apparel](/help/blueprints/vertical-blueprints/apparel.md)
