@@ -1,5 +1,5 @@
 ---
-title: Telecommunications Industry - Journey Optimizer for Triggered Messaging
+title: Telecommunications industry - Journey Optimizer for triggered messaging
 description: Provide customers tailored deals in real-time while with efficient customer onboarding for long term loyalty.
 solution: Journey Optimizer
 kt: 9486
@@ -7,7 +7,7 @@ exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
 ---
 # Telecommunications industry business challenge
 
-Before implementing this Blueprint the telecommunications company's "add a new line" email campaigns relied on whether the user had converted and only checked for this after a 7-day waiting period. Once these criteria were met any additional touch-points were initiated. 
+Before implementing this blueprint the telecommunications company's "add a new line" email campaigns relied on whether the user had converted and only checked for this after a seven-day waiting period. Once these criteria were met any additional touch-points were initiated. 
 
 This limitation had to be solved in order to initiate a timelier follow-up to users wished wanted to add a line earlier than the current state 7-day waiting period. 
 
@@ -16,14 +16,13 @@ This limitation had to be solved in order to initiate a timelier follow-up to us
 * Adobe Analytics data to identify users who failed to convert to add a new line are included as a data source for use by Adobe Journey Optimizer.
 * Adobe Journey Optimizer uses a rule to time when customer's receive a customized "abandon" message designed to encourage a customer to convert by adding a new line to their account.
 
-
 ## Business value delivered
 
 | Goals | Tactics| Value Unlocked|
 |---|---|---|
 | **Drive higher campaign conversion rates**<br></br>**Grow annual account revenues**</ul> | <ul><li>Create a new segment in near real time for users who have shown an interest in adding a line but not yet converted.</li><li>Drive follow-up for unconverted customers with a second touchpoint for interested non-converters. </li><li>Use a testing strategy to measure journey performance & optimize for conversion through email.</li></ul>                               | <ul><li><strong>High Quality, Relevant Experiences:</strong> With journey orchestration in place customers experience more relevant messaging which reduces email list churn.</li><li><strong>Journey Orchestration at Scale:</strong>A personalized and timelier journey can be created to drive an increase in conversions and total revenue.</li></ul>    |
 
-## Primary blueprint: Audience & Activation with Experience Cloud Applications
+## Primary blueprint: Audience and activation with Experience Cloud applications
 
 ### Description 
 

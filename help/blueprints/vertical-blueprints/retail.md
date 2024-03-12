@@ -1,6 +1,6 @@
 ---
-title: Retail Industry - Activation with Experience Cloud Applications
-description: Delivering real-time, customer experiences across digital media, email, push, and web channels.
+title: Retail industry - Activation with Experience Cloud applications
+description: Learn about delivering real-time customer experiences across digital media, email, push, and web channels.
 solution: Real-Time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
 exl-id: a675bc81-e76c-491a-8718-359867d63351
@@ -21,7 +21,7 @@ This integrated experience business sought to personalize the entire customer jo
 | **Orchestrate real-time customer journeys**<br></br>**Drive repeat purchases from new customers**<br></br>**Improve marketing efficiencies and reduce media costs**</ul> | <ul><li>Robust data and identity strategy to fuel a comprehensive real-time profile.</li><li>Customer and transactional data streaming in real-time including a 90 day historical load</li><li>Streaming segmentation to Advertising Networks and Adobe Target to power media spend and personalization efforts.</li><li>Real-time customer journeys through Adobe Campaign that include a strategy to measure performance</li></ul>                               | <ul><li><strong>Real-time Customer Data Platform:</strong> Delivering real-time, customer experiences across media, email, push, and web</li><li><strong>Data Sources:</strong> Streaming data covering this retailer's profile stores, order system, product catalogue, and retail outlets.</li><li><strong>Real-time Media Activation:</strong>Streaming segments to Advertising Networks for attribution & ad suppression</li><li><strong>Real-time Web Personalization:</strong>Streaming segments activated to Adobe Target in order to activate on the retailer's web experience.</li><li><strong>Journey Orchestration at Scale:</strong>Triggered messaging in real-time enriched with available customer data & activated in real-time to email & push channels</li></ul>    |
 
 
-## Usecases
+## Use cases
 
 |Category|Goal|Use case|Description|
 |:----|:----|:----|:----|
@@ -55,8 +55,7 @@ This integrated experience business sought to personalize the entire customer jo
 <img src="../vertical-blueprints/assets/retail-architecture.png" alt="Retail Reference architecture" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 
-## Related Blueprints
-
+## Related blueprints
 
 |Use Case/Integration |Link|
 |:----|:----|

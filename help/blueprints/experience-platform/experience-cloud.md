@@ -17,7 +17,7 @@ The following diagram illustrates the various components of Adobe Experience Clo
 <img src="assets/AEC.png" alt="Experience Cloud Overview" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
 
-## Integration architecture of Data & Insights, Content & Commerce, and Experience Delivery
+## Integration architecture of data & insights, content & commerce, and experience delivery
 
 The architecture diagram below illustrates how the various components of the Adobe Experience Cloud connect and integrate to achieve personalization at scale across data, content, and experience delivery.
 
