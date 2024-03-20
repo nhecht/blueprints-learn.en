@@ -402,7 +402,7 @@ Refer to the [Tags Overview](https://experienceleague.adobe.com/docs/experience-
 
 ### Event forwarding {#event-forwarding}
 
-Data collection requests are collected directly to Adobe's Edge Network. From the Edge Network requests to external RESTful endpoints can ba configured to forward these requests on to the external destination. 
+Data collection requests are collected directly to Adobe's [!DNL Edge Network]. From the [!DNL Edge Network] requests to external RESTful endpoints can ba configured to forward these requests on to the external destination. 
 
 Refer to the following [Event Forwarding](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=en) documentation for additional information.
 
@@ -412,7 +412,7 @@ Refer to the following [Event Forwarding](https://experienceleague.adobe.com/doc
 
 #### Considerations
 
-* To use Event Forwarding, data must be sent to the Edge Network using the Web SDK or MobileSDK.
+* To use Event Forwarding, data must be sent to the [!DNL Edge Network] using the Web SDK or MobileSDK.
 * Event forwarding approach reduces the page load time and weight due to additional tags being added on the page.
 * No enrichment from the edge profile or other data sources is currently supported. 
 * Limited data filtering and simple mapping transformations are supported.

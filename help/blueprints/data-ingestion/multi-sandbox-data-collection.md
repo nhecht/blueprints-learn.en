@@ -32,9 +32,9 @@ Your destination sadnbox would need a HTTP Streaming End Point configured that w
 
 1. Tag authors define both a tag property as well as a Event Forwarding Property. Here, authors will define the data elements, rules and actions that manage data collection. Keep in mind, tag property code runs on the client and is distributed by a CDN Host. The Event Forwarding Property code runs on the Adobe Edge Server.
 
-1. Data collected on the client is sent to the Edge Network. Customers also have the option to send data to their own server first as a method of server side collection.  The Web SDK can provide a server-to-server collection capability. This however does require a different programming model to implement. Refer to the documentation **Edge Network Server API Overview** below
+1. Data collected on the client is sent to the [!DNL Edge Network]. Customers also have the option to send data to their own server first as a method of server side collection.  The Web SDK can provide a server-to-server collection capability. This however does require a different programming model to implement. Refer to the documentation **[!DNL Edge Network] Server API Overview** below
 
-1. Platform Edge Network recieves data collection payloads and orchestrates the flow of data to the required systems such as Target and Analytics.
+1. Platform [!DNL Edge Network] recieves data collection payloads and orchestrates the flow of data to the required systems such as Target and Analytics.
 
 1. Event forwarding property data elements are used to access event data arriving in the payload. Rules may also be used to manipulate the Event data as needed prior to forwarding. Such as formatting the data into the required XDM for streaming data ingestion
 
@@ -48,15 +48,15 @@ Your destination sadnbox would need a HTTP Streaming End Point configured that w
 * [Event forwarding videos](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html)
 * [Event forwarding lesson](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/event-forwarding/setup-event-forwarding.html) of the Web SDK tutorial
 * [Experience Platform Web SDK Overview](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
-* [Edge Network Server API Overview](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html)
+* [[!DNL Edge Network] Server API Overview](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html)
 
 ## Related blog posts
 
-* [[!DNL Boosting Website Performance with Adobe Experience Platform Web SDK and Edge Network]](https://medium.com/adobetech/boosting-website-performance-with-adobe-experience-platform-web-sdk-and-edge-network-329fcf70fdf9)
-* [[!DNL Solving Implementation Pain Points with Adobe Experience Platform Web SDK and Edge Network]](https://medium.com/adobetech/solving-implementation-pain-points-with-adobe-experience-platform-web-sdk-and-edge-network-880b635e6819)
-* [[!DNL Adobe Experience Platform Web SDK for Audience Management]](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)
-* [[!DNL Adobe Experience Platform Web SDK — Adobe Target]](https://medium.com/adobetech/adobe-experience-platform-web-sdk-adobe-target-9b9f621d271)
-* [[!DNL Adobe Experience Platform Web SDK Migration Scenarios for Adobe Analytics]](https://medium.com/adobetech/adobe-experience-platform-web-sdk-migration-scenarios-for-adobe-analytics-91c255ec82b0)
-* [[!DNL Unify Your Adobe Experience Platform Services with Adobe Experience Platform Web SDK]](https://medium.com/adobetech/unify-your-adobe-experience-platform-services-with-adobe-experience-platform-web-sdk-75cf6851a9fc)
-* [[!DNL Accelerate Your Mobile Application Development with Adobe Experience Platform Mobile SDK and Launch]](https://medium.com/adobetech/accelerate-your-mobile-application-development-with-adobe-experience-platform-mobile-sdk-and-launch-ed023536d611)
-* [[!DNL Simplifying Customer Workflows with Adobe Experience Platform Web SDK]](https://medium.com/adobetech/simplifying-customer-workflows-with-adobe-experience-platform-web-sdk-4e54fe134f4a)
+* [Boosting Website Performance with Adobe Experience Platform Web SDK and [!DNL Edge Network]](https://medium.com/adobetech/boosting-website-performance-with-adobe-experience-platform-web-sdk-and-edge-network-329fcf70fdf9)
+* [Solving Implementation Pain Points with Adobe Experience Platform Web SDK and [!DNL Edge Network]](https://medium.com/adobetech/solving-implementation-pain-points-with-adobe-experience-platform-web-sdk-and-edge-network-880b635e6819)
+* [Adobe Experience Platform Web SDK for Audience Management](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)
+* [Adobe Experience Platform Web SDK - Adobe Target](https://medium.com/adobetech/adobe-experience-platform-web-sdk-adobe-target-9b9f621d271)
+* [Adobe Experience Platform Web SDK Migration Scenarios for Adobe Analytics](https://medium.com/adobetech/adobe-experience-platform-web-sdk-migration-scenarios-for-adobe-analytics-91c255ec82b0)
+* [Unify Your Adobe Experience Platform Services with Adobe Experience Platform Web SDK](https://medium.com/adobetech/unify-your-adobe-experience-platform-services-with-adobe-experience-platform-web-sdk-75cf6851a9fc)
+* [Accelerate Your Mobile Application Development with Adobe Experience Platform Mobile SDK and Launch](https://medium.com/adobetech/accelerate-your-mobile-application-development-with-adobe-experience-platform-mobile-sdk-and-launch-ed023536d611)
+* [Simplifying Customer Workflows with Adobe Experience Platform Web SDK](https://medium.com/adobetech/simplifying-customer-workflows-with-adobe-experience-platform-web-sdk-4e54fe134f4a)

@@ -81,8 +81,8 @@ Demonstrates how Adobe Journey Optimizer can be used with Adobe Campaign to nati
 1. Implement Experience Platform Mobile SDK to collect push tokens and login information to tie back to known customer profiles
 1. Leverage Adobe Tags and create a mobile property with the following extension:
     * Adobe Journey Optimizer | Adobe Campaign Classic | Adobe Campaign Standard
-    * Adobe Experience Platform Edge Network
-    * Identity for Edge Network
+    * Adobe Experience Platform [!DNL Edge Network]
+    * Identity for [!DNL Edge Network]
     * Mobile Core
 1. Ensure you have a dedicated datastream for mobile app deployments vs. web deployments
 1. For more information follow the [Adobe Journey Optimizer Mobile Guide](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)

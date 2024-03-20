@@ -8,7 +8,7 @@ kt: 7085
 thumbnail: thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 ---
-# Behavioral Web/Mobile personalization blueprint
+# Behavioral Web and mobile personalization blueprint
 
 Personalize based on online behavior and audience data.
 

@@ -21,7 +21,7 @@ role: Architect, Developer, User
   + [Experience Platform & applications](/help/blueprints/experience-platform/platform-applications.md)
   + [Experience Platform data flow](/help/blueprints/experience-platform/platform-data-flow.md)
   + Deployment{#deployment}
-    + [Experience Platform Web SDK & Edge Network](/help/blueprints/experience-platform/deployment/websdk.md)
+    + [Experience Platform Web SDK & [!DNL Edge Network]](/help/blueprints/experience-platform/deployment/websdk.md)
     + [Application SDKs](/help/blueprints/experience-platform/deployment/appsdk.md)
     + [Guardrails](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Audience & Profile Activation{#audience-activation}
