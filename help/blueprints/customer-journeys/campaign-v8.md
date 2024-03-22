@@ -12,16 +12,16 @@ It also comes paired with a scalable real-time messaging server that enables mar
 
 ## Use cases
 
-* Highly complex batch based messaging programs
-* Onboarding and re-marketing campaigns
+* Highly complex batch based messaging programs.
+* Onboarding and re-marketing campaigns.
 * Direct Mail advertising, brochure and magazine campaigns
-* Simple transactional messaging (i.e. password reset, email receipts, order confirmations, etc.)
-* Integration of Campaign data to Adobe Experience Platform for analysis and profile building
-* Sharing of Real-time Customer Data Platform audiences to Campaign
+* Simple transactional messaging (such as password reset, email receipts, order confirmations, and so on).
+* Integration of Campaign data to Adobe Experience Platform for analysis and profile building.
+* Sharing of Real-time Customer Data Platform audiences to Campaign.
 
 ## Architecture diagrams
 
-Learn more about Campaign v8 deployment models in [this page](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}.
+Learn more about [Campaign v8 deployment models](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}.
 
 ### Campaign enterprise (FFDA) deployment
 
@@ -35,8 +35,8 @@ Learn more about Campaign v8 deployment models in [this page](https://experience
 
 | Scenario | Description | Capabilities |
 | :-- | :--- | :--- |
-| [Real time Customer Data Platform with Adobe Campaign](rtcdp-and-campaign-v8.md) | Showcases how the Adobe Experience Platform and its Real-Time Customer Profile and centralized segmentation tool can be utilized with Adobe Campaign to deliver personalized conversations | <ul><li>Sharing of profiles and audiences from the Real-Time CDP to Adobe Campaign via use of cloud storage file exchange and Adobe Campaign ingestion workflows </li><li>Easily share delivery and interaction data from customer conversations back into the Real-Time CDP from Adobe Campaign to enhance both the Real-Time Customer Profile and provide cross-channel reporting on messaging campaigns</li></ul> |
-| [Journey Optimizer with Adobe Campaign](ajo-and-campaign.md) | Shows how you can use Adobe Journey Optimizer to orchestrate 1:1 experiences utilizing the Real-Time Customer Profile and leverage the native Adobe Campaign transactional messaging system to send the message | Leverage the Real-Time Customer Profile and power of Journey Optimizer to orchestrate in the moment experiences while utilizing the native real-time messaging capabilities of Adobe Campaign to do the last mile communication<br><br>Considerations:<br><ul><li>Can send up to 1M messages per hour via the Real-Time Message server<li>No throttling is performed from Journey Optimizer so ensure technical vetting by a Pre-Sales Enterprise Architect</li><li>Decision Management is not supported in payloads to Campaign v8</li></ul> |
+| [[!DNL Real-time Customer Data Platform] with Adobe [!DNL Campaign]](rtcdp-and-campaign-v8.md) | Showcases how the Adobe Experience Platform and its Real-Time Customer Profile and centralized segmentation tool can be utilized with Adobe [!DNL Campaign] to deliver personalized conversations | <ul><li>Sharing of profiles and audiences from the [!DNL Real-Time CDP] to Adobe [!DNL Campaign] via use of cloud storage file exchange and Adobe [!DNL Campaign] ingestion workflows </li><li>Easily share delivery and interaction data from customer conversations back into the [!DNL Real-Time CDP] from Adobe [!DNL Campaign] to enhance both the Real-Time Customer Profile and provide cross-channel reporting on messaging campaigns</li></ul> |
+| [[!DNL Journey Optimizer] with Adobe [!DNL Campaign]](ajo-and-campaign.md) | Shows how you can use Adobe Journey Optimizer to orchestrate 1:1 experiences utilizing the Real-Time Customer Profile and leverage the native Adobe [!DNL Campaign] transactional messaging system to send the message | Leverage the Real-Time Customer Profile and power of [!DNL Journey Optimizer] to orchestrate in the moment experiences while utilizing the native real-time messaging capabilities of Adobe [!DNL Campaign] to do the last mile communication<br><br>Considerations:<br><ul><li>Can send up to 1M messages per hour via the Real-Time Message server<li>No throttling is performed from [!DNL Journey Optimizer] so ensure technical vetting by a Pre-Sales Enterprise Architect</li><li>Decision Management is not supported in payloads to Campaign v8</li></ul> |
 
 ## Prerequisites
 
@@ -44,14 +44,14 @@ The following prerequisites exist for this blueprint.
 
 ### Application server and real-time messaging server
 
-* The Adobe Campaign Client Console is required to interact and use the Campaign v8 software. It is a windows based client and uses standard internet protocols (SOAP, HTTP, etc.). Ensure you have the necessary permissions enabled in your org to distribute, install and run software
+* The Adobe [!DNL Campaign] Client Console is required to interact and use the [!DNL Campaign] v8 software. It is a windows based client and uses standard internet protocols (SOAP, HTTP, etc.). Ensure you have the necessary permissions enabled in your org to distribute, install and run software
 
 * IP address allow-listing:
-    * Identify the IP ranges that all users leverage during access to the client console.
-    * Identity which enterprise systems are allowed to talk to the Real-Time messaging server and ensure they have a statically assigned IP or range that you can allow-list.
-    * This can be setup and controlled via the Campaign Control Panel.
+  * Identify the IP ranges that all users leverage during access to the client console.
+  * Identity which enterprise systems are allowed to talk to the Real-Time messaging server and ensure they have a statically assigned IP or range that you can allow-list.
+  * This can be setup and controlled via the Campaign Control Panel.
 * sFTP key management:
-    * Have SSH public keys available to use with the Campaign provided sFTP. This can be setup and controlled via the Campaign Control Panel.
+  * Have SSH public keys available to use with the Campaign provided sFTP. This can be setup and controlled via the Campaign Control Panel.
 
 ### Email
 
@@ -77,7 +77,7 @@ The guardrails are described below.
 
 * Storage can be scaled to up 200M profiles with potential to scale up to 1B profiles.
 * Setup and control user access via Adobe [!DNL Admin Console].
-* Data loading to Campaign is expected to be done through batch files:
+* Data loading to [!DNL Campaign] is expected to be done through batch files:
   * API data loading support is primarily for managing of profiles or simple objects within the database (i.e. create and update). It is not intended to be used for loading large volumes of data or batch like operations.
   * Using APIs to read data for custom application purposes is not supported
   * Data loaded via API is staged in the application database and then replicated every hour to Cloud database
@@ -97,9 +97,9 @@ The guardrails are described below.
 * Campaign provides the ability to integrate with a SMS provider. The provider is procured by the customer and integrated with campaign for sending SMS based messages.
 * Support is via the SMPP protocol.
 * There are three (3) different kinds of SMS all of which Adobe can support:
-  * SMS MT (Mobile Terminated): an SMS that is emitted by Adobe Campaign towards mobile phones through the SMPP provider.
-  * SMS MO (Mobile Originated): an SMS that is sent by a mobile to Adobe Campaign through the SMPP provider.
-  * SMS SR (Status Report) or DR or DLR (Delivery Receipt): a return receipt sent by the mobile to Adobe Campaign through the SMPP provider indicating that the SMS has been received successfully. Adobe Campaign may also receive SR indicating that the message could not be delivered, often with a description of the error. 
+  * SMS MT (Mobile Terminated): an SMS that is emitted by Adobe [!DNL Campaign] towards mobile phones through the SMPP provider.
+  * SMS MO (Mobile Originated): an SMS that is sent by a mobile to Adobe [!DNL Campaign] through the SMPP provider.
+  * SMS SR (Status Report) or DR or DLR (Delivery Receipt): a return receipt sent by the mobile to Adobe [!DNL Campaign] through the SMPP provider indicating that the SMS has been received successfully. Adobe [!DNL Campaign] may also receive SR indicating that the message could not be delivered, often with a description of the error. 
 
 ## Implementation steps
 
