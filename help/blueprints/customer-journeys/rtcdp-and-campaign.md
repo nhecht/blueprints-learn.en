@@ -4,13 +4,13 @@ description: Showcases how the Adobe Experience Platform and its Real-Time Custo
 solution: Real-Time Customer Data Platform, [!DNL Campaign]
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
 ---
-# [!DNL Real-Time CDP] with [!DNL Campaign] integration pattern
+# [!DNL Real-Time Customer Data Platform] with [!DNL Campaign] integration pattern
 
 Showcases how the Adobe [!DNL Experience Platform] and its Real-Time Customer Profile and centralized segmentation tool can be utilized with Adobe [!DNL Campaign] to deliver personalized conversations.
 
 ## Applications
 
-* Adobe [!DNL Experience Platform Real-Time CDP]
+* Adobe [!DNL Experience Platform Real-Time Customer Data Platform]
 * Adobe [!DNL Campaign] v7 or [!DNL Campaign Standard]
 
 ## Architecture
@@ -32,13 +32,15 @@ The following sections describe the guardrails for this integration.
 * [!DNL Campaign] export workflows to run at most every 4hrs
 * XDM schema and datasets for Adobe [!DNL Campaign] broadLog, trackingLogs and non-deliverable addresses are not out of the box and must be designed and built
 
-### Experience Platform CDP segment sharing
+### Real-Time Customer Data Platform segment sharing
 
 * Refer to the RTCDP [!DNL Campaign] Destination connector - [RTCDP Campaign Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html)
 
-* See profile and data ingestion guardrails for AEP - [Link](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
+* See [Default guardrails for [!DNL Real-Time Customer Profile Data] and segmentation](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 
 ## Implementation steps
+
+The following sections describe implementations steps for each application.
 
 ### Adobe Experience Platform
 
@@ -94,7 +96,7 @@ The following sections describe the guardrails for this integration.
   * Need a working knowledge of Adobe Tags and data collection
   * Need mobile development experience with push notifications in both Android and iOS to deploy the SDK, integrate with FCM (Android) and APNS (iOS) to get push token, configure your app to receive push notifications and handle push interactions
 * [!DNL Campaign] Mobile SDK
-  <!-- * follow the [Campaign SDK documentation](Campaign Mobile SDK -->
+  * See the [Campaign Classic SDK documentation](https://developer.adobe.com/client-sdks/solution/adobe-campaign-classic/)
 
 >[!IMPORTANT]
 >
