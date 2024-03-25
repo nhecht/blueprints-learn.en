@@ -41,24 +41,22 @@ This blueprint outlines the technical capabilities of the application and provid
 
 ## Prerequisites
 
-Adobe Experience Platform
+Adobe [!DNL Experience Platform]:
 
 * Schemas and datasets must be configured in the system before you can configure [!DNL Journey Optimizer] data sources
 * For Experience Event class-based schemas add 'Orchestration eventID field group when you want to have an event triggered that is not a rule-based event
 * For Individual Profile class-based schemas add the 'Profile test details' field group to be able to load test profiles for use with [!DNL Journey Optimizer]
 
-Email
+Email:
 
 * Must have a subdomain ready to be used for message sending
 * Subdomain can either be fully delegated to Adobe (recommended) or CNAMEs can be used to point to Adobe-specific DNS servers (custom)
 * Google TXT record is needed for each subdomain to ensure good deliverability
 
-Mobile Push
+Mobile Push:
 
 * Customer must have a mobile developer available to build the app 
 * Adobe Experience Platform Mobile SDK
-
-<br>
 
 ## Guardrails
 
@@ -68,8 +66,8 @@ Mobile Push
 
 ## Related documentation
 
-* [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
-* [Experience Platform Tags documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
-* [Experience Platform Mobile SDK documentation](https://experienceleague.adobe.com/docs/mobile.html?lang=en)
+* [[!DNL Experience Platform] documentation](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
+* [[!DNL Experience Platform] Tags documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+* [[!DNL Experience Platform Mobile SDK] documentation](https://experienceleague.adobe.com/docs/mobile.html?lang=en)
 * [[!DNL Journey Optimizer] documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=en)
-* [[!DNL Journey Optimizer] Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
+* [[!DNL Journey Optimizer] product description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
