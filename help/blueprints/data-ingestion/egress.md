@@ -1,17 +1,21 @@
 ---
 title: Data Access and Export blueprint
-description: This blueprint provides and overview of all the methods by which data can be accessed and exported from Adobe Experience Platform and applications.
+description: Learn about the methods by which data can be accessed and exported from Adobe Experience Platform and applications.
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Data Collection
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
 ---
 # Data Access and Export blueprint
 
-The Data Access and Export Blueprint outlines all the possible methods whereby data can be accessed or exported from Adobe Experience Platform and Applications.
+The Data Access and Export blueprint outlines all the possible methods whereby data can be accessed or exported from [!DNL Experience Platform] and applications.
 
-The Blueprint is broken up into two categories for data access from Experience Platform and applications. First, approaches for egressing data from Experience Platform and applications; this would be considered a push type method of data egress. Second, approaches for access data from Experience Platform and applications; this would be conssidered a pull type method of data access.
+The blueprint is broken up into two categories for data access from [!DNL Experience Platform] and applications. 
 
-Data access approahces:
+The first includes approaches for egressing data from Experience Platform and applications. This would be considered a _push_ type method of data egress. 
+
+The second includes approaches for access data from Experience Platform and applications. This would be considered a _pull_ type method of data access.
+
+Data access approaches:
 
 * [Real-time Customer Profile Access API](#rtcp-profile-access-api)
 * [Data Access API](#data-access-api)
@@ -24,11 +28,11 @@ Data export approaches:
 * [Real-time Customer Data Platform Destinations](#RTCDP-destinations)
 * [Journey Optimizer Custom Actions](#jo-custom-actions)
 
-## Data Access and Export overview architecture
+## Data access and export overview architecture
 
 <img src="../experience-platform/assets/aep_data_flow.svg" alt="Reference architecture for the Data Preparation and Ingestion Blueprint" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
-## Data Access and Export methods
+## Data access and export methods
 
 <table cellspacing="0" class="Table" style="border-collapse:collapse; width:1133px">
 <tbody>
