@@ -1,6 +1,6 @@
 ---
-title: Travel & Hospitality Industry - Activation with Online & Offline Data
-description: Real-time decisions with a single consolidated view of customer behavior across various channels.
+title: Travel & hospitality - Activation with online and offline data
+description: Learn to make real-time decisions with a single consolidated view of customer behavior across various channels.
 solution: Real-Time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
 exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
@@ -24,7 +24,7 @@ Leveraging Adobe technologies & services this organization is now prepared to ex
 |---|---|---|
 | **Make every experience relevant to that guest**<br></br>**Business ready insights & data democracy through dashboards**<br></br>**Organizational & Operational Efficacy**</ul> | <ul><li>Built unified rewards program guest profiles using online & offline data for activation and measurement</li><li>Real time activation across channels at speed and scale</li><li>Customer level analysis capability unlocked with Customer Journey Analysis</li><li>Develop intelligence in order to improve activation by learning from the historical click stream interaction data.</li><li>Use online and offline data to unify a customer view for insights across customer journeys and channels.</li></ul>                               | <ul><li><strong> Cross-Channel Activation: </strong>Driving 3X email engagement, addressable audience growth & impression growth, highly personalized web experiences </li><li><strong>Intelligence: </strong>Guest rewards program operates an activation campaign to reduce member churn rates</li><li><strong>Reporting: </strong>Merged online/offline data with AI/ML learnings into a business friendly journey & attribution dashboard while also reducing latency (by days)</li><li><strong>Future-proofed Technology Stack: </strong>Tens of millions of profiles across 7 channels ready to execute on cross-sell, up-sell, and spend optimization scenarios</li></ul>    |
 
-## Primary blueprint: Activation with Online & Offline Data
+## Primary blueprint: Activation with online and offline data
 
 ### Description 
 

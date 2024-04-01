@@ -38,7 +38,7 @@ With [!UICONTROL Event Forwarding] as the approach to sending data to multiple s
 
 ### Different datastreams and streaming end points
 
-As data flows through datastreams from the [!UICONTROL Platform Edge Network], when using [!UICONTROL Event Forwarding] to another AEP sandbox, a requirement is to never use the same datastream or streaming end point as the datastream making the original collection. This can be detrimental to the AEP instance and potentially triggering a DoS situation.
+As data flows through datastreams from the [!DNL Platform Edge Network], when using [!UICONTROL Event Forwarding] to another AEP sandbox, a requirement is to never use the same datastream or streaming end point as the datastream making the original collection. This can be detrimental to the AEP instance and potentially triggering a DoS situation.
 
 ### Estimated traffic volumes
 
@@ -48,11 +48,11 @@ Traffic volumes are required for review with each use case. This is important as
 
 ![Multi-sandbox [!UICONTROL Event Forwarding]](assets/multi-sandbox-data-collection.png)
 
-1. Collecting and sending event data to the [!UICONTROL Platform Edge Network] is required in order to use [!UICONTROL Event Forwarding]. Customers can use Adobe tags for client-side or the [!UICONTROL Platform Edge Network Server API] for server-to-server data collection. The [!UICONTROL Platform Edge Network API] can provide a server-to-server collection capability. This, however, does require a different programming model to implement. Refer to [Edge Network Server API Overview](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=en).
+1. Collecting and sending event data to the [!DNL Platform Edge Network] is required in order to use [!UICONTROL Event Forwarding]. Customers can use Adobe tags for client-side or the [!DNL Platform Edge Network Server API] for server-to-server data collection. The [!DNL Platform Edge Network API] can provide a server-to-server collection capability. This, however, does require a different programming model to implement. Refer to [Edge Network Server API Overview](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=en).
 
-1. Collected payloads are sent from tags implementation to the [!UICONTROL Platform Edge Network] to the [!UICONTROL Event Forwarding] service and processed by its own [!UICONTROL Data Elements], [!UICONTROL Rules] and [!UICONTROL Actions]. You can read more on the differences of [Tags and [!UICONTROL Event Forwarding]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=en#differences-from-tags).
+1. Collected payloads are sent from tags implementation to the [!DNL Platform Edge Network] to the [!UICONTROL Event Forwarding] service and processed by its own [!UICONTROL Data Elements], [!UICONTROL Rules] and [!UICONTROL Actions]. You can read more on the differences of [Tags and [!UICONTROL Event Forwarding]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=en#differences-from-tags).
 
-1. An [!UICONTROL Event Forwarding] property is also required to receive collected Event data from the [!UICONTROL Platform Edge Network]. Whether that event data was sent to the Platform Edge Network by a deployed Tags implementation or a server-to-server collection. Authors define the data elements, rules and actions used to enrich the event data prior to forwarding to the second sandbox. Consider using the custom code [!DNL JavaScript] data element to help with structuring your data for sandbox ingestion. Combined with Platform data prep capabilities, you have several options to manage your data structure.
+1. An [!UICONTROL Event Forwarding] property is also required to receive collected Event data from the [!DNL Platform Edge Network]. Whether that event data was sent to the [!DNL Platform Edge Network] by a deployed Tags implementation or a server-to-server collection. Authors define the data elements, rules and actions used to enrich the event data prior to forwarding to the second sandbox. Consider using the custom code [!DNL JavaScript] data element to help with structuring your data for sandbox ingestion. Combined with Platform data prep capabilities, you have several options to manage your data structure.
 
 1. Currently, the use of the Adobe [!UICONTROL Cloud Connector Extension] is required within the [!UICONTROL Event Forwarding] Property. Once the rules process or enrich the event data, the Cloud Connector is used within a fetch call configured for a POST sending the payload to the second sandbox
 

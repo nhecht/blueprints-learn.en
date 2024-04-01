@@ -4,18 +4,14 @@ description: Showcases how the Adobe Experience Platform and its Real-Time Custo
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
 ---
-# Real-Time CDP with Adobe Campaign v8 integration pattern
+# [!DNL Real-Time CDP] with Adobe [!DNL Campaign] v8 integration pattern
 
-Showcases how the Adobe Experience Platform and its Real-Time Customer Profile and centralized segmentation tool can be utilized with Adobe Campaign to deliver personalized conversations.
-
-<br>
+Showcases how the Adobe [!DNL Experience Platform] and its Real-Time Customer Profile and centralized segmentation tool can be utilized with Adobe Campaign to deliver personalized conversations.
 
 ## Applications
 
-* Adobe Experience Platform Real-Time CDP
-* Adobe Campaign v8
-
-<br>
+* Adobe [!DNL Experience Platform Real-Time CDP]
+* Adobe [!DNL Campaign] v8
 
 ## Architecture
 
@@ -26,10 +22,10 @@ Showcases how the Adobe Experience Platform and its Real-Time Customer Profile a
 ## Prerequisites
 
 * Customer must be provisioned for Experience Cloud with a valid IMS Org 
-* Adobe Experience Platform and Campaign are recommended to be provisioned in the same IMS Org for single login URL
-* Customer must be provisioned V8 instance of Campaign
+* Adobe Experience Platform and [!DNL Campaign] are recommended to be provisioned in the same IMS Org for single login URL
+* Customer must be provisioned V8 instance of [!DNL Campaign]
 * Customer must be eligible and have access for RTCDP, Sources, Destinations.
-* Adobe Campaign product context must exist
+* Adobe [!DNL Campaign] product context must exist
 <br>
 
 ## Implementation steps
