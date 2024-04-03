@@ -1,13 +1,13 @@
 ---
-title: Event Forwarding blueprint
-description: Stream collected data by Experience Platform SDKs to destinations
+title: Event Forwarding Blueprint
+description: Stream collected data by [!DNL Experience Platform] SDKs to destinations
 solution: Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
 ---
-# Event Forwarding blueprint
+# Event forwarding blueprint
 
-The Event Forwarding Blueprint shows how data collected with Adobe Experience Platform Web and Mobile SDKs can be forwarded from Experience Platform [!DNL [!DNL Edge Network]] to a desired destination. You can forward all raw data collected from the SDKs or specific data based on events and rules as configured in tag properties (formerly Launch).
+The event forwarding blueprint shows how data collected with Adobe [!DNL Experience Platform] Web and Mobile SDKs can be forwarded from [!DNL Experience Platform] [!DNL Edge Network] to a desired destination. You can forward all raw data collected from the SDKs or specific data based on events and rules as configured in tag properties (formerly Launch).
 
 ## Use cases
 
@@ -16,7 +16,7 @@ The Event Forwarding Blueprint shows how data collected with Adobe Experience Pl
 
 ## Applications
 
-* Adobe Experience Platform Data Collection
+* Adobe [!DNL Experience Platform] Data Collection
 
 ## Architecture
 
@@ -30,11 +30,11 @@ The Event Forwarding Blueprint shows how data collected with Adobe Experience Pl
 
 ## Related blog posts
 
-* [Boosting Website Performance with Adobe Experience Platform Web SDK and [!DNL Edge Network]](https://medium.com/adobetech/boosting-website-performance-with-adobe-experience-platform-web-sdk-and-edge-network-329fcf70fdf9)
-* [Solving Implementation Pain Points with Adobe Experience Platform Web SDK and [!DNL Edge Network]](https://medium.com/adobetech/solving-implementation-pain-points-with-adobe-experience-platform-web-sdk-and-edge-network-880b635e6819)
-* [Adobe Experience Platform Web SDK for Audience Management](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)
-* [Adobe Experience Platform Web SDK - Adobe Target](https://medium.com/adobetech/adobe-experience-platform-web-sdk-adobe-target-9b9f621d271)
-* [Adobe Experience Platform Web SDK Migration Scenarios for Adobe Analytics](https://medium.com/adobetech/adobe-experience-platform-web-sdk-migration-scenarios-for-adobe-analytics-91c255ec82b0)
-* [Unify Your Adobe Experience Platform Services with Adobe Experience Platform Web SDK](https://medium.com/adobetech/unify-your-adobe-experience-platform-services-with-adobe-experience-platform-web-sdk-75cf6851a9fc)
-* [Accelerate Your Mobile Application Development with Adobe Experience Platform Mobile SDK and Launch](https://medium.com/adobetech/accelerate-your-mobile-application-development-with-adobe-experience-platform-mobile-sdk-and-launch-ed023536d611)
-* [Simplifying Customer Workflows with Adobe Experience Platform Web SDK](https://medium.com/adobetech/simplifying-customer-workflows-with-adobe-experience-platform-web-sdk-4e54fe134f4a)
+* [Boosting Website Performance with Adobe [!DNL Experience Platform] Web SDK and [!DNL Edge Network]](https://medium.com/adobetech/boosting-website-performance-with-adobe-experience-platform-web-sdk-and-edge-network-329fcf70fdf9)
+* [Solving Implementation Pain Points with Adobe [!DNL Experience Platform] Web SDK and [!DNL Edge Network]](https://medium.com/adobetech/solving-implementation-pain-points-with-adobe-experience-platform-web-sdk-and-edge-network-880b635e6819)
+* [Adobe [!DNL Experience Platform] Web SDK for Audience Management](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)
+* [Adobe [!DNL Experience Platform] Web SDK - Adobe Target](https://medium.com/adobetech/adobe-experience-platform-web-sdk-adobe-target-9b9f621d271)
+* [Adobe [!DNL Experience Platform] Web SDK Migration Scenarios for Adobe Analytics](https://medium.com/adobetech/adobe-experience-platform-web-sdk-migration-scenarios-for-adobe-analytics-91c255ec82b0)
+* [Unify Your Adobe [!DNL Experience Platform] Services with Adobe [!DNL Experience Platform] Web SDK](https://medium.com/adobetech/unify-your-adobe-experience-platform-services-with-adobe-experience-platform-web-sdk-75cf6851a9fc)
+* [Accelerate Your Mobile Application Development with Adobe [!DNL Experience Platform] Mobile SDK and Launch](https://medium.com/adobetech/accelerate-your-mobile-application-development-with-adobe-experience-platform-mobile-sdk-and-launch-ed023536d611)
+* [Simplifying Customer Workflows with Adobe [!DNL Experience Platform] Web SDK](https://medium.com/adobetech/simplifying-customer-workflows-with-adobe-experience-platform-web-sdk-4e54fe134f4a)

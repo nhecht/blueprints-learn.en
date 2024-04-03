@@ -5,15 +5,15 @@ product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Data Collection
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
 ---
-# Data Access and Export blueprint
+# Data access and export blueprint
 
-The Data Access and Export blueprint outlines all the possible methods whereby data can be accessed or exported from [!DNL Experience Platform] and applications.
+The data access and export blueprint outlines all the possible methods whereby data can be accessed or exported from [!DNL Experience Platform] and applications.
 
 The blueprint is broken up into two categories for data access from [!DNL Experience Platform] and applications. 
 
-The first includes approaches for egressing data from Experience Platform and applications. This would be considered a _push_ type method of data egress. 
+The first includes approaches for egressing data from [!DNL Experience Platform] and applications. This would be considered a _push_ type method of data egress. 
 
-The second includes approaches for access data from Experience Platform and applications. This would be considered a _pull_ type method of data access.
+The second includes approaches for access data from [!DNL Experience Platform] and applications. This would be considered a _pull_ type method of data access.
 
 Data access approaches:
 
