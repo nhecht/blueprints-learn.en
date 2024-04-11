@@ -1,19 +1,19 @@
 ---
-title: Web/Mobile SDK, Edge Network Deployment architecture diagram
-description: This blueprint shows the architecture and ingestion through the Experience Platform Web and Mobile SDK and Edge Network
+title: Web/Mobile SDK, [!DNL Edge Network] Deployment architecture diagram
+description: This blueprint shows the architecture and ingestion through the Experience Platform Web and Mobile SDK and [!DNL Edge Network]
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
 ---
 
-# Experience Platform Web SDK & Edge Network architecture diagram
+# Experience Platform Web SDK & [!DNL Edge Network] architecture diagram
 
-For an overview and detail on the Web and Mobile SDK, and the Edge Network Server API see the following.
+For an overview and detail on the Web and Mobile SDK, and the [!DNL Edge Network] Server API see the following.
 
 * [Web SDK overview](https://experienceleague.adobe.com/docs/web-sdk.html)
 * [Mobile SDK overview](https://developer.adobe.com/client-sdks/documentation/)
-* [Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html)
+* [[!DNL Edge Network] Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html)
 
 For a detailed outline of what application functionality is supported in the Web SDK see the following documentation.
 
@@ -26,7 +26,7 @@ For details related to migration from application specific SDKs to the Web and M
 * [Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)
 * [Analytics for Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/a4t/overview.html)
 
-## Experience Platform Web/Mobile SDK or Edge Network Server API deployment
+## Experience Platform Web/Mobile SDK or [!DNL Edge Network] Server API deployment
 
 The below architecture diagram illustrates the deployment and data collection utilizing the Experience Platform Web SDK.
 

@@ -1,14 +1,14 @@
 ---
 title: Campaign v7 blueprint
-description: Adobe Campaign v7 is a campaigning tool built for traditional marketing channels such as email and direct mail. It provides robust ETL and data management capabilities to help craft and curate the perfect campaign. Its orchestration engine provides for rich multi-touch marketing programs with a core focus on batch-based driven journeys.  It also comes paired with a real-time messaging server that enables marketing teams to send pre-defined messages based on a all-inclusive payload from any IT system for things such as password reset, order confirmation, e-receipt's and much more.
+description: Learn about the Campaign v7 blueprint for batch-based messaging programs, onboarding and re-marketing campaigns, direct mail advertising, and simple transactional messaging.
 solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
 ---
 # Campaign v7 blueprint
 
-Adobe Campaign v7 is a campaigning tool built for traditional marketing channels such as email and direct mail. It provides robust ETL and data management capabilities to help craft and curate the perfect campaign. Its orchestration engine provides for rich multi-touch marketing programs with a core focus on batch-based driven journeys.  It also comes paired with a real-time messaging server that enables marketing teams to send pre-defined messages based on a all-inclusive payload from any IT system for things such as password reset, order confirmation, e-receipt's and much more.
+Adobe Campaign v7 is a campaigning tool built for traditional marketing channels such as email and direct mail. It provides robust ETL and data management capabilities to help craft and curate the perfect campaign. Its orchestration engine provides for rich multi-touch marketing programs with a core focus on batch-based driven journeys.
 
-<br>
+It also comes paired with a real-time messaging server that enables marketing teams to send pre-defined messages based on a all-inclusive payload from any IT system for things such as password reset, order confirmation, e-receipt's and much more.
 
 ## Use cases
 
@@ -17,13 +17,9 @@ Adobe Campaign v7 is a campaigning tool built for traditional marketing channels
 * Direct Mail advertising, brochure and magazine campaigns
 * Low volume simple transactional messaging (i.e. password reset, email receipts, order confirmations, etc.)
 
-<br>
-
 ## Architecture
 
 <img src="assets/campaign-v7-architecture.svg" alt="Reference architecture for Campaign v7 Blueprint" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
-
-<br>
 
 ## Integration patterns
 
@@ -32,9 +28,9 @@ Adobe Campaign v7 is a campaigning tool built for traditional marketing channels
 | [Real-Time CDP with Adobe Campaign](rtcdp-and-campaign.md) | Showcases how the Adobe Experience Platform's Real-Time CDP and its centralized segmentation tool can be utilized with Adobe Campaign to deliver personalized conversations | <ul><li>Sharing of profile and audiences from the Real-Time CDP to Adobe Campaign via use of cloud storage file exchange and Adobe Campaign ingestion workflows </li><li>Easily share delivery and interaction data from customer conversations back into the Real-Time CDP from Adobe Campaign to enhance both the Real-Time Customer Profile and provide cross-channel reporting on messaging campaigns</li></ul> |
 | [Journey Optimizer with Adobe Campaign](ajo-and-campaign.md) | Shows how you can use Adobe Journey Optimizer to orchestrate 1:1 experiences utilizing the Real-Time Customer Profile and leverage the native Adobe Campaign transactional messaging system to send the message | Leverage the Real-Time Customer Profile and power of Journey Optimizer to orchestrate in the moment experiences while utilizing the native real-time messaging capabilities of Adobe Campaign to do the last mile communication<br><br>Considerations:<br><ul><li>Can send up to 50k messages per hour via the Real-Time Message server<li>No throttling is performed from Journey Optimizer so ensure technical vetting by a Pre-Sales Enterprise Architect</li><li>Decision Management is not supported in payloads to the Campaign v7 real-time messaging server</li></ul> |
 
-<br>
-
 ## Prerequisites
+
+Review the following prerequisites below.
 
 ### Application server and real-Time messaging server
 
@@ -66,6 +62,8 @@ Adobe Campaign v7 is a campaigning tool built for traditional marketing channels
 <br>
 
 ## Guardrails
+
+Review the following guardrails.
 
 ### Application server sizing
 
@@ -110,11 +108,9 @@ Adobe Campaign v7 is a campaigning tool built for traditional marketing channels
     >[!IMPORTANT]
     >If you deploy the Campaign SDK and are working with other Experience Cloud applications they will require the use of the Experience Platform Mobile SDK for data collection. This is a different SDK and will need to be installed along side the Campaign SDK
     
-<br>
-
 ## Implementation steps
 
-See the [Getting Started Guide](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html?lang=en) for implementing Adobe Campaign v7
+See the [Getting Started Guide](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html?lang=en) for implementing Adobe Campaign v7.
 
 
 ## Related documentation

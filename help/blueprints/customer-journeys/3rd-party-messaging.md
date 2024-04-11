@@ -72,7 +72,7 @@ Adobe Experience Platform
 1. Leverage Adobe Tags and create a mobile property with the following extension:
     * Adobe Journey Optimizer
     * Adobe Experience Platform Edge Network
-    * Identity for Edge Network
+    * Identity for [!DNL Edge Network]
     * Mobile Core
 1. Ensure you have a dedicated datastream for mobile app deployments vs. web deployments
 1. For more information follow the [Adobe Journey Optimizer Mobile Guide](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/)

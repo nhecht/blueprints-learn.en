@@ -1,14 +1,14 @@
 ---
 title: Data Preparation and Ingestion blueprint
-description: This blueprint shows all the methods by which data can be ingested and prepared in Adobe Experience Platform.
+description: This blueprint shows all the methods by which data can be ingested and prepared in Adobe [!DNL Experience Platform].
 solution: Data Collection
 kt: 7204
 thumbnail: 
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
 ---
-# Data Preparation and Ingestion blueprint
+# Data preparation and ingestion blueprint
 
-Data Preparation and Ingestion Blueprint encompasses all the methods by which data can be prepared and ingested into Adobe Experience Platform.
+Data preparation and ingestion Blueprint encompasses all the methods by which data can be prepared and ingested into Adobe [!DNL Experience Platform].
 
 Data preparation includes the mapping of source data to Experience Data Model (XDM) schema. It also includes performing transformations on data, including date formatting, field splitting/concatenation/conversions, and joining/merging/re-keying of records. Data preparation helps unify customer data to provide aggregated/filtered analysis, including reporting or preparing data for customer profile assembly/data science/activation.
 
@@ -18,9 +18,9 @@ Data preparation includes the mapping of source data to Experience Data Model (X
 
 ## Data ingestion guardrails
 
-The below diagram illustrates the average performance guardrails and latency for data ingestion into Adobe Experience Platform.
+The below diagram illustrates the average performance guardrails and latency for data ingestion into Adobe [!DNL Experience Platform].
 
-<img src="../experience-platform/deployment/assets/aep_data_flow_guardrails.svg" alt="Experience Platform Data Flow" style="border:1px solid #4a4a4a; margin-bottom: 15px;" width="90%" class="modal-image" />
+<img src="../experience-platform/deployment/assets/aep_data_flow_guardrails.svg" alt="[!DNL Experience Platform] Data Flow" style="border:1px solid #4a4a4a; margin-bottom: 15px;" width="90%" class="modal-image" />
 
 ## Data ingestion methods
 
@@ -84,11 +84,11 @@ The below diagram illustrates the average performance guardrails and latency for
 </tr>
 <tr>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:222px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=en" style="color:#0563c1; text-decoration:underline">Edge Network API</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=en" style="color:#0563c1; text-decoration:underline">[!DNL Edge Network] API</a></span></span></span></p>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:401px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Collection from streaming sources, transactions, relevant customer events and signals from the globally distributed Edge network</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Collection from streaming sources, transactions, relevant customer events and signals from the globally distributed [!DNL Edge Network]</span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:218px">
@@ -96,7 +96,7 @@ The below diagram illustrates the average performance guardrails and latency for
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
 <ul>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Data is streamed through the Edge Network. Support for real-time segmentation on the Edge. </span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Data is streamed through the [!DNL Edge Network]. Support for real-time segmentation on the Edge. </span></span></span></li>
 </ul>
 </td>
 </tr>
@@ -150,7 +150,7 @@ The below diagram illustrates the average performance guardrails and latency for
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
 <ul>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Edge Network</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">[!DNL Edge Network]</span></span></span></li>
 </ul>
 </td>
 </tr>
@@ -262,10 +262,10 @@ The below diagram illustrates the average performance guardrails and latency for
 
 | Methods of Ingestion         | Description                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Web/Mobile SDK               | Latency:<ul><li>Real time - same page collection to Edge Network</li><li>Streaming ingestion to Profile < 15 minutes at the 95th percentile</li><li>Streaming ingestion to data lake (micro batch ~15 minutes)</ul>Documentation: <ul><li>[Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html)</li><li>[Implement Adobe Experience Cloud with Web SDK tutorial](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html)</li><li>[Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=en)</li><li>[Implement Adobe Experience Cloud in mobile apps tutorial](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html)</li></ul>                                                                     |
-| Streaming Sources            | [Streaming Sources](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=en#connectors)<br>Latency:<ul><li>Real time - same page collection to Edge Network</li><li>Streaming ingestion to Profile ~1 minute</li><li>Streaming ingestion to data lake (micro batch ~15 minutes)</li></ul>|
-| Streaming API                | [Edge Network Server API (preferred)](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) - supports Edge Services including Edge Segmentation and <br>[Data Collection Core Service API](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/streaming/http.html) - does not support Edge Services, routes directly to the hub.<br>Latency:<ul><li>Real time - same page collection to Edge Network</li><li>Streaming ingestion to Profile ~1 minute</li><li>Streaming ingestion to data lake (micro batch ~15 minutes)</li><li>7 GB/hour</li></ul>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=en#what-can-you-do-with-streaming-ingestion%3F)                                                                                             |
-| ETL Tooling                  | Use ETL tools to modify and transform enterprise data before ingestion into Experience Platform.<br><br>Latency:<ul><li>Timing dependent on external ETL tool scheduling, then standard ingestion guardrails apply based on the method used for ingestion.</li></ul>                                                                                                                                                                                                     |
+| Web/Mobile SDK               | Latency:<ul><li>Real time - same page collection to [!DNL Edge Network]</li><li>Streaming ingestion to Profile < 15 minutes at the 95th percentile</li><li>Streaming ingestion to data lake (micro batch ~15 minutes)</ul>Documentation: <ul><li>[Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html)</li><li>[Implement Adobe Experience Cloud with Web SDK tutorial](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html)</li><li>[Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=en)</li><li>[Implement Adobe Experience Cloud in mobile apps tutorial](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html)</li></ul>                                                                     |
+| Streaming Sources            | [Streaming Sources](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=en#connectors)<br>Latency:<ul><li>Real time - same page collection to [!DNL Edge Network]</li><li>Streaming ingestion to Profile ~1 minute</li><li>Streaming ingestion to data lake (micro batch ~15 minutes)</li></ul>|
+| Streaming API                | [[!DNL Edge Network] Server API (preferred)](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) - supports Edge Services including Edge Segmentation and <br>[Data Collection Core Service API](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/streaming/http.html) - does not support Edge Services, routes directly to the hub.<br>Latency:<ul><li>Real time - same page collection to [!DNL Edge Network]</li><li>Streaming ingestion to Profile ~1 minute</li><li>Streaming ingestion to data lake (micro batch ~15 minutes)</li><li>7 GB/hour</li></ul>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=en#what-can-you-do-with-streaming-ingestion%3F)                                                                                             |
+| ETL Tooling                  | Use ETL tools to modify and transform enterprise data before ingestion into [!DNL Experience Platform].<br><br>Latency:<ul><li>Timing dependent on external ETL tool scheduling, then standard ingestion guardrails apply based on the method used for ingestion.</li></ul>                                                                                                                                                                                                     |
 | Batch Sources                | Scheduled fetch from sources<br>Latency: ~ 200 GB/hour<br><br>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=en#connectors)<br>[Video Tutorials](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html)                                                                                                                                                                                                                                                                                         |
 | Batch API                    | Latency:<ul><li>Batch ingestion to Profile dependent on size and traffic loads ~45 minutes</li><li>Batch ingestion to data lake dependent on size and traffic loads</li></ul>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/overview.html?lang=en#batch)                                                                                                                                                        |
 | Adobe Application Connectors | Automatically ingest data that is sourced from Adobe Experience Cloud Applications<ul><li>Adobe Analytics: [Documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en#connectors) and [Video Tutorial](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-adobe-analytics.html)</li><li>Audience Manager: [Documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=en#connectors) and [Video Tutorial](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-aam.html)</li></ul> |
@@ -275,15 +275,15 @@ The below diagram illustrates the average performance guardrails and latency for
 
 | Methods of Data Preparation                                | Description                                                                                                                                                                                                                                                                                    |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| External ETL Tool ([!DNL Snaplogic], [!DNL Mulesoft], [!DNL Informatica], etc.) | Perform complex transformations in ETL tooling and use standard Experience Platform [!UICONTROL Flow Service] APIs or source connectors to ingest the resultant data.                                                                                                                                                               |
+| External ETL Tool ([!DNL Snaplogic], [!DNL Mulesoft], [!DNL Informatica], etc.) | Perform complex transformations in ETL tooling and use standard [!DNL Experience Platform] [!UICONTROL Flow Service] APIs or source connectors to ingest the resultant data.                                                                                                                                                               |
 | [!UICONTROL Query Service] - Data Prep                                  | Joins, Splits, Merge, Transform, Query, and Filter data into a new dataset. Using Create Table as Select (CTAS) <br>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en#sql)                                                                       |
-| XDM Mapper & Data Prep functions (Streaming and Batch)     | Map source attributes in CSV or JSON format into XDM attributes during Experience Platform ingestion.<br>Compute functions on data as it is ingested; that is, data formatting, splitting, concatenation, and so on.<br>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) |
+| XDM Mapper & Data Prep functions (Streaming and Batch)     | Map source attributes in CSV or JSON format into XDM attributes during [!DNL Experience Platform] ingestion.<br>Compute functions on data as it is ingested; that is, data formatting, splitting, concatenation, and so on.<br>[Documentation](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) |
 
 ## Related blog posts
 
-* [[!DNL Leveraging External Data Platforms in Adobe Experience Platform Journey Orchestration]](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17?source=your_stories_page-------------------------------------)
-* [[!DNL High Throughput Ingestion with Iceberg]](https://medium.com/adobetech/high-throughput-ingestion-with-iceberg-ccf7877a413f?source=your_stories_page-------------------------------------)
-* [[!DNL Query Service Tricks in Adobe Experience Platform (Writing Queries and Storing Derived Datasets)]](https://medium.com/adobetech/query-service-tricks-in-adobe-experience-platform-writing-queries-and-storing-derived-datasets-eaee0d6d683e?source=your_stories_page-------------------------------------)
-* [[!DNL Digging into Adobe Experience Platform's Experience Data Model to More Fully Understand the Power of Real-time Customer Profile]](https://medium.com/adobetech/digging-into-adobe-experience-platforms-experience-data-model-to-more-fully-understand-the-power-3e109271e04f?source=your_stories_page-------------------------------------)
-* [[!DNL An Introductory Look at Exploratory Data Analysis on Adobe Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a?source=your_stories_page-------------------------------------)
-* [[!DNL Modeling XDM Data for Data Science at Scale on Adobe Experience Platform]](https://medium.com/adobetech/modeling-xdm-data-for-data-science-at-scale-on-adobe-experience-platform-222bb2a6dbf7?source=your_stories_page-------------------------------------)
+* [Leveraging External Data Platforms in Adobe [!DNL Experience Platform] [!DNL Journey Orchestration]](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17?source=your_stories_page)
+* [High Throughput Ingestion with Iceberg](https://medium.com/adobetech/high-throughput-ingestion-with-iceberg-ccf7877a413f?source=your_stories_page)
+* [Query Service Tricks in Adobe [!DNL Experience Platform] (Writing Queries and Storing Derived Datasets)](https://medium.com/adobetech/query-service-tricks-in-adobe-experience-platform-writing-queries-and-storing-derived-datasets-eaee0d6d683e?source=your_stories_page)
+* [Digging into Adobe [!DNL Experience Platform]'s Experience Data Model to More Fully Understand the Power of Real-time Customer Profile](https://medium.com/adobetech/digging-into-adobe-experience-platforms-experience-data-model-to-more-fully-understand-the-power-3e109271e04f?source=your_stories_page)
+* [An Introductory Look at Exploratory Data Analysis on Adobe [!DNL Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a?source=your_stories_page)
+* [Modeling XDM Data for Data Science at Scale on Adobe [!DNL Experience Platform]](https://medium.com/adobetech/modeling-xdm-data-for-data-science-at-scale-on-adobe-experience-platform-222bb2a6dbf7?source=your_stories_page)

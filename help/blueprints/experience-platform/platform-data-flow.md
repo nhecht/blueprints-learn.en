@@ -1,5 +1,5 @@
 ---
-title: Adobe Experience Platform data flow architecture diagrams
+title: Experience Platform data flow architecture diagrams
 description: This architecture diagram shows how data flows into and out of Adobe Experience Platform.
 solution: Data Collection
 kt: 7198
@@ -14,7 +14,7 @@ The below diagram illustrates the various paths for data ingestion and egress ou
 
 <img src="assets/aep_data_flow.svg" alt="Experience Platform Data Flow" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 
-## Data Ingress and Egress Patterns
+## Data ingress and egress patterns
 
 For a detailed list of all data ingestion, collection, and ingress patterns see the [Data Preparation and Ingestion blueprint](../data-ingestion/ingestion.md).
 
