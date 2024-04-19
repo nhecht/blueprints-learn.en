@@ -26,7 +26,7 @@ role: Architect, Developer, User
     + [Guardrails](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Audience & Profile Activation{#audience-activation}
   + [Overview](/help/blueprints/audience-activation/overview.md)
-  + [Anonymous Audience Activation (AAM)](/help/blueprints/audience-activation/anonymous.md)
+  + [Anonymous Audience Activation](/help/blueprints/audience-activation/anonymous.md)
   + Known Customer Activation (RTCDP) {#known-customer-audience-activation}
     + [Overview](/help/blueprints/audience-activation/known.md)
     + [Activation to social & advertising channels](/help/blueprints/audience-activation/advertising-activation.md)
